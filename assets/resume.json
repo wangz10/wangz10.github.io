@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Zichen Wang",
+    "label": "PhD candidate/Bioinformatician/Data Scientist",
+    "picture": "",
+    "email": "zichen.wang@mssm.edu",
+    "phone": "(917) 826-8235",
+    "website": "http://wangz10.github.io/",
+    "summary": "Zichen Wang is a PhD candidate in biomedical informatics, with intensive experiences in systems pharmacology, transcriptomics and sequencing data analysis. I have also been actively applying machine learning methods in my research. I am also interested and experienced in interactive data visualization and web development.",
+    "location": {
+      "address": "1468 Madison Ave. Rm 19-50",
+      "postalCode": "NY 10029",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "wangz10",
+        "url": "https://github.com/wangz10"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "zichenwang",
+        "url": "https://www.linkedin.com/in/zichenwang"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Zichen Wang",
+        "url": "https://scholar.google.com/citations?user=bwLMCp4AAAAJ&hl=en"
+      },
+      {
+        "network": "Kaggle",
+        "username": "zichen",
+        "url": "https://www.kaggle.com/zichen"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Pied Piper",
+      "position": "CEO/President",
+      "website": "http://piedpiper.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Icahn School of Medicine at Mount Sinai",
+      "area": "Biomedical Science, Genetic and Genomic Sciences",
+      "studyType": "Doctor of Philosophy (PhD)",
+      "startDate": "2012-08-15",
+      "endDate": "2017-03-01",
+      "gpa": "",
+      "courses": [
+        "Biostatistics",
+        "Introduction to Human Genome Analysis",
+        "Biomedical Sciences",
+        "Computer Programing in System Biology & Bioinformatics"
+      ]
+    },
+    {
+      "institution": "China Agricultural University",
+      "area": "Biochemistry and Molecular Biology",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2008-09-01",
+      "endDate": "2012-06-01",
+      "gpa": "3.8",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Drug Induced Adverse Events Prediction with the LINCS L1000 Data",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2016-04-01",
+      "website": "http://bioinformatics.oxfordjournals.org/content/early/2016/04/01/bioinformatics.btw168.abstract",
+      "summary": "Adverse Drug Reactions (ADRs) are a central consideration during drug development. Here we present a machine learning classifier to prioritize ADRs for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. The GE data is from the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20,000 small molecule compounds including most of the FDA-approved drugs. Using various ben-chmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. Moreover, transforming GE features to enrichment vectors of biological terms further improves the predictive capability of the classifiers. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all >20,000 small molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections."
+    },
+    {
+      "name": "Dynamics of the discovery process of protein-protein interactions from low content studies",
+      "publisher": "BMC systems biology",
+      "releaseDate": "2015-06-06",
+      "website": "http://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-015-0173-z",
+      "summary": "We analyzed the longitudinal discovery process of literature-based mammalian and yeast PPINs to observe that these networks are discovered non-uniformly. The pattern of discovery is related to a theoretical concept proposed by Kauffman called “expanding the adjacent possible”. We introduce a network discovery model which explicitly includes the space of possibilities in the form of a true underlying PPIN."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Science",
+      "level": "Master",
+      "keywords": [
+        "Data wrangling",
+        "Exploratory analysis",
+        "Classification",
+        "Clustering",
+        "Regression",
+        "Interactive data visualization"
+      ]
+    },
+    {
+      "name": "Bioinformatics and Systems Biology",
+      "level": "Master",
+      "keywords": [
+        "Next-gen sequencing data analysis",
+        "Transcritomics",
+        "Network analysis",
+        "Cheminformatics"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "master",
+      "keywords": [
+        "Flask",
+        "Shiny",
+        "Bootstrap",
+        "Backbone.js"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "master",
+      "keywords": [
+        "Python",
+        "R",
+        "Javascript",
+        "SQL",
+        "Bash",
+        "MATLAB",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Avi Ma'ayan, PhD",
+      "reference": "hello world"
+    }
+  ]
+}

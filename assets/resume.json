@@ -39,14 +39,16 @@
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Ma'ayan lab at Icahn School of Medicine at Mount Sinai",
+      "position": "PhD student",
+      "website": "http://icahn.mssm.edu/research/labs/maayan-laboratory",
+      "startDate": "2013-06-01",
+      "endDate": "2017-03-01",
+      "summary": "The Ma'ayan Laboratory develops computational and mathematical methods to study the complexity of regulatory networks in mammalian cells.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
+        "Proved the existence of research focus bias by modeling the longitudinal discovery process of protein-protein interaction network from low-content studies.",
+        "Developed a machine learning multi-label classification model to predict drug side effects using features extracted from transcriptomic response profiles and chemical structures.",
+        "Applied crowd-sourcing approach to curate gene expression data from public repository and created web portal for the visualization and query of the dataset."
       ]
     }
   ],

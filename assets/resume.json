@@ -50,6 +50,17 @@
         "Developed a machine learning multi-label classification model to predict drug side effects using features extracted from transcriptomic response profiles and chemical structures.",
         "Applied crowd-sourcing approach to curate gene expression data from public repository and created web portal for the visualization and query of the dataset."
       ]
+    },
+    {
+      "company": "Institute of Biophysics, Chinese Academy of Science",
+      "position": "Research Assistant",
+      "website": "http://english.ibp.cas.cn/",
+      "startDate": "2011-11-01",
+      "endDate": "2012-05-01",
+      "summary": "",
+      "highlights": [
+        "Studied epigenetic mechanisms of histone variant CENP-A in human cells."
+      ]
     }
   ],
   "volunteer": [],
@@ -93,6 +104,20 @@
       "releaseDate": "2015-06-06",
       "website": "http://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-015-0173-z",
       "summary": "We analyzed the longitudinal discovery process of literature-based mammalian and yeast PPINs to observe that these networks are discovered non-uniformly. The pattern of discovery is related to a theoretical concept proposed by Kauffman called “expanding the adjacent possible”. We introduce a network discovery model which explicitly includes the space of possibilities in the form of a true underlying PPIN."
+    },
+    {
+      "name": "Lean Big Data integration in systems biology and systems pharmacology",
+      "publisher": "Trends in pharmacological sciences",
+      "releaseDate": "2014-09-30",
+      "website": "http://www.sciencedirect.com/science/article/pii/S0165614714001126",
+      "summary": "Many relevant resources from systems biology and pharmacology can be combined into a general map. Data from the resources can be converted into networks, gene-set libraries, and bipartite graphs. Indirect relationships (e.g., matching drugs to patients) can be identified by data integration. Combining independent sources can be used to validate computational and experimental methods. Predictions can be improved when two independent networks are used to predict a third network."
+    },
+    {
+      "name": "Drug/Cell-line Browser: interactive canvas visualization of cancer drug/cell-line viability assay datasets",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2014-08-06",
+      "website": "http://bioinformatics.oxfordjournals.org/content/30/22/3289",
+      "summary": "Recently, several high profile studies collected cell viability data from panels of cancer cell lines treated with many drugs applied at different concentrations. Such drug sensitivity data for cancer cell lines provide suggestive treatments for different types and subtypes of cancer. Visualization of these datasets can reveal patterns that may not be obvious by examining the data without such efforts. Here we introduce Drug/Cell-line Browser (DCB), an online interactive HTML5 data visualization tool for interacting with three of the recently published datasets of cancer cell lines/drug-viability studies. DCB uses clustering and canvas visualization of the drugs and the cell lines, as well as a bar graph that summarizes drug effectiveness for the tissue of origin or the cancer subtypes for single or multiple drugs. DCB can help in understanding drug response patterns and prioritizing drug/cancer cell line interactions by tissue of origin or cancer subtype."
     }
   ],
   "skills": [

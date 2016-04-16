@@ -34,7 +34,12 @@
         "network": "Kaggle",
         "username": "zichen",
         "url": "https://www.kaggle.com/zichen"
-      }
+      },
+      {
+        "network": "ResearchGate",
+        "username": "Zichen_Wang",
+        "url": "https://www.researchgate.net/profile/Zichen_Wang"
+      }      
     ]
   },
   "work": [
@@ -130,7 +135,8 @@
         "Classification",
         "Clustering",
         "Regression",
-        "Interactive data visualization"
+        "Interactive data visualization",
+        "Natural Language Processing"
       ]
     },
     {

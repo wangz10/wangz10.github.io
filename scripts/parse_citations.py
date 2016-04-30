@@ -1,5 +1,6 @@
 '''
 Parse the XML file exported from Endnote and write to json.
+The XML is exported with output style "Show All Fields"
 '''
 from collections import OrderedDict
 import xmltodict, json
@@ -7,11 +8,11 @@ import xmltodict, json
 o = xmltodict.parse(open('../assets/publications.xml', 'rb').read())
 records = o['xml']['records']['record']
 keys_to_exclude = ('database', 'rec-number', 'source-app', 'foreign-keys', 'ref-type')
-
+doi_base_url = 'http://dx.doi.org/'
 
 def extract_text(d):
 	'''
-	To extract the value from '#text' fields to simplify the parsed XML. 
+	To recursively extract the value from '#text' fields to simplify the parsed XML. 
 	'''
 	if isinstance(d, OrderedDict):
 		if 'style' in d:
@@ -35,8 +36,18 @@ def extract_text(d):
 
 records_cleaned = []
 for record in o['xml']['records']['record']:
+	# Extract texts 
 	record = {key: extract_text(val) for key, val 
 		in record.items() if key not in keys_to_exclude}
+	# add doi field
+	if 'electronic-resource-num' in record:
+		if record['electronic-resource-num'].startswith(doi_base_url):
+			doi = record['electronic-resource-num'].strip(doi_base_url)
+		else:
+			doi = record['electronic-resource-num']
+	else:	
+		doi = record['accession-num'].strip('doi:')
+	record['doi'] = doi
 	records_cleaned.append(record)
 
 

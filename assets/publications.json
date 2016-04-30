@@ -10,6 +10,7 @@
             "pub-dates": "April 1, 2016", 
             "year": "2016"
         }, 
+        "doi": "10.1093/bioinformatics/btw168", 
         "electronic-resource-num": "10.1093/bioinformatics/btw168", 
         "periodical": "Bioinformatics", 
         "titles": {
@@ -36,6 +37,7 @@
             "Rendl, Michael"
         ], 
         "dates": "2016", 
+        "doi": "10.1016/j.celrep.2016.02.078", 
         "electronic-resource-num": "10.1016/j.celrep.2016.02.078", 
         "isbn": "2211-1247", 
         "number": "12", 
@@ -73,6 +75,7 @@
             "pub-dates": "2016/02//", 
             "year": "2016"
         }, 
+        "doi": "10.18632/oncotarget.7115", 
         "electronic-resource-num": "10.18632/oncotarget.7115", 
         "isbn": "1949-2553", 
         "language": "eng", 
@@ -122,6 +125,7 @@
             "pub-dates": "1/12/", 
             "year": "2015"
         }, 
+        "doi": "10.1016/j.devcel.2014.11.030", 
         "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2014.11.030", 
         "isbn": "1534-5807", 
         "number": "1", 
@@ -143,6 +147,7 @@
             "Ma'ayan, Avi"
         ], 
         "dates": "2015", 
+        "doi": "10.1186/s12918-015-0173-z", 
         "isbn": "1752-0509", 
         "notes": "Zichen Wang and Neil R. Clark contributed equally to this work.", 
         "number": "1", 
@@ -174,6 +179,7 @@
             "pub-dates": "9/14/", 
             "year": "2015"
         }, 
+        "doi": "10.1016/j.devcel.2015.06.023", 
         "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2015.06.023", 
         "isbn": "1534-5807", 
         "number": "5", 
@@ -197,6 +203,7 @@
             "pub-dates": "12//", 
             "year": "2015"
         }, 
+        "doi": "10.1016/j.compbiolchem.2015.08.005", 
         "electronic-resource-num": "http://dx.doi.org/10.1016/j.compbiolchem.2015.08.005", 
         "isbn": "1476-9271", 
         "keywords": [
@@ -227,6 +234,7 @@
             "Ma\u2019ayan, Avi"
         ], 
         "dates": "2015", 
+        "doi": "10.1109/BIBM.2015.7359689", 
         "electronic-resource-num": "10.1109/BIBM.2015.7359689", 
         "isbn": "2156-1125", 
         "notes": "Proceedings (IEEE Int Conf Bioinformatics Biomed)", 
@@ -254,6 +262,7 @@
             "pub-dates": "9//", 
             "year": "2014"
         }, 
+        "doi": "10.1016/j.tips.2014.07.001", 
         "electronic-resource-num": "http://dx.doi.org/10.1016/j.tips.2014.07.001", 
         "isbn": "0165-6147", 
         "keywords": [
@@ -294,6 +303,7 @@
             "pub-dates": "11/14/online", 
             "year": "2014"
         }, 
+        "doi": "10.1038/ncomms6210", 
         "electronic-resource-num": "10.1038/ncomms6210", 
         "notes": "Supplementary information available for this article at http://www.nature.com/ncomms/2014/141114/ncomms6210/suppinfo/ncomms6210_S1.html", 
         "periodical": "Nat Commun", 
@@ -321,6 +331,7 @@
             "pub-dates": "November 15, 2014", 
             "year": "2014"
         }, 
+        "doi": "10.1093/bioinformatics/btu526", 
         "electronic-resource-num": "10.1093/bioinformatics/btu526", 
         "number": "22", 
         "pages": "3289-3290", 
@@ -346,6 +357,7 @@
             "Ma'ayan, Avi"
         ], 
         "dates": "2013", 
+        "doi": "10.1186/1471-2105-14-128", 
         "isbn": "1471-2105", 
         "number": "1", 
         "pages": "128", 
@@ -375,6 +387,7 @@
             "pub-dates": "October 1, 2011", 
             "year": "2011"
         }, 
+        "doi": "10.1093/jxb/err221", 
         "electronic-resource-num": "10.1093/jxb/err221", 
         "number": "14", 
         "pages": "5161-5177", 

@@ -1,0 +1,389 @@
+[
+    {
+        "abstract": "Motivation: Adverse drug reactions (ADRs) are a central consideration during drug development. Here we present a machine learning classifier to prioritize ADRs for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. The GE data is from the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs. Using various benchmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. Moreover, transforming GE features to enrichment vectors of biological terms further improves the predictive capability of the classifiers. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all \u2009>20 000 small-molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections.Availability and Implementation: The interface for the adverse event predictions for the \u2009>20 000 LINCS compounds is available at http://maayanlab.net/SEP-L1000/.Contact: avi.maayan@mssm.eduSupplementary information: Supplementary data are available at Bioinformatics online.", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Clark, Neil R.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "April 1, 2016", 
+            "year": "2016"
+        }, 
+        "electronic-resource-num": "10.1093/bioinformatics/btw168", 
+        "periodical": "Bioinformatics", 
+        "titles": {
+            "secondary-title": "Bioinformatics", 
+            "title": "Drug-induced adverse events prediction with the LINCS L1000 data"
+        }, 
+        "urls": "http://bioinformatics.oxfordjournals.org/content/early/2016/04/20/bioinformatics.btw168.abstract"
+    }, 
+    {
+        "abstract": "The hair follicle (HF) is a complex miniorgan that serves as an ideal model system to study stem cell (SC) interactions with the niche during growth and regeneration. Dermal papilla (DP) cells are required for SC activation during the adult hair cycle, but signal exchange between niche and SC precursors/transit-amplifying cell (TAC) progenitors that regulates HF morphogenetic growth is largely unknown. Here we use six transgenic reporters to isolate 14 major skin and HF cell populations. With next-generation RNA sequencing, we characterize their transcriptomes and define unique molecular signatures. SC precursors, TACs, and the DP niche express a\u00a0plethora of ligands and receptors. Signaling interaction network analysis reveals a bird?s-eye view of\u00a0pathways implicated in epithelial-mesenchymal\u00a0interactions. Using a systematic tissue-wide approach, this work provides a comprehensive platform, linked to an interactive online database, to identify and further explore the SC/TAC/niche crosstalk regulating HF growth.", 
+        "access-date": "2016/04/01", 
+        "contributors": [
+            "Rezza, Am\u00e9lie", 
+            "Wang, Zichen", 
+            "Sennett, Rachel", 
+            "Qiao, Wenlian", 
+            "Wang, Dongmei", 
+            "Heitman, Nicholas", 
+            "Mok, Ka\u00a0Wai", 
+            "Clavel, Carlos", 
+            "Yi, Rui", 
+            "Zandstra, Peter", 
+            "Ma\u2019ayan, Avi", 
+            "Rendl, Michael"
+        ], 
+        "dates": "2016", 
+        "electronic-resource-num": "10.1016/j.celrep.2016.02.078", 
+        "isbn": "2211-1247", 
+        "number": "12", 
+        "pages": "3001-3018", 
+        "periodical": "Cell Reports", 
+        "publisher": "Elsevier", 
+        "titles": {
+            "secondary-title": "Cell Reports", 
+            "title": "Signaling Networks among Stem Cell Precursors, Transit-Amplifying Progenitors, and their Niche in Developing Hair Follicles"
+        }, 
+        "urls": "http://dx.doi.org/10.1016/j.celrep.2016.02.078", 
+        "volume": "14"
+    }, 
+    {
+        "accession-num": "26863628", 
+        "alt-periodical": {
+            "abbr-1": "Oncotarget", 
+            "full-title": "Oncotarget"
+        }, 
+        "auth-address": "Samsung Biomedical Research Institute, Samsung Medical Center, Seoul, Korea; Institute for Refractory Cancer Research, Samsung Medical Center, Seoul, Korea, Samsung Advanced Institute of Technology, Samsung Electronics Co., Ltd., Seoul, Korea.", 
+        "contributors": [
+            "Kong, Doo-Sik", 
+            "Kim, Jinkuk", 
+            "Lee, In-Hee", 
+            "Kim, Sung Tae", 
+            "Seol, Ho Jun", 
+            "Lee, Jung-Il", 
+            "Park, Woong-Yang", 
+            "Ryu, Gyuha", 
+            "Wang, Zichen", 
+            "Ma'ayan, Avi", 
+            "Nam, Do-Hyun"
+        ], 
+        "dates": {
+            "pub-dates": "2016/02//", 
+            "year": "2016"
+        }, 
+        "electronic-resource-num": "10.18632/oncotarget.7115", 
+        "isbn": "1949-2553", 
+        "language": "eng", 
+        "periodical": {
+            "abbr-1": "Oncotarget", 
+            "full-title": "Oncotarget"
+        }, 
+        "remote-database-name": "PubMed", 
+        "titles": {
+            "alt-title": "Oncotarget", 
+            "secondary-title": "Oncotarget", 
+            "title": "Integrative radiogenomic analysis for multicentric radiophenotype in glioblastoma"
+        }, 
+        "urls": [
+            "http://europepmc.org/abstract/MED/26863628", 
+            "http://dx.doi.org/10.18632/oncotarget.7115"
+        ]
+    }, 
+    {
+        "abstract": "Summary The H3 histone variant CENP-A is an epigenetic marker critical for the centromere identity and function. However, the precise regulation of the spatiotemporal deposition and propagation of CENP-A at centromeres during the cell cycle is still poorly understood. Here, we show that CENP-A is phosphorylated at Ser68 during early mitosis by Cdk1. Our results demonstrate that phosphorylation of Ser68 eliminates the binding of CENP-A to the assembly factor HJURP, thus preventing the premature loading of CENP-A to the centromere prior to mitotic exit. Because Cdk1 activity is at its minimum at the mitotic exit, the ratio of Cdk1/PP1\u03b1 activity changes in favor of Ser68 dephosphorylation, thus making CENP-A available for centromeric deposition by HJURP. Thus, we reveal that dynamic phosphorylation of CENP-A Ser68 orchestrates the spatiotemporal assembly of newly synthesized CENP-A at active centromeres during the cell cycle.", 
+        "contributors": [
+            "Yu, Zhouliang", 
+            "Zhou, Xiang", 
+            "Wang, Wenjing", 
+            "Deng, Wenqiang", 
+            "Fang, Junnan", 
+            "Hu, Hao", 
+            "Wang, Zichen", 
+            "Li, Shangze", 
+            "Cui, Lei", 
+            "Shen, Jing", 
+            "Zhai, Linhui", 
+            "Peng, Shengyi", 
+            "Wong, Jiemin", 
+            "Dong, Shuo", 
+            "Yuan, Zengqiang", 
+            "Ou, Guangshuo", 
+            "Zhang, Xiaodong", 
+            "Xu, Ping", 
+            "Lou, Jizhong", 
+            "Yang, Na", 
+            "Chen, Ping", 
+            "Xu, Rui-Ming", 
+            "Li, Guohong"
+        ], 
+        "dates": {
+            "pub-dates": "1/12/", 
+            "year": "2015"
+        }, 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2014.11.030", 
+        "isbn": "1534-5807", 
+        "number": "1", 
+        "pages": "68-81", 
+        "periodical": "Developmental Cell", 
+        "titles": {
+            "secondary-title": "Developmental Cell", 
+            "title": "Dynamic Phosphorylation of CENP-A at Ser68 Orchestrates Its Cell-Cycle-Dependent Deposition at Centromeres"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S1534580714007692", 
+        "volume": "32"
+    }, 
+    {
+        "abstract": "BACKGROUND:Thousands of biological and biomedical investigators study of the functional role of single genes and their protein products in normal physiology and in disease. The findings from these studies are reported in research articles that stimulate new research. It is now established that a complex regulatory networks's is controlling human cellular fate, and this community of researchers are continually unraveling this network topology. Attempts to integrate results from such accumulated knowledge resulted in literature-based protein-protein interaction networks (PPINs) and pathway databases. These databases are widely used by the community to analyze new data collected from emerging genome-wide studies with the assumption that the data within these literature-based databases is the ground truth and contain no biases. While suspicion for research focus biases is growing, a concrete proof for it is still missing. It is difficult to prove because the real PPINs are mostly unknown.RESULTS:Here we analyzed the longitudinal discovery process of literature-based mammalian and yeast PPINs to observe that these networks are discovered non-uniformly. The pattern of discovery is related to a theoretical concept proposed by Kauffman called \"expanding the adjacent possible\". We introduce a network discovery model which explicitly includes the space of possibilities in the form of a true underlying PPIN.CONCLUSIONS:Our model strongly suggests that research focus biases exist in the observed discovery dynamics of these networks. In summary, more care should be placed when using PPIN databases for analysis of newly acquired data, and when considering prior knowledge when designing new experiments.", 
+        "accession-num": "doi:10.1186/s12918-015-0173-z", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Clark, Neil", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2015", 
+        "isbn": "1752-0509", 
+        "notes": "Zichen Wang and Neil R. Clark contributed equally to this work.", 
+        "number": "1", 
+        "pages": "26", 
+        "periodical": "BMC Systems Biology", 
+        "titles": {
+            "secondary-title": "BMC Systems Biology", 
+            "title": "Dynamics of the discovery process of protein-protein interactions from low content studies"
+        }, 
+        "urls": "http://www.biomedcentral.com/1752-0509/9/26", 
+        "volume": "9"
+    }, 
+    {
+        "abstract": "Summary Defining the unique molecular features of progenitors and their niche requires a genome-wide, whole-tissue approach with cellular resolution. Here, we co-isolate embryonic hair follicle (HF) placode and dermal condensate cells, precursors of adult HF stem cells and the dermal papilla/sheath niche, along with lineage-related keratinocytes and fibroblasts, Schwann cells, melanocytes, and a population inclusive of all\u00a0remaining skin cells. With next-generation RNA sequencing, we define gene expression patterns in the context of the entire embryonic skin, and through transcriptome cross-comparisons, we uncover hundreds of enriched genes in cell-type-specific signatures. Axon guidance signaling and many other pathway genes are enriched in multiple signatures, implicating these factors in driving the large-scale cellular rearrangements necessary for HF formation. Finally, we share all data in an interactive, searchable companion website. Our study provides an overarching view of signaling within the entire embryonic skin and captures a molecular snapshot of HF progenitors and their niche.", 
+        "contributors": [
+            "Sennett, Rachel", 
+            "Wang, Zichen", 
+            "Rezza, Am\u00e9lie", 
+            "Grisanti, Laura", 
+            "Roitershtein, Nataly", 
+            "Sicchio, Cristina", 
+            "Mok, Ka\u00a0Wai", 
+            "Heitman, Nicholas\u00a0J", 
+            "Clavel, Carlos", 
+            "Ma\u2019ayan, Avi", 
+            "Rendl, Michael"
+        ], 
+        "dates": {
+            "pub-dates": "9/14/", 
+            "year": "2015"
+        }, 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2015.06.023", 
+        "isbn": "1534-5807", 
+        "number": "5", 
+        "pages": "577-591", 
+        "periodical": "Developmental Cell", 
+        "titles": {
+            "secondary-title": "Developmental Cell", 
+            "title": "An Integrated Transcriptome Atlas of Embryonic Hair Follicle Progenitors, Their Niche, and the Developing Skin"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S153458071500430X", 
+        "volume": "34"
+    }, 
+    {
+        "abstract": "With advances in genomics, transcriptomics, metabolomics and proteomics, and more expansive electronic clinical record monitoring, as well as advances in computation, we have entered the Big Data era in biomedical research. Data gathering is growing rapidly while only a small fraction of this data is converted to useful knowledge or reused in future studies. To improve this, an important concept that is often overlooked is data abstraction. To fuse and reuse biomedical datasets from diverse resources, data abstraction is frequently required. Here we summarize some of the major Big Data biomedical research resources for genomics, proteomics and phenotype data, collected from mammalian cells, tissues and organisms. We then suggest simple data abstraction methods for fusing this diverse but related data. Finally, we demonstrate examples of the potential utility of such data integration efforts, while warning about the inherit biases that exist within such data.", 
+        "contributors": [
+            "Rouillard, Andrew D.", 
+            "Wang, Zichen", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "12//", 
+            "year": "2015"
+        }, 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.compbiolchem.2015.08.005", 
+        "isbn": "1476-9271", 
+        "keywords": [
+            "Data integration", 
+            "Bioinformatics", 
+            "Systems biology", 
+            "Systems pharmacology", 
+            "Network biology"
+        ], 
+        "pages": "123-138", 
+        "periodical": "Computational Biology and Chemistry", 
+        "titles": {
+            "secondary-title": "Computational Biology and Chemistry", 
+            "title": "Reprint of \u201cAbstraction for data integration: Fusing mammalian molecular, cellular and phenotype big datasets for better knowledge extraction\u201d"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S1476927115000833", 
+        "volume": "59, Part B"
+    }, 
+    {
+        "abstract": "Gene set analysis of differential expression, which identifies collectively differentially expressed gene sets, has become an important tool for biology. The power of this approach lies in its reduction of the dimensionality of the statistical problem and its incorporation of biological interpretation by construction. Many approaches to gene set analysis have been proposed, but benchmarking their performance in the setting of real biological data is difficult due to the lack of a gold standard. In a previously published work we proposed a geometrical approach to differential expression which performed highly in benchmarking tests and compared well to the most popular methods of differential gene expression. As reported, this approach has a natural extension to gene set analysis which we call Principal Angle Enrichment Analysis (PAEA). PAEA employs dimensionality reduction and a multivariate approach for gene set enrichment analysis. However, the performance of this method has not been assessed nor its implementation as a web-based tool. Here we describe new benchmarking protocols for gene set analysis methods and find that PAEA performs highly. The PAEA method is implemented as a user-friendly web-based tool, which contains 70 gene set libraries and is freely available to the community.", 
+        "accession-num": "PMC4737646", 
+        "contributors": [
+            "Clark, Neil R.", 
+            "Szymkiewicz, Maciej", 
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "Jones, Matthew R.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": "2015", 
+        "electronic-resource-num": "10.1109/BIBM.2015.7359689", 
+        "isbn": "2156-1125", 
+        "notes": "Proceedings (IEEE Int Conf Bioinformatics Biomed)", 
+        "pages": "256-262", 
+        "periodical": "Proceedings. IEEE International Conference on Bioinformatics and Biomedicine", 
+        "remote-database-name": "PMC", 
+        "titles": {
+            "secondary-title": "Proceedings. IEEE International Conference on Bioinformatics and Biomedicine", 
+            "title": "Principal Angle Enrichment Analysis (PAEA): Dimensionally Reduced Multivariate Gene Set Enrichment Analysis Tool"
+        }, 
+        "urls": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737646/", 
+        "volume": "2015"
+    }, 
+    {
+        "abstract": "Data sets from recent large-scale projects can be integrated into one unified puzzle that can provide new insights into how drugs and genetic perturbations applied to human cells are linked to whole-organism phenotypes. Data that report how drugs affect the phenotype of human cell lines and how drugs induce changes in gene and protein expression in human cell lines can be combined with knowledge about human disease, side effects induced by drugs, and mouse phenotypes. Such data integration efforts can be achieved through the conversion of data from the various resources into single-node-type networks, gene-set libraries, or multipartite graphs. This approach can lead us to the identification of more relationships between genes, drugs, and phenotypes as well as benchmark computational and experimental methods. Overall, this lean \u2018Big Data\u2019 integration strategy will bring us closer toward the goal of realizing personalized medicine.", 
+        "contributors": [
+            "Ma\u2019ayan, Avi", 
+            "Rouillard, Andrew D.", 
+            "Clark, Neil R.", 
+            "Wang, Zichen", 
+            "Duan, Qiaonan", 
+            "Kou, Yan"
+        ], 
+        "dates": {
+            "pub-dates": "9//", 
+            "year": "2014"
+        }, 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.tips.2014.07.001", 
+        "isbn": "0165-6147", 
+        "keywords": [
+            "systems pharmacology", 
+            "data integration", 
+            "network analysis", 
+            "network pharmacology", 
+            "side-effect prediction", 
+            "target prediction"
+        ], 
+        "number": "9", 
+        "pages": "450-460", 
+        "periodical": "Trends in Pharmacological Sciences", 
+        "titles": {
+            "secondary-title": "Trends in Pharmacological Sciences", 
+            "title": "Lean Big Data integration in systems biology and systems pharmacology"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S0165614714001126", 
+        "volume": "35"
+    }, 
+    {
+        "abstract": "The process of cellular senescence generates a repressive chromatin environment, however, the role of histone variants and histone proteolytic cleavage in senescence remains unclear. Here, using models of oncogene-induced and replicative senescence, we report novel histone H3 tail cleavage events mediated by the protease Cathepsin L. We find that cleaved forms of H3 are nucleosomal and the histone variant H3.3 is the preferred cleaved form of H3. Ectopic expression of H3.3 and its cleavage product (H3.3cs1), which lacks the first 21 amino acids of the H3 tail, is sufficient to induce senescence. Further, H3.3cs1 chromatin incorporation is mediated by the HUCA histone chaperone complex. Genome-wide transcriptional profiling revealed that H3.3cs1 facilitates transcriptional silencing of cell cycle regulators including RB/E2F target genes, likely via the permanent removal of H3K4me3. Collectively, our study identifies histone H3.3 and its proteolytically processed forms as key regulators of cellular senescence.", 
+        "contributors": [
+            "Duarte, Luis F.", 
+            "Young, Andrew R. J.", 
+            "Wang, Zichen", 
+            "Wu, Hsan-Au", 
+            "Panda, Taniya", 
+            "Kou, Yan", 
+            "Kapoor, Avnish", 
+            "Hasson, Dan", 
+            "Mills, Nicholas R.", 
+            "Ma\u2019ayan, Avi", 
+            "Narita, Masashi", 
+            "Bernstein, Emily"
+        ], 
+        "dates": {
+            "pub-dates": "11/14/online", 
+            "year": "2014"
+        }, 
+        "electronic-resource-num": "10.1038/ncomms6210", 
+        "notes": "Supplementary information available for this article at http://www.nature.com/ncomms/2014/141114/ncomms6210/suppinfo/ncomms6210_S1.html", 
+        "periodical": "Nat Commun", 
+        "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.", 
+        "titles": {
+            "secondary-title": "Nat Commun", 
+            "title": "Histone H3.3 and its proteolytically processed form drive a cellular senescence programme"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/ncomms6210", 
+        "volume": "5", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "Summary: Recently, several high profile studies collected cell viability data from panels of cancer cell lines treated with many drugs applied at different concentrations. Such drug sensitivity data for cancer cell lines provide suggestive treatments for different types and subtypes of cancer. Visualization of these datasets can reveal patterns that may not be obvious by examining the data without such efforts. Here we introduce Drug/Cell-line Browser (DCB), an online interactive HTML5 data visualization tool for interacting with three of the recently published datasets of cancer cell lines/drug-viability studies. DCB uses clustering and canvas visualization of the drugs and the cell lines, as well as a bar graph that summarizes drug effectiveness for the tissue of origin or the cancer subtypes for single or multiple drugs. DCB can help in understanding drug response patterns and prioritizing drug/cancer cell line interactions by tissue of origin or cancer subtype.Availability and implementation: DCB is an open source Web-based tool that is freely available at: http://www.maayanlab.net/LINCS/DCBContact: avi.maayan@mssm.eduSupplementary information: Supplementary data are available at Bioinformatics online.", 
+        "contributors": [
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Fernandez, Nicolas F.", 
+            "Rouillard, Andrew D.", 
+            "Tan, Christopher M.", 
+            "Benes, Cyril H.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "November 15, 2014", 
+            "year": "2014"
+        }, 
+        "electronic-resource-num": "10.1093/bioinformatics/btu526", 
+        "number": "22", 
+        "pages": "3289-3290", 
+        "periodical": "Bioinformatics", 
+        "titles": {
+            "secondary-title": "Bioinformatics", 
+            "title": "Drug/Cell-line Browser: interactive canvas visualization of cancer drug/cell-line viability assay datasets"
+        }, 
+        "urls": "http://bioinformatics.oxfordjournals.org/content/30/22/3289.abstract", 
+        "volume": "30"
+    }, 
+    {
+        "abstract": "BACKGROUND:System-wide profiling of genes and proteins in mammalian cells produce lists of differentially expressed genes/proteins that need to be further analyzed for their collective functions in order to extract new knowledge. Once unbiased lists of genes or proteins are generated from such experiments, these lists are used as input for computing enrichment with existing lists created from prior knowledge organized into gene-set libraries. While many enrichment analysis tools and gene-set libraries databases have been developed, there is still room for improvement.RESULTS:Here, we present Enrichr, an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis. We applied Enrichr to analyze nine cancer cell lines by comparing their enrichment signatures to the enrichment signatures of matched normal tissues. We observed a common pattern of up regulation of the polycomb group PRC2 and enrichment for the histone mark H3K27me3 in many cancer cell lines, as well as alterations in Toll-like receptor and interlukin signaling in K562 cells when compared with normal myeloid CD33+ cells. Such analyses provide global visualization of critical differences between normal tissues and cancer cell lines but can be applied to many other scenarios.CONCLUSIONS:Enrichr is an easy to use intuitive enrichment analysis web-based tool providing various types of visualization summaries of collective functions of gene lists. Enrichr is open source and freely available online at: http://amp.pharm.mssm.edu/Enrichr.", 
+        "accession-num": "doi:10.1186/1471-2105-14-128", 
+        "contributors": [
+            "Chen, Edward", 
+            "Tan, Christopher", 
+            "Kou, Yan", 
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Meirelles, Gabriela", 
+            "Clark, Neil", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2013", 
+        "isbn": "1471-2105", 
+        "number": "1", 
+        "pages": "128", 
+        "periodical": "BMC Bioinformatics", 
+        "titles": {
+            "secondary-title": "BMC Bioinformatics", 
+            "title": "Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool"
+        }, 
+        "urls": "http://www.biomedcentral.com/1471-2105/14/128", 
+        "volume": "14"
+    }, 
+    {
+        "abstract": "The cell wall is important for pollen tube growth, but little is known about the molecular mechanism that controls cell wall deposition in pollen tubes. Here, the functional characterization of the pollen-expressed Arabidopsis cellulose synthase-like D genes CSLD1 and CSLD4 that are required for pollen tube growth is reported. Both CSLD1 and CSLD4 are highly expressed in mature pollen grains and pollen tubes. The CSLD1 and CSLD4 proteins are located in the Golgi apparatus and transported to the plasma membrane of the tip region of growing pollen tubes, where cellulose is actively synthesized. Mutations in CSLD1 and CSLD4 caused a significant reduction in cellulose deposition in the pollen tube wall and a remarkable disorganization of the pollen tube wall layers, which disrupted the genetic transmission of the male gametophyte. In csld1 and csld4 single mutants and in the csld1 csld4 double mutant, all the mutant pollen tubes exhibited similar phenotypes: the pollen tubes grew extremely abnormally both in vitro and in vivo, which indicates that CSLD1 and CSLD4 are not functionally redundant. Taken together, these results suggest that CSLD1 and CSLD4 play important roles in pollen tube growth, probably through participation in cellulose synthesis of the pollen tube wall.", 
+        "contributors": [
+            "Wang, Wei", 
+            "Wang, Li", 
+            "Chen, Chen", 
+            "Xiong, Guangyan", 
+            "Tan, Xiao-Yun", 
+            "Yang, Ke-Zhen", 
+            "Wang, Zi-Chen", 
+            "Zhou, Yihua", 
+            "Ye, De", 
+            "Chen, Li-Qun"
+        ], 
+        "dates": {
+            "pub-dates": "October 1, 2011", 
+            "year": "2011"
+        }, 
+        "electronic-resource-num": "10.1093/jxb/err221", 
+        "number": "14", 
+        "pages": "5161-5177", 
+        "periodical": "Journal of Experimental Botany", 
+        "titles": {
+            "secondary-title": "Journal of Experimental Botany", 
+            "title": "Arabidopsis CSLD1 and CSLD4 are required for cellulose deposition and normal growth of pollen tubes"
+        }, 
+        "urls": "http://jxb.oxfordjournals.org/content/62/14/5161.abstract", 
+        "volume": "62"
+    }
+]

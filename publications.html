@@ -1,3 +1,22 @@
 <div class="row">
 	<h1>Publications</h1>
+	<div id="pubView"></div>
 </div>
+
+
+<script id="pubTemplate" type="text/template">
+	<a class="title" href="<%= 'http://dx.doi.org/' + doi %>" target="_blank"><%= title %></a>
+	<p class="authors">
+	<% _.each(authors, function(a, i) { %> 
+		<% if(a === 'Wang, Zichen' || a === 'Wang, Zi-Chen') %>	
+			<span><strong><%= a %> </strong></span>
+		<% else %>
+			<span><%= a %></span>
+		<% if(i !== authors.length - 1) %>
+			<span>, </span>
+	<% }); %>
+	</p>
+	<p><span class="journal"><%= journal %></span>, <span class="year"><%= year %></span></p>
+</script>
+<link rel="stylesheet" type="text/css" href="css/publications.css">
+<script src="js/publications.js"></script>

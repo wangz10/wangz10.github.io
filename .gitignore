@@ -1,1 +1,8 @@
 .DS_Store
+assets/resume.html
+assets/publications.xml
+assets/publications.txt
+assets/publications_full.json
+_site
+.sass-cache
+.jekyll-metadata

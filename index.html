@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="author" content="Zichen Wang (wangzc921@gmail.com)">
   <title>Zichen Wang's Personal Site</title>
 
   <!-- Bootstrap -->
-  <link href="lib/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="lib/tether.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -19,35 +19,41 @@
   <![endif]-->
 </head>
   <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Zichen Wang</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li id="home" class="active"><a href="#">Home</a></li>
-            <li id="resume"><a href="#/resume">Resume</a></li>
-            <li id="projects"><a href="#/projects">Projects</a></li>
-            <li id="publications"><a href="#/publications">Publications</a></li>
-            <li id="contact"><a href="#/contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-dark" style="background-color: #0089A7;">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="navbar-collapse">
+      <a class="navbar-brand" href="#">Zichen Wang</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#/resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#/publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#/contact">Contact</a>
+        </li>      
+      </ul>
+    </div>
+  </nav>
 
-    <div class="container-fluid" id="page-content"></div>
+
+  <div class="container-fluid" id="page-content"></div>
 
     <!-- JS libs -->
     <script src="lib/jquery.min.js"></script>
+    <script src="lib/tether.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
+
     <script src="lib/underscore-min.js"></script>
     <script src="lib/backbone-min.js"></script>
     <!-- JS scripts -->

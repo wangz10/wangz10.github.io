@@ -4,14 +4,15 @@ var Publication = Backbone.Model.extend({
 		title: '',
 		doi: '',
 		authors: [],
-		journal: ''
-
+		journal: '',
 	},
 	parse: function(obj){
 		parsedObj = {};
 		parsedObj.title = obj.titles.title;
 		parsedObj.doi = obj.doi;
 		parsedObj.authors = obj.contributors;
+		parsedObj.abstract = obj.abstract;
+
 		// I am the n-th author
 		var myRank = parsedObj.authors.indexOf('Wang, Zichen') + 1;
 		if (myRank === 0){
@@ -54,9 +55,25 @@ var PubView = Backbone.View.extend({
 var Publications = Backbone.Collection.extend({
 	model: Publication,
 	url: 'assets/publications.json',
+	// options for WordFreq
+	wordfreqOptions: { 
+		workerUrl: 'lib/wordfreq.worker.js',
+		languages: 'english',
+		// stopWordSets: 'english1',
+		stopWords: ['here', 'use', 'used', 'using',
+			'thus', 'both', 'more', 'however',
+			'into', 'all', 'exit', 'while', 'within',
+			'many', 'still', 
+			'wall', 'pollen', 'tube'],
+		minimumCount: 0
+	},
+
 
 	initialize: function(){
+		// which key to sort the models by
 		this.sortKey = 'year';
+		// count tokens when fetch is called
+		this.listenTo(this, 'sync', this.countTokens)
 	},
 	
 	comparator: function(model){
@@ -74,6 +91,24 @@ var Publications = Backbone.Collection.extend({
 		this.sortKey = key;
 		this.sort();
 		this.trigger('sortedBy', {'key': key});
+	},
+
+	countTokens: function(){
+		// use WordFreq to tokenize and count frequencies of tokens
+		// @ref: https://github.com/timdream/wordfreq
+		
+		// a string collecting all texts in abstract field of the models
+		this.allAbstracts = this.pluck('abstract').join(' ');
+		this.allTitles = this.pluck('title').join(' ');
+		// a string of all texts
+		this.corpus = [this.allAbstracts, this.allTitles].join(' ');
+		// init a WordFreq instance
+		this.wordfreq = WordFreq(this.wordfreqOptions)
+		var self = this;
+		this.wordfreq.process(this.corpus, function(list){
+			self.list = list;
+			self.trigger('tokensCountGot')
+		})
 	}
 });
 
@@ -101,16 +136,99 @@ var PubsView = Backbone.View.extend({
 
 	rerender: function(){
 		// rerender when collection is sorted
-		console.log('rerender called')
 		this.$el.empty();
 		this.render();
 	}
 });
 
 
+var PubsWordCloudView = Backbone.View.extend({
+	// WordCloud view of Publications
+	tagName: 'div',
+	defaults: {
+		weightFactor: 4,
+		canvasId: 'wc',
+	},
+
+	initialize: function(options){
+		//initialize with defaults and passed arguments.
+		_.defaults(options,this.defaults);
+		_.defaults(this,options);
+		//override view's el property
+		this.selector = "#" + this.canvasId;
+		this.$el = $(this.selector)
+		// 
+		this.collection.fetch()
+
+		var self = this;
+
+		// options for WordCloud
+		this.wcOptions = {
+			weightFactor: this.weightFactor,
+			minSize: 4,
+
+			// interactive callbacks are only for canvas element
+			hover: function(item, dimension, event){
+				console.log(item)
+			},
+			click: function(item, dimension, event){
+				console.log(item)
+				// self.trigger('wordClicked', self.tokenMap[item[0]])
+			},
+			classes: 'token'
+		};
+
+		// listen to collection then render
+		this.listenTo(this.collection, 'tokensCountGot', this.render)
+	},
+
+
+
+	render: function(){ // called after the view init
+		var list = this.collection.list;
+
+		this.wcOptions.list = list;
+
+		var self = this;
+		// a hacky way to get around the "bug" in wordcloud2
+		var w = $("#wordcloud").width(),
+			h = w;
+
+		var canvas = $('<canvas>').attr('width', w+'px').attr('height', h+'px');
+
+		this.$el.on('wordcloudstart', function(e){
+			console.log('wordcloudstart')
+		})
+
+		this.$el.on('wordcloudstop', function(e){
+			console.log('wordcloudstop')
+			texts = d3.selectAll('.token')
+				.on('click', function(){
+					var token = d3.select(this).text();
+					// var nodeIndices = self.tokenMap[token];
+					// self.trigger('wordClicked', nodeIndices);
+					self.trigger('wordClicked', token);
+				});
+			self.texts = texts;
+		})
+		console.log(self.wcOptions.list.length)
+
+		WordCloud([canvas[0], this.$el[0]], this.wcOptions)
+		// WordCloud([$('#wc-canvas')[0], this.$el], this.wcOptions)
+
+		// show all the event of a DOM
+		// var e = $._data( canvas[0], "events" );
+		// console.log(e);
+	},
+
+
+})
+
 // Init instances
 var pubs = new Publications();
 var pubsView = new PubsView({ collection: pubs });
+
+var pubsWcView = new PubsWordCloudView({ collection: pubs });
 // Render view of the collection
 $('#pubView').append(pubsView.render().el);   // adding 
 

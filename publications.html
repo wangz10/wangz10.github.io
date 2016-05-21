@@ -1,7 +1,13 @@
 <div class="row">
 	<h1>Publications</h1>
-	<button class="btn btn-default btn-sm" id="sort-btn" sort-key="myRank">Sort by my rank</button>
-	<div id="pubView"></div>
+	<div class="col-md-6">
+		<button class="btn btn-default btn-sm" id="sort-btn" sort-key="myRank">Sort by my rank</button>
+		<div id="pubView"></div>
+	</div>
+	<div class="col-md-6" id="wordcloud">
+		<div id="wc"></div>
+		<canvas id="wc-canvas"></canvas>		
+	</div>
 </div>
 
 
@@ -20,4 +26,8 @@
 	<p><span class="journal"><%= journal %></span>, <span class="year"><%= year %></span></p>
 </script>
 <link rel="stylesheet" type="text/css" href="css/publications.css">
+<!-- load JS libs for publication page -->
+<script src="lib/wordfreq.js"></script>
+<script src="lib/wordcloud2.js"></script>
+
 <script src="js/publications.js"></script>

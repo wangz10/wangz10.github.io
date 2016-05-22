@@ -155,11 +155,13 @@ var PubsView = Backbone.View.extend({
 		
 		// Fetch the default set of models for this collection from the url
 		this.collection.fetch();
-
-		this.listenTo(this.collection, 'sortedBy', this.rerender);
+		// render again when its collection is sorted
+		this.listenTo(this.collection, 'sortedBy', this.render);
 	},
 
 	render: function(){
+		// empty previously loaded DOMs on $el
+		this.$el.empty();
 		this.collection.each(function(pub){
 			var pubView = new PubView({model: pub});
 
@@ -168,11 +170,6 @@ var PubsView = Backbone.View.extend({
 		return this; // returning this for chaining..
 	},
 
-	rerender: function(){
-		// rerender when collection is sorted
-		this.$el.empty();
-		this.render();
-	}
 });
 
 
@@ -277,5 +274,5 @@ $("#sort-btn").click(function(){
 		$(this).text('Sort by my rank');
 		$(this).attr("sort-key", 'myRank')
 	};
-	pubsView.collection.sortByKey(sortKey)
+	pubs.sortByKey(sortKey)
 })

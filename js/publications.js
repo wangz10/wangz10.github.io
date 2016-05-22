@@ -1,3 +1,16 @@
+// Util functions
+function mergeSumObjs(obj1, obj2){
+	// Merge two objs and sum the values for shared keys
+	for (var key in obj2) { 
+		if (_.has(obj1, key)){
+			obj1[key] += obj2[key];
+		} else {
+			obj1[key] = obj2[key];
+		}
+	}
+	return obj1;
+}
+
 // The Model for Publication
 var Publication = Backbone.Model.extend({
 	defaults: {
@@ -57,7 +70,6 @@ var Publications = Backbone.Collection.extend({
 	url: 'assets/publications.json',
 	// options for WordFreq
 	wordfreqOptions: { 
-		workerUrl: 'lib/wordfreq.worker.js',
 		languages: 'english',
 		minimumCount: 0
 	},
@@ -94,22 +106,44 @@ var Publications = Backbone.Collection.extend({
 	},
 
 	countTokens: function(){
-		// use WordFreq to tokenize and count frequencies of tokens
-		// @ref: https://github.com/timdream/wordfreq
+		// use WordFreq to tokenize and count frequencies of tokens 
+		// weight by myRank. 
+		// init a WordFreq instance
+		this.wordfreq = WordFreqSync(this.wordfreqOptions)
+		// count tokens and weight by the inverse of myRank
+		combinedObj = {}
+		var self = this;
+		this.each(function(model){
+			var texts = [model.get('title'), model.get('abstract')].join(' ');
+			var weight = Math.pow(1/model.get('myRank'), 2);
+			var list = self.wordfreq.process(texts)
+			// multiply weight
+			list = _.map(list, function(item){ return [item[0], item[1]*weight]; })
+			// convert to object: {'w0': 1, 'w1': 2}
+			list = _.object(list);
+			combinedObj = mergeSumObjs(combinedObj, list)
+		});
+		// convert back to [['w0', 1], ['w2', 2]] format
+		this.list = _.pairs(combinedObj);
+		this.trigger('tokensCountGot');
+	},
 
+	countTokensUniform: function(){
+		// use WordFreq to tokenize and count frequencies of tokens without 
+		// applying any weights.
+		// @ref: https://github.com/timdream/wordfreq
+		// init a WordFreq instance
+		this.wordfreq = WordFreqSync(this.wordfreqOptions)
 		// a string collecting all texts in abstract field of the models
 		this.allAbstracts = this.pluck('abstract').join(' ');
 		this.allTitles = this.pluck('title').join(' ');
 		// a string of all texts
 		this.corpus = [this.allAbstracts, this.allTitles].join(' ');
-		// init a WordFreq instance
-		this.wordfreq = WordFreq(this.wordfreqOptions)
-		var self = this;
-		this.wordfreq.process(this.corpus, function(list){
-			self.list = list;
-			self.trigger('tokensCountGot')
-		})
-	}
+
+		this.list = this.wordfreq.process(this.corpus);
+		this.trigger('tokensCountGot');
+	},
+
 });
 
 
@@ -207,6 +241,7 @@ var PubsWordCloudView = Backbone.View.extend({
 					var token = d3.select(this).text();
 					// var nodeIndices = self.tokenMap[token];
 					// self.trigger('wordClicked', nodeIndices);
+					console.log(token)
 					self.trigger('wordClicked', token);
 				});
 			self.texts = texts;

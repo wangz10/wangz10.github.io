@@ -59,12 +59,6 @@ var Publications = Backbone.Collection.extend({
 	wordfreqOptions: { 
 		workerUrl: 'lib/wordfreq.worker.js',
 		languages: 'english',
-		// stopWordSets: 'english1',
-		stopWords: ['here', 'use', 'used', 'using',
-			'thus', 'both', 'more', 'however',
-			'into', 'all', 'exit', 'while', 'within',
-			'many', 'still', 
-			'wall', 'pollen', 'tube'],
 		minimumCount: 0
 	},
 
@@ -72,6 +66,12 @@ var Publications = Backbone.Collection.extend({
 	initialize: function(){
 		// which key to sort the models by
 		this.sortKey = 'year';
+
+		// load stopWords
+		var self = this;
+		$.getJSON('assets/stop_words.json', function(stopWords){
+			self.wordfreqOptions.stopWords = stopWords;
+		})
 		// count tokens when fetch is called
 		this.listenTo(this, 'sync', this.countTokens)
 	},
@@ -96,7 +96,7 @@ var Publications = Backbone.Collection.extend({
 	countTokens: function(){
 		// use WordFreq to tokenize and count frequencies of tokens
 		// @ref: https://github.com/timdream/wordfreq
-		
+
 		// a string collecting all texts in abstract field of the models
 		this.allAbstracts = this.pluck('abstract').join(' ');
 		this.allTitles = this.pluck('title').join(' ');

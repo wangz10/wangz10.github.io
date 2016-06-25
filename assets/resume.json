@@ -2,7 +2,7 @@
   "basics": {
     "name": "Zichen Wang",
     "label": "PhD candidate/Bioinformatician/Data Scientist",
-    "picture": "",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhyAAAAJDRhNTc1ZTM0LTE4ZTktNGE4Yi1hYTk4LWZiM2U0ZTYxMzNiOQ.jpg",
     "email": "zichen.wang@mssm.edu",
     "phone": "(917) 826-8235",
     "website": "http://wangz10.github.io/",
@@ -24,6 +24,11 @@
         "network": "LinkedIn",
         "username": "zichenwang",
         "url": "https://www.linkedin.com/in/zichenwang"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "zichen-wang",
+        "url": "http://stackoverflow.com/users/2340065/zichen-wang"
       },
       {
         "network": "Google Scholar",

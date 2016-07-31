@@ -15,6 +15,7 @@ var Router = Backbone.Router.extend({
 		'projects': 'projects',
 		'publications': 'publications',
 		'contact': 'contact',
+		'invite': 'invitation',
 	},
 
 	home: function(){
@@ -51,6 +52,13 @@ var Router = Backbone.Router.extend({
 			$("#contact").addClass('active');
 		});
 	},
+
+	invitation: function(){
+		$("nav").hide();
+		$(this.el).load("invitation.html", function() {
+			//
+		})
+	}
 
 });
 

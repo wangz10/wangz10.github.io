@@ -19,9 +19,14 @@ body:after {
 }
 
 .carousel {
-	width: 700px; 
+	width: 60%; 
 	margin: 0 auto;
-	display: none;
+	/*display: none;*/
+}
+@media (max-width:768px) { 
+	.carousel {
+		width: 100%;
+	}
 }
 
 .btn-info {
@@ -51,7 +56,7 @@ span.name {
 </style>
 
 <div class="row">
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -114,10 +119,8 @@ span.name {
 
 <script type="text/javascript">
 $(document).ready(function(){
-	$(".carousel").fadeIn(1000, function(){
-		$(".bottom-right").fadeIn(1000);
-		$(".letter").fadeIn(1000);		
-	});
+	$(".bottom-right").fadeIn(2000);
+	$(".letter").fadeIn(2000);		
 })
 
 </script>

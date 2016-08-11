@@ -115,7 +115,7 @@ var Publications = Backbone.Collection.extend({
 		var self = this;
 		this.each(function(model){
 			var texts = [model.get('title'), model.get('abstract')].join(' ');
-			var weight = Math.pow(1/model.get('myRank'), 2);
+			var weight = 1/model.get('myRank');
 			var list = self.wordfreq.process(texts)
 			// multiply weight
 			list = _.map(list, function(item){ return [item[0], item[1]*weight]; })
@@ -177,7 +177,7 @@ var PubsWordCloudView = Backbone.View.extend({
 	// WordCloud view of Publications
 	tagName: 'div',
 	defaults: {
-		weightFactor: 4,
+		weightFactor: 0.7,
 		canvasId: 'wc',
 	},
 

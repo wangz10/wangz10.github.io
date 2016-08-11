@@ -1,5 +1,24 @@
 [
     {
+        "abstract": "RNA-seq analysis is becoming a standard method for global gene expression profiling. However, open and standard pipelines to perform RNA-seq analysis by non-experts remain challenging due to the large size of the raw data files and the hardware requirements for running the alignment step. Here we introduce a reproducible open source RNA-seq pipeline delivered as an IPython notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression. We apply the pipeline to a recently published RNA-seq dataset collected from human neuronal progenitors infected with the Zika virus (ZIKV). In addition to confirming the presence of cell cycle genes among the genes that are downregulated by ZIKV, our analysis uncovers significant overlap with upregulated genes that when knocked out in mice induce defects in brain morphology. This result potentially points to the molecular processes associated with the microcephaly phenotype observed in newborns from pregnant mothers infected with the virus. In addition, our analysis predicts small molecules that can either mimic or reverse the expression changes induced by ZIKV. The IPython notebook and Docker image are freely available at: http://nbviewer.jupyter.org/github/maayanlab/Zika-RNAseq-Pipeline/blob/master/Zika.ipynb and https://hub.docker.com/r/maayanlab/zika/.", 
+        "accession-num": "10.12688/f1000research.9110.1", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2016", 
+        "doi": "10.12688/f1000research.9110.1", 
+        "electronic-resource-num": "10.12688/f1000research.9110.1", 
+        "number": "1574", 
+        "periodical": "F1000Research", 
+        "titles": {
+            "secondary-title": "F1000Research", 
+            "title": "An open RNA-Seq data analysis pipeline tutorial with an example of reprocessing data from a recent Zika virus study [version 1; referees: 2 approved]"
+        }, 
+        "urls": "http://f1000r.es/7kc", 
+        "volume": "5"
+    }, 
+    {
         "abstract": "Motivation: Adverse drug reactions (ADRs) are a central consideration during drug development. Here we present a machine learning classifier to prioritize ADRs for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. The GE data is from the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs. Using various benchmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. Moreover, transforming GE features to enrichment vectors of biological terms further improves the predictive capability of the classifiers. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all \u2009>20 000 small-molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections.Availability and Implementation: The interface for the adverse event predictions for the \u2009>20 000 LINCS compounds is available at http://maayanlab.net/SEP-L1000/.Contact: avi.maayan@mssm.eduSupplementary information: Supplementary data are available at Bioinformatics online.", 
         "contributors": [
             "Wang, Zichen", 
@@ -18,6 +37,31 @@
             "title": "Drug-induced adverse events prediction with the LINCS L1000 data"
         }, 
         "urls": "http://bioinformatics.oxfordjournals.org/content/early/2016/04/20/bioinformatics.btw168.abstract"
+    }, 
+    {
+        "abstract": "Genomics, epigenomics, transcriptomics, proteomics and metabolomics efforts rapidly generate a plethora of data on the activity and levels of biomolecules within mammalian cells. At the same time, curation projects that organize knowledge from the biomedical literature into online databases are expanding. Hence, there is a wealth of information about genes, proteins and their associations, with an urgent need for data integration to achieve better knowledge extraction and data reuse. For this purpose, we developed the Harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins from over 70 major online resources. We extracted, abstracted and organized data into \u223c72 million functional associations between genes/proteins and their attributes. Such attributes could be physical relationships with other biomolecules, expression in cell lines and tissues, genetic associations with knockout mouse or human phenotypes, or changes in expression after drug treatment. We stored these associations in a relational database along with rich metadata for the genes/proteins, their attributes and the original resources. The freely available Harmonizome web portal provides a graphical user interface, a web service and a mobile app for querying, browsing and downloading all of the collected data. To demonstrate the utility of the Harmonizome, we computed and visualized gene\u2013gene and attribute\u2013attribute similarity networks, and through unsupervised clustering, identified many unexpected relationships by combining pairs of datasets such as the association between kinase perturbations and disease signatures. We also applied supervised machine learning methods to predict novel substrates for kinases, endogenous ligands for G-protein coupled receptors, mouse phenotypes for knockout genes, and classified unannotated transmembrane proteins for likelihood of being ion channels. The Harmonizome is a comprehensive resource of knowledge about genes and proteins, and as such, it enables researchers to discover novel relationships between biological entities, as well as form novel data-driven hypotheses for experimental validation.Database URL: http://amp.pharm.mssm.edu/Harmonizome.", 
+        "contributors": [
+            "Rouillard, Andrew D.", 
+            "Gundersen, Gregory W.", 
+            "Fernandez, Nicolas F.", 
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "McDermott, Michael G.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "January 1, 2016", 
+            "year": "2016"
+        }, 
+        "doi": "10.1093/database/baw100", 
+        "electronic-resource-num": "10.1093/database/baw100", 
+        "periodical": "Database", 
+        "titles": {
+            "secondary-title": "Database", 
+            "title": "The harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins"
+        }, 
+        "urls": "http://database.oxfordjournals.org/content/2016/baw100.abstract", 
+        "volume": "2016"
     }, 
     {
         "abstract": "The hair follicle (HF) is a complex miniorgan that serves as an ideal model system to study stem cell (SC) interactions with the niche during growth and regeneration. Dermal papilla (DP) cells are required for SC activation during the adult hair cycle, but signal exchange between niche and SC precursors/transit-amplifying cell (TAC) progenitors that regulates HF morphogenetic growth is largely unknown. Here we use six transgenic reporters to isolate 14 major skin and HF cell populations. With next-generation RNA sequencing, we characterize their transcriptomes and define unique molecular signatures. SC precursors, TACs, and the DP niche express a\u00a0plethora of ligands and receptors. Signaling interaction network analysis reveals a bird?s-eye view of\u00a0pathways implicated in epithelial-mesenchymal\u00a0interactions. Using a systematic tissue-wide approach, this work provides a comprehensive platform, linked to an interactive online database, to identify and further explore the SC/TAC/niche crosstalk regulating HF growth.", 
@@ -155,6 +199,43 @@
             "http://europepmc.org/abstract/MED/26863628", 
             "http://dx.doi.org/10.18632/oncotarget.7115"
         ]
+    }, 
+    {
+        "abstract": "The library of integrated network-based cellular signatures (LINCS) L1000 data set currently comprises of over a million gene expression profiles of chemically perturbed human cell lines. Through unique several intrinsic and extrinsic benchmarking schemes, we demonstrate that processing the L1000 data with the characteristic direction (CD) method significantly improves signal to noise compared with the MODZ method currently used to compute L1000 signatures. The CD processed L1000 signatures are served through a state-of-the-art web-based search engine application called L1000CDS2. The L1000CDS2 search engine provides prioritization of thousands of small-molecule signatures, and their pairwise combinations, predicted to either mimic or reverse an input gene expression signature using two methods. The L1000CDS2 search engine also predicts drug targets for all the small molecules profiled by the L1000 assay that we processed. Targets are predicted by computing the cosine similarity between the L1000 small-molecule signatures and a large collection of signatures extracted from the gene expression omnibus (GEO) for single-gene perturbations in mammalian cells. We applied L1000CDS2 to prioritize small molecules that are predicted to reverse expression in 670 disease signatures also extracted from GEO, and prioritized small molecules that can mimic expression of 22 endogenous ligand signatures profiled by the L1000 assay. As a case study, to further demonstrate the utility of L1000CDS2, we collected expression signatures from human cells infected with Ebola virus at 30, 60 and 120\u2009min. Querying these signatures with L1000CDS2 we identified kenpaullone, a GSK3B/CDK2 inhibitor that we show, in subsequent experiments, has a dose-dependent efficacy in inhibiting Ebola infection in vitro without causing cellular toxicity in human cell lines. In summary, the L1000CDS2 tool can be applied in many biological and biomedical settings, while improving the extraction of knowledge from the LINCS L1000 resource.", 
+        "contributors": [
+            "Duan, Qiaonan", 
+            "Reid, St Patrick", 
+            "Clark, Neil R.", 
+            "Wang, Zichen", 
+            "Fernandez, Nicolas F.", 
+            "Rouillard, Andrew D.", 
+            "Readhead, Ben", 
+            "Tritsch, Sarah R.", 
+            "Hodos, Rachel", 
+            "Hafner, Marc", 
+            "Niepel, Mario", 
+            "Sorger, Peter K.", 
+            "Dudley, Joel T.", 
+            "Bavari, Sina", 
+            "Panchal, Rekha G.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "08/04/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information", 
+        "electronic-resource-num": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information", 
+        "pages": "16015", 
+        "periodical": "npj Systems Biology and Applications", 
+        "publisher": "Published in partnership with the Systems Biology Institute", 
+        "titles": {
+            "secondary-title": "Npj Systems Biology And Applications", 
+            "title": "L1000CDS2: LINCS L1000 characteristic direction signatures search engine"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/npjsba.2016.15", 
+        "volume": "2", 
+        "work-type": "Article"
     }, 
     {
         "abstract": "Summary The H3 histone variant CENP-A is an epigenetic marker critical for the centromere identity and function. However, the precise regulation of the spatiotemporal deposition and propagation of CENP-A at centromeres during the cell cycle is still poorly understood. Here, we show that CENP-A is phosphorylated at Ser68 during early mitosis by Cdk1. Our results demonstrate that phosphorylation of Ser68 eliminates the binding of CENP-A to the assembly factor HJURP, thus preventing the premature loading of CENP-A to the centromere prior to mitotic exit. Because Cdk1 activity is at its minimum at the mitotic exit, the ratio of Cdk1/PP1\u03b1 activity changes in favor of Ser68 dephosphorylation, thus making CENP-A available for centromeric deposition by HJURP. Thus, we reveal that dynamic phosphorylation of CENP-A Ser68 orchestrates the spatiotemporal assembly of newly synthesized CENP-A at active centromeres during the cell cycle.", 

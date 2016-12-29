@@ -1,5 +1,74 @@
 [
     {
+        "contributors": [
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "Jagodnik, Kathleen M.", 
+            "Fernandez, Nicolas F.", 
+            "Gundersen, Gregory W.", 
+            "Rouillard, Andrew D.", 
+            "Jenkins, Sherry L.", 
+            "Feldmann, Axel S.", 
+            "Hu, Kevin S.", 
+            "McDermott, Michael G.", 
+            "Duan, Qiaonan", 
+            "Clark, Neil R.", 
+            "Jones, Matthew R.", 
+            "Kou, Yan", 
+            "Goff, Troy", 
+            "Woodland, Holly", 
+            "Amaral, Fabio M. R.", 
+            "Szeto, Gregory L.", 
+            "Fuchs, Oliver", 
+            "Sch\u00fcssler-Fiorenza Rose, Sophia M.", 
+            "Sharma, Shvetank", 
+            "Schwartz, Uwe", 
+            "Bausela, Xabier Bengoetxea", 
+            "Szymkiewicz, Maciej", 
+            "Maroulis, Vasileios", 
+            "Salykin, Anton", 
+            "Barra, Carolina M.", 
+            "Kruth, Candice D.", 
+            "Bongio, Nicholas J.", 
+            "Mathur, Vaibhav", 
+            "Todoric, Radmila D.", 
+            "Rubin, Udi E.", 
+            "Malatras, Apostolos", 
+            "Fulp, Carl T.", 
+            "Galindo, John A.", 
+            "Motiejunaite, Ruta", 
+            "J\u00fcschke, Christoph", 
+            "Dishuck, Philip C.", 
+            "Lahl, Katharina", 
+            "Jafari, Mohieddin", 
+            "Aibar, Sara", 
+            "Zaravinos, Apostolos", 
+            "Steenhuizen, Linda H.", 
+            "Allison, Lindsey R.", 
+            "Gamallo, Pablo", 
+            "de Andres Segura, Fernando", 
+            "Dae Devlin, Tyler", 
+            "P\u00e9rez-Garc\u00eda, Vicente", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "09/26/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information", 
+        "electronic-resource-num": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information", 
+        "pages": "12846", 
+        "periodical": "Nature Communications", 
+        "publisher": "The Author(s)", 
+        "titles": {
+            "secondary-title": "Nature Communications", 
+            "title": "Extraction and analysis of signatures from the Gene Expression Omnibus by the crowd"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/ncomms12846", 
+        "volume": "7", 
+        "work-type": "Article"
+    }, 
+    {
         "abstract": "RNA-seq analysis is becoming a standard method for global gene expression profiling. However, open and standard pipelines to perform RNA-seq analysis by non-experts remain challenging due to the large size of the raw data files and the hardware requirements for running the alignment step. Here we introduce a reproducible open source RNA-seq pipeline delivered as an IPython notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression. We apply the pipeline to a recently published RNA-seq dataset collected from human neuronal progenitors infected with the Zika virus (ZIKV). In addition to confirming the presence of cell cycle genes among the genes that are downregulated by ZIKV, our analysis uncovers significant overlap with upregulated genes that when knocked out in mice induce defects in brain morphology. This result potentially points to the molecular processes associated with the microcephaly phenotype observed in newborns from pregnant mothers infected with the virus. In addition, our analysis predicts small molecules that can either mimic or reverse the expression changes induced by ZIKV. The IPython notebook and Docker image are freely available at: http://nbviewer.jupyter.org/github/maayanlab/Zika-RNAseq-Pipeline/blob/master/Zika.ipynb and https://hub.docker.com/r/maayanlab/zika/.", 
         "accession-num": "10.12688/f1000research.9110.1", 
         "contributors": [
@@ -13,7 +82,7 @@
         "periodical": "F1000Research", 
         "titles": {
             "secondary-title": "F1000Research", 
-            "title": "An open RNA-Seq data analysis pipeline tutorial with an example of reprocessing data from a recent Zika virus study [version 1; referees: 2 approved]"
+            "title": "An open RNA-Seq data analysis pipeline tutorial with an example of reprocessing data from a recent Zika virus study [version 1; referees: 3 approved]"
         }, 
         "urls": "http://f1000r.es/7kc", 
         "volume": "5"
@@ -26,17 +95,54 @@
             "Ma\u2019ayan, Avi"
         ], 
         "dates": {
-            "pub-dates": "April 1, 2016", 
+            "pub-dates": "August 1, 2016", 
             "year": "2016"
         }, 
         "doi": "10.1093/bioinformatics/btw168", 
         "electronic-resource-num": "10.1093/bioinformatics/btw168", 
+        "number": "15", 
+        "pages": "2338-2345", 
         "periodical": "Bioinformatics", 
         "titles": {
             "secondary-title": "Bioinformatics", 
             "title": "Drug-induced adverse events prediction with the LINCS L1000 data"
         }, 
-        "urls": "http://bioinformatics.oxfordjournals.org/content/early/2016/04/20/bioinformatics.btw168.abstract"
+        "urls": "http://bioinformatics.oxfordjournals.org/content/32/15/2338.abstract", 
+        "volume": "32"
+    }, 
+    {
+        "abstract": "Normal brain function depends on the interaction between highly specialized neurons that operate within anatomically and functionally distinct brain regions. Neuronal specification is driven by transcriptional programs that are established during early neuronal development and remain in place in the adult brain. The fidelity of neuronal specification depends on the robustness of the transcriptional program that supports the neuron type-specific gene expression patterns. Here we show that polycomb repressive complex 2 (PRC2), which supports neuron specification during differentiation, contributes to the suppression of a transcriptional program that is detrimental to adult neuron function and survival. We show that PRC2 deficiency in striatal neurons leads to the de-repression of selected, predominantly bivalent PRC2 target genes that are dominated by self-regulating transcription factors normally suppressed in these neurons. The transcriptional changes in PRC2-deficient neurons lead to progressive and fatal neurodegeneration in mice. Our results point to a key role of PRC2 in protecting neurons against degeneration.", 
+        "contributors": [
+            "von Schimmelmann, Melanie", 
+            "Feinberg, Philip A.", 
+            "Sullivan, Josefa M.", 
+            "Ku, Stacy M.", 
+            "Badimon, Ana", 
+            "Duff, Mary Kaye", 
+            "Wang, Zichen", 
+            "Lachmann, Alexander", 
+            "Dewell, Scott", 
+            "Ma'ayan, Avi", 
+            "Han, Ming-Hu", 
+            "Tarakhovsky, Alexander", 
+            "Schaefer, Anne"
+        ], 
+        "dates": {
+            "pub-dates": "08/15/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information", 
+        "electronic-resource-num": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information", 
+        "isbn": "1546-1726", 
+        "periodical": "Nat Neurosci", 
+        "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.", 
+        "titles": {
+            "secondary-title": "Nat Neurosci", 
+            "title": "Polycomb repressive complex 2 (PRC2) silences genes responsible for neurodegeneration"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/nn.4360", 
+        "volume": "advance online publication", 
+        "work-type": "Article"
     }, 
     {
         "abstract": "Genomics, epigenomics, transcriptomics, proteomics and metabolomics efforts rapidly generate a plethora of data on the activity and levels of biomolecules within mammalian cells. At the same time, curation projects that organize knowledge from the biomedical literature into online databases are expanding. Hence, there is a wealth of information about genes, proteins and their associations, with an urgent need for data integration to achieve better knowledge extraction and data reuse. For this purpose, we developed the Harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins from over 70 major online resources. We extracted, abstracted and organized data into \u223c72 million functional associations between genes/proteins and their attributes. Such attributes could be physical relationships with other biomolecules, expression in cell lines and tissues, genetic associations with knockout mouse or human phenotypes, or changes in expression after drug treatment. We stored these associations in a relational database along with rich metadata for the genes/proteins, their attributes and the original resources. The freely available Harmonizome web portal provides a graphical user interface, a web service and a mobile app for querying, browsing and downloading all of the collected data. To demonstrate the utility of the Harmonizome, we computed and visualized gene\u2013gene and attribute\u2013attribute similarity networks, and through unsupervised clustering, identified many unexpected relationships by combining pairs of datasets such as the association between kinase perturbations and disease signatures. We also applied supervised machine learning methods to predict novel substrates for kinases, endogenous ligands for G-protein coupled receptors, mouse phenotypes for knockout genes, and classified unannotated transmembrane proteins for likelihood of being ion channels. The Harmonizome is a comprehensive resource of knowledge about genes and proteins, and as such, it enables researchers to discover novel relationships between biological entities, as well as form novel data-driven hypotheses for experimental validation.Database URL: http://amp.pharm.mssm.edu/Harmonizome.", 
@@ -94,6 +200,46 @@
         }, 
         "urls": "http://dx.doi.org/10.1016/j.celrep.2016.02.078", 
         "volume": "14"
+    }, 
+    {
+        "abstract": "Adult women are twice as likely as men to suffer from affective and anxiety disorders, although the mechanisms underlying heightened female stress susceptibility are incompletely understood. Recent findings in mouse Nucleus Accumbens (NAc) suggest a role for DNA methylation-driven sex differences in genome-wide transcriptional profiles. However, the role of another epigenetic process\u2014microRNA (miR) regulation\u2014has yet to be explored. We exposed male and female mice to Subchronic Variable Stress (SCVS), a stress paradigm that produces depression-like behavior in female, but not male, mice, and performed next generation mRNA and miR sequencing on NAc tissue. We applied a combination of differential expression, miR-mRNA network and functional enrichment analyses to characterize the transcriptional and post-transcriptional landscape of sex differences in NAc stress response. We find that male and female mice exhibit largely non-overlapping miR and mRNA profiles following SCVS. The two sexes also show enrichment of different molecular pathways and functions. Collectively, our results suggest that males and females mount fundamentally different transcriptional and post-transcriptional responses to SCVS and engage sex-specific molecular processes following stress. These findings have implications for the pathophysiology and treatment of stress-related disorders in women.", 
+        "auth-address": "Scott J. Russo,Fishberg Department of Neuroscience and Friedman Brain Institute, Icahn School of Medicine at Mount Sinai,New York, NY, USA,scott.russo@mssm.edu", 
+        "contributors": [
+            "Pfau, Madeline L.", 
+            "Purushothaman, Immanuel", 
+            "Feng, Jian", 
+            "Golden, Sam A.", 
+            "Aleyasin, Hossein", 
+            "Lorsch, Zachary S.", 
+            "Cates, Hannah M.", 
+            "Flanigan, Meghan E.", 
+            "Menard, Caroline", 
+            "Heshmati, Mitra", 
+            "Wang, Zichen", 
+            "Ma'ayan, Avi", 
+            "Shen, Li", 
+            "Hodes, Georgia E.", 
+            "Russo, Scott J."
+        ], 
+        "dates": {
+            "pub-dates": "2016-December-23", 
+            "year": "2016"
+        }, 
+        "doi": "10.3389/fnmol.2016.00144", 
+        "electronic-resource-num": "10.3389/fnmol.2016.00144", 
+        "isbn": "1662-5099", 
+        "keywords": "Depression,Stress, Psychological,sex differences,RNA-Seq,microRNA,Nucleus Accumbens", 
+        "language": "English", 
+        "number": "144", 
+        "periodical": "Frontiers in Molecular Neuroscience", 
+        "titles": {
+            "secondary-title": "Frontiers in Molecular Neuroscience", 
+            "short-title": "Sex differences in stress-induced microRNA networks", 
+            "title": "Integrative Analysis of Sex-Specific microRNA Networks Following Stress in Mouse Nucleus Accumbens"
+        }, 
+        "urls": "http://journal.frontiersin.org/article/10.3389/fnmol.2016.00144", 
+        "volume": "9", 
+        "work-type": "Original Research"
     }, 
     {
         "abstract": "The glucocorticoid receptor (GR), a nuclear receptor and major drug target, has a highly conserved minor splice variant, GR\u03b3, which differs by a single arginine within the DNA binding domain. GR\u03b3, which comprises 10% of all GR transcripts, is constitutively expressed and tightly conserved through mammalian evolution, suggesting an important non-redundant role. However, to date no specific role for GR\u03b3 has been reported. We discovered significant differences in subcellular localisation, and nuclear-cytoplasmic shuttling in response to ligand. In addition the GR\u03b3 transcriptome and protein interactome was distinct, and with a gene ontology signal for mitochondrial regulation which was confirmed using Seahorse technology. We propose that evolutionary conservation of the single additional arginine in GR\u03b3 is driven by a distinct, non-redundant functional profile, including regulation of mitochondrial function.", 

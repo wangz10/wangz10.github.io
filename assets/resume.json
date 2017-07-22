@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Zichen Wang",
-    "label": "PhD candidate/Bioinformatician/Data Scientist",
+    "name": "Zichen Wang, PhD",
+    "label": "Assistant Professor",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhyAAAAJDRhNTc1ZTM0LTE4ZTktNGE4Yi1hYTk4LWZiM2U0ZTYxMzNiOQ.jpg",
     "email": "zichen.wang@mssm.edu",
     "phone": "(917) 826-8235",
-    "website": "http://wangz10.github.io/",
-    "summary": "Zichen Wang is a PhD candidate in biomedical informatics, with intensive experiences in systems pharmacology, transcriptomics and sequencing data analysis. I have also been actively applying machine learning methods in my research. I am also interested and experienced in interactive data visualization and web development.",
+    "website": "http://www.mountsinai.org/profiles/zichen-wang",
+    "summary": "Zichen Wang is an Assistant Professor biomedical informatics, with intensive experiences in systems pharmacology, transcriptomics and sequencing data analysis. I have also been actively applying machine learning methods in my research. I am also interested and experienced in interactive data visualization and web development.",
     "location": {
       "address": "1468 Madison Ave. Rm 19-50",
       "postalCode": "NY 10029",
@@ -49,11 +49,29 @@
   },
   "work": [
     {
+      "company": "Icahn School of Medicine at Mount Sinai",
+      "position": "Assistant Professor",
+      "website": "http://www.mountsinai.org/profiles/zichen-wang",
+      "startDate": "2017-04-01",
+      "endDate": "2023-04-01",
+      "summary": "Conduct research in Bioinformatics and Computational Systems Biology.",
+      "highlights": []
+    },
+    {
       "company": "Ma'ayan lab at Icahn School of Medicine at Mount Sinai",
-      "position": "PhD student",
+      "position": "Postdoctoral Fellow",
+      "website": "http://icahn.mssm.edu/research/labs/maayan-laboratory",
+      "startDate": "2017-01-01",
+      "endDate": "2017-04-01",
+      "summary": "Developed a Machine Learning model leveraging clinical variables from the EMR to study physiological aging.",
+      "highlights": []
+    },
+    {
+      "company": "Ma'ayan lab at Icahn School of Medicine at Mount Sinai",
+      "position": "PhD Student",
       "website": "http://icahn.mssm.edu/research/labs/maayan-laboratory",
       "startDate": "2013-06-01",
-      "endDate": "2017-03-01",
+      "endDate": "2017-11-01",
       "summary": "The Ma'ayan Laboratory develops computational and mathematical methods to study the complexity of regulatory networks in mammalian cells.",
       "highlights": [
         "Proved the existence of research focus bias by modeling the longitudinal discovery process of protein-protein interaction network from low-content studies.",
@@ -80,7 +98,7 @@
       "area": "Biomedical Science, Genetic and Genomic Sciences",
       "studyType": "Doctor of Philosophy (PhD)",
       "startDate": "2012-08-15",
-      "endDate": "2017-03-01",
+      "endDate": "2017-01-01",
       "gpa": "",
       "courses": [
         "Biostatistics",

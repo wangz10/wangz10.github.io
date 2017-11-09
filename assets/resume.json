@@ -6,7 +6,7 @@
     "email": "zichen.wang@mssm.edu",
     "phone": "(917) 826-8235",
     "website": "http://www.mountsinai.org/profiles/zichen-wang",
-    "summary": "Zichen Wang is an Assistant Professor biomedical informatics, with intensive experiences in systems pharmacology, transcriptomics and sequencing data analysis. I have also been actively applying machine learning methods in my research. I am also interested and experienced in interactive data visualization and web development.",
+    "summary": "I am an Assistant Professor in biomedical informatics, with intensive experiences in bioinformatics, systems pharmacology, transcriptomics and next-gen sequencing data analysis. I have also been actively applying machine learning methods in my research. I am also interested and experienced in interactive data visualization and web development.",
     "location": {
       "address": "1468 Madison Ave. Rm 19-50",
       "postalCode": "NY 10029",
@@ -120,6 +120,27 @@
   "awards": [],
   "publications": [
     {
+      "name": "Predicting age by mining electronic medical records with deep learning characterizes differences between chronological and physiological age",
+      "publisher": "Journal of Biomedical Informatics",
+      "releaseDate": "2017-11-04",
+      "website": "https://www.sciencedirect.com/science/article/pii/S153204641730240X",
+      "summary": "Determining the discrepancy between chronological and physiological age of patients is central to preventative and personalized care. Electronic medical records (EMR) provide rich information about the patient physiological state, but it is unclear whether such information can be predictive of chronological age. Here we present a deep learning model that uses vital signs and lab tests contained within the EMR of Mount Sinai Health System (MSHS) to predict chronological age. The model is trained on 377,686 EMR from patients of ages 18–85 years old. The discrepancy between the predicted and real chronological age is then used as a proxy to estimate physiological age. Overall, the model can predict the chronological age of patients with a standard deviation error of ∼7 years. The ages of the youngest and oldest patients were more accurately predicted, while patients of ages ranging between 40 and 60 years were the least accurately predicted. Patients with the largest discrepancy between their physiological and chronological age were further inspected. The patients predicted to be significantly older than their chronological age have higher systolic blood pressure, higher cholesterol, damaged liver, and anemia. In contrast, patients predicted to be younger than their chronological age have lower blood pressure and shorter stature among other indicators; both groups display lower weight than the population average. Using information from ∼10,000 patients from the entire cohort who have been also profiled with SNP arrays, genome-wide association study (GWAS) uncovers several novel genetic variants associated with aging. In particular, significant variants were mapped to genes known to be associated with inflammation, hypertension, lipid metabolism, height, and increased lifespan in mice. Several genes with missense mutations were identified as novel candidate aging genes. In conclusion, we demonstrate how EMR data can be used to assess overall health via a scale that is based on deviation from the patient’s predicted chronological age."
+    },
+    {
+      "name": "Extraction and analysis of signatures from the Gene Expression Omnibus by the crowd",
+      "publisher": "Nature Communications",
+      "releaseDate": "2016-09-26",
+      "website": "https://www.nature.com/articles/ncomms12846",
+      "summary": "Gene expression data are accumulating exponentially in public repositories. Reanalysis and integration of themed collections from these studies may provide new insights, but requires further human curation. Here we report a crowdsourcing project to annotate and reanalyse a large number of gene expression profiles from Gene Expression Omnibus (GEO). Through a massive open online course on Coursera, over 70 participants from over 25 countries identify and annotate 2,460 single-gene perturbation signatures, 839 disease versus normal signatures, and 906 drug perturbation signatures. All these signatures are unique and are manually validated for quality. Global analysis of these signatures confirms known associations and identifies novel associations between genes, diseases and drugs. The manually curated signatures are used as a training set to develop classifiers for extracting similar signatures from the entire GEO repository. We develop a web portal to serve these signatures for query, download and visualization."
+    },
+    {
+      "name": "An open RNA-Seq data analysis pipeline tutorial with an example of reprocessing data from a recent Zika virus study",
+      "publisher": "F1000Research",
+      "releaseDate": "2016-07-05",
+      "website": "https://f1000research.com/articles/5-1574/v1",
+      "summary": "RNA-seq analysis is becoming a standard method for global gene expression profiling. However, open and standard pipelines to perform RNA-seq analysis by non-experts remain challenging due to the large size of the raw data files and the hardware requirements for running the alignment step. Here we introduce a reproducible open source RNA-seq pipeline delivered as an IPython notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression. We apply the pipeline to a recently published RNA-seq dataset collected from human neuronal progenitors infected with the Zika virus (ZIKV). In addition to confirming the presence of cell cycle genes among the genes that are downregulated by ZIKV, our analysis uncovers significant overlap with upregulated genes that when knocked out in mice induce defects in brain morphology. This result potentially points to the molecular processes associated with the microcephaly phenotype observed in newborns from pregnant mothers infected with the virus. In addition, our analysis predicts small molecules that can either mimic or reverse the expression changes induced by ZIKV. The IPython notebook and Docker image are freely available at: http://nbviewer.jupyter.org/github/maayanlab/Zika-RNAseq-Pipeline/blob/master/Zika.ipynb and https://hub.docker.com/r/maayanlab/zika/."
+    },
+    {
       "name": "Drug Induced Adverse Events Prediction with the LINCS L1000 Data",
       "publisher": "Bioinformatics",
       "releaseDate": "2016-04-01",
@@ -139,13 +160,6 @@
       "releaseDate": "2014-09-30",
       "website": "http://www.sciencedirect.com/science/article/pii/S0165614714001126",
       "summary": "Many relevant resources from systems biology and pharmacology can be combined into a general map. Data from the resources can be converted into networks, gene-set libraries, and bipartite graphs. Indirect relationships (e.g., matching drugs to patients) can be identified by data integration. Combining independent sources can be used to validate computational and experimental methods. Predictions can be improved when two independent networks are used to predict a third network."
-    },
-    {
-      "name": "Drug/Cell-line Browser: interactive canvas visualization of cancer drug/cell-line viability assay datasets",
-      "publisher": "Bioinformatics",
-      "releaseDate": "2014-08-06",
-      "website": "http://bioinformatics.oxfordjournals.org/content/30/22/3289",
-      "summary": "Recently, several high profile studies collected cell viability data from panels of cancer cell lines treated with many drugs applied at different concentrations. Such drug sensitivity data for cancer cell lines provide suggestive treatments for different types and subtypes of cancer. Visualization of these datasets can reveal patterns that may not be obvious by examining the data without such efforts. Here we introduce Drug/Cell-line Browser (DCB), an online interactive HTML5 data visualization tool for interacting with three of the recently published datasets of cancer cell lines/drug-viability studies. DCB uses clustering and canvas visualization of the drugs and the cell lines, as well as a bar graph that summarizes drug effectiveness for the tissue of origin or the cancer subtypes for single or multiple drugs. DCB can help in understanding drug response patterns and prioritizing drug/cancer cell line interactions by tissue of origin or cancer subtype."
     }
   ],
   "skills": [
@@ -153,13 +167,13 @@
       "name": "Data Science",
       "level": "Master",
       "keywords": [
-        "Data wrangling",
         "Exploratory analysis",
         "Classification",
         "Clustering",
         "Regression",
         "Interactive data visualization",
-        "Natural Language Processing"
+        "Natural Language Processing",
+        "Deep Learning"
       ]
     },
     {
@@ -173,13 +187,18 @@
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Software Development",
       "level": "master",
       "keywords": [
         "Flask",
         "Shiny",
+        "MongoDB",
+        "Docker",
+        "Apache Mesos",        
         "Bootstrap",
-        "Backbone.js"
+        "Backbone.js",
+        "d3.js",
+        "THREE.js"
       ]
     },
     {
@@ -191,6 +210,7 @@
         "Javascript",
         "SQL",
         "Bash",
+        "PHP",
         "MATLAB",
         "HTML",
         "CSS"

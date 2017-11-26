@@ -22,7 +22,7 @@ var Publication = Backbone.Model.extend({
 	parse: function(obj){
 		parsedObj = {};
 		parsedObj.title = obj.titles.title;
-		parsedObj.doi = obj.doi;
+		parsedObj.doi = obj.doi.replace('https://doi.org/', '');
 		parsedObj.authors = _.map(obj.contributors, function(name){
 			var firstName = name.split(', ')[1],
 				lastName = name.split(', ')[0]; 

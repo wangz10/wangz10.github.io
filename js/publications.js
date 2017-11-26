@@ -81,7 +81,7 @@ var Publications = Backbone.Collection.extend({
 
 		// load stopWords
 		var self = this;
-		$.getJSON('assets/stop_words.json', function(stopWords){
+		$.getJSON('assets/stopwords.json', function(stopWords){
 			self.wordfreqOptions.stopWords = stopWords;
 		})
 		// count tokens when fetch is called
@@ -188,8 +188,8 @@ var PubsWordCloudView = Backbone.View.extend({
 		//override view's el property
 		this.selector = "#" + this.canvasId;
 		this.$el = $(this.selector)
-		// 
-		this.collection.fetch()
+		// don't need to fetch because collection was fetched in PubsView
+		// this.collection.fetch()
 
 		var self = this;
 
@@ -223,7 +223,7 @@ var PubsWordCloudView = Backbone.View.extend({
 		var self = this;
 		// a hacky way to get around the "bug" in wordcloud2
 		var w = $("#wordcloud").width(),
-			h = w;
+			h = w * 1.618;
 
 		var canvas = $('<canvas>').attr('width', w+'px').attr('height', h+'px');
 

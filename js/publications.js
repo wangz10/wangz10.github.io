@@ -23,13 +23,17 @@ var Publication = Backbone.Model.extend({
 		parsedObj = {};
 		parsedObj.title = obj.titles.title;
 		parsedObj.doi = obj.doi;
-		parsedObj.authors = obj.contributors;
+		parsedObj.authors = _.map(obj.contributors, function(name){
+			var firstName = name.split(', ')[1],
+				lastName = name.split(', ')[0]; 
+			return firstName + ' ' + lastName;
+		});
 		parsedObj.abstract = obj.abstract;
 
 		// I am the n-th author
-		var myRank = parsedObj.authors.indexOf('Wang, Zichen') + 1;
+		var myRank = parsedObj.authors.indexOf('Zichen Wang') + 1;
 		if (myRank === 0){
-			myRank = parsedObj.authors.indexOf('Wang, Zi-Chen') + 1;
+			myRank = parsedObj.authors.indexOf('Zi-Chen Wang') + 1;
 		}
 		parsedObj.myRank = myRank;
 

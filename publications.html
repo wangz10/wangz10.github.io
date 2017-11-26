@@ -41,8 +41,8 @@
 	<a class="title" href="<%= 'http://dx.doi.org/' + doi %>" target="_blank"><%= title %></a>
 	<p class="authors">
 	<% _.each(authors, function(a, i) { %> 
-		<% if(a === 'Wang, Zichen' || a === 'Wang, Zi-Chen') %>	
-			<span><strong><%= a %> </strong></span>
+		<% if(a === 'Zichen Wang' || a === 'Zi-Chen Wang') %>	
+			<span><strong><%= a %></strong></span>
 		<% else %>
 			<span><%= a %></span>
 		<% if(i !== authors.length - 1) %>

@@ -181,7 +181,7 @@ var PubsWordCloudView = Backbone.View.extend({
 	// WordCloud view of Publications
 	tagName: 'div',
 	defaults: {
-		weightFactor: 0.7,
+		weightFactor: 0.5,
 		canvasId: 'wc',
 	},
 

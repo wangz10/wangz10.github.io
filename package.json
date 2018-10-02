@@ -1,0 +1,32 @@
+{
+  "name": "wangz10.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangz10/wangz10.github.io.git"
+  },
+  "author": "Zichen Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangz10/wangz10.github.io/issues"
+  },
+  "homepage": "https://github.com/wangz10/wangz10.github.io#readme",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "bootstrap": "^4.1.3",
+    "d3": "^3.5.16",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "underscore": "^1.8.3",
+    "wordcloud": "^1.1.0",
+    "wordfreq": "0.1.0-dev"
+  }
+}

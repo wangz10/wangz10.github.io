@@ -9,7 +9,3 @@
 .journal{
 	font-style: italic;
 }
-
-ol > li {
-	display: none;
-}

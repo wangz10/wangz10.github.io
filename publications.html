@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-md-12">
+	<div class="col">
 		<h3>Publications</h3>
 		<p>
 			Here is a list of my (published) research articles. Main approaches employed in my own projects include data mining, machine learning classification, network analysis, and multivariate statistics applied in the field of systems biology and pharmacology. I also developed web applications for my own and collaborative projects. 
@@ -18,18 +18,18 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-md-6">
-		<button type="button" class="btn btn-primary-outline btn-sm" id="sort-btn" sort-key="myRank">Sort by my rank</button>
+	<div class="col">
+		<button type="button" class="btn btn-outline-primary btn-sm" id="sort-btn" sort-key="myRank">Sort by my rank</button>
 		<div id="pubView"></div>
 	</div>
-	<div class="col-md-6">
+	<div class="col">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col">
 				<h5>My publications in a wordcloud...</h5>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12"  id="wordcloud">
+			<div class="col"  id="wordcloud">
 				<div id="wc"></div>
 				<canvas id="wc-canvas"></canvas>
 			</div>
@@ -55,7 +55,7 @@
 </script>
 <link rel="stylesheet" type="text/css" href="css/publications.css">
 <!-- load JS libs for publication page -->
-<script src="lib/wordfreq.worker.js"></script>
-<script src="lib/wordcloud2.js"></script>
-
+<script src="node_modules/wordfreq/src/wordfreq.js"></script>
+<script src="node_modules/wordfreq/src/wordfreq.worker.js"></script>
+<script src="node_modules/wordcloud/src/wordcloud2.js"></script>
 <script src="js/publications.js"></script>

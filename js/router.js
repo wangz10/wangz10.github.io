@@ -14,7 +14,7 @@ var Router = Backbone.Router.extend({
 		'resume': 'resume',
 		'projects': 'projects',
 		'publications': 'publications',
-		'contact': 'contact',
+		'misc': 'misc',
 		'invite': 'invitation',
 	},
 
@@ -46,10 +46,10 @@ var Router = Backbone.Router.extend({
 		});
 	},
 
-	contact: function(){
-		$(this.el).load("contact.html", function() {
+	misc: function(){
+		$(this.el).load("misc.html", function() {
 			removeActive();
-			$("#contact").addClass('active');
+			$("#misc").addClass('active');
 		});
 	},
 

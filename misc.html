@@ -1,0 +1,51 @@
+<link rel="stylesheet" type="text/css" href="css/misc.css">
+<div class="row">
+	<div class="col">
+		<h3>\(\rm\LaTeX\) to Microsoft Word equation</h3>
+		<p>This mini-widget uses MathJax to render LaTeX code and convert to MathML, which can be automatically recognized as an equation object in MS Word when pasted.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-6">
+		<label for="latex-input">Write some \(\rm\LaTeX\) here:</label>
+		<textarea id="latex-input"></textarea>	
+		<button id="example-btn" class="btn btn-outline-primary">Example</button>
+		<button id="clear-btn" class="btn btn-outline-secondary">Clear</button>
+	</div>
+	<div class="col-6">
+		<label for="latex-output">Rendered equation:</label>
+		<div id="latex-output"></div>
+	</div>
+</div>
+<div class="row mt-3">
+	<div class="col-6">
+		<label for="mathml-output">MathML output:</label>
+		<small class="form-text text-muted">
+			MathML can be pasted into an equation in MS Word.
+		</small>
+		<button id="copy-btn" class="btn btn-primary float-right" data-clipboard-target="#mathml-output">
+			<i class="far fa-copy" alt="Copy to clipboard"></i> Copy
+		</button>
+		<textarea id="mathml-output" readonly></textarea>
+	</div>
+</div>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="node_modules/clipboard/dist/clipboard.min.js"></script>
+<script>
+var clipboard = new ClipboardJS('#copy-btn');
+clipboard.on('success', function(e) {
+	e.clearSelection();
+	// flush the tooltip
+	$(e.trigger).tooltip({
+		title: "Copied! Now paste into MS Word. You're welcome :)", 
+		trigger: 'manual', 
+		delay: {
+			show: 0,
+			hide: 500
+		}})
+	$(e.trigger).tooltip('show')
+	setTimeout(function(){$(e.trigger).tooltip('hide')}, 1000)
+});
+</script>
+<script src="js/tex2word.js"></script>

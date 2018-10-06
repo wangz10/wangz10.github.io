@@ -24,6 +24,8 @@ function showMathMLandLaTex(latexText){
 		$("#latex-output").text('');
 		MathJax.Hub.Queue(["Typeset", MathJax.Hub, "latex-output"]);
 		$("#mathml-output").text('');
+		// reset height
+		$("#mathml-output").css('height', $("#latex-input").css('height'));
 	}else {
 		$("#latex-output").text("$$" + latexText + "$$");
 		MathJax.Hub.Queue(["Typeset", MathJax.Hub, "latex-output"]);

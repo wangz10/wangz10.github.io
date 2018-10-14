@@ -2,7 +2,7 @@
   "basics": {
     "name": "Zichen Wang, PhD",
     "label": "Assistant Professor",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhyAAAAJDRhNTc1ZTM0LTE4ZTktNGE4Yi1hYTk4LWZiM2U0ZTYxMzNiOQ.jpg",
+    "picture": "https://media.licdn.com/dms/image/C5603AQHFXFbAtZLHNA/profile-displayphoto-shrink_200_200/0?e=1545264000&v=beta&t=XdBW6E-jWLcF0Z17HBRMIEmxfT0dRUC2yDvOKkzKqAM",
     "email": "zichen.wang@mssm.edu",
     "phone": "(917) 826-8235",
     "website": "http://www.mountsinai.org/profiles/zichen-wang",
@@ -29,6 +29,11 @@
         "network": "StackOverflow",
         "username": "zichen-wang",
         "url": "http://stackoverflow.com/users/2340065/zichen-wang"
+      },
+      {
+        "network": "Medium",
+        "username": "wangzc921",
+        "url": "https://medium.com/@wangzc921"
       },
       {
         "network": "Google Scholar",
@@ -120,6 +125,13 @@
   "awards": [],
   "publications": [
     {
+      "name": "L1000FWD: fireworks visualization of drug-induced transcriptomic signatures",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2018-02-06",
+      "website": "https://doi.org/10.1093/bioinformatics/bty060",
+      "summary": "L1000 fireworks display (L1000FWD) is a web application that provides interactive visualization of over 16,000 drug and small-molecule induced gene expression signatures. L1000FWD enables coloring of signatures by different attributes such as cell type, time point, concentration, as well as drug attributes such as MOA and clinical phase. Signature similarity search is implemented to enable the search for mimicking or opposing signatures given as input of up and down gene sets. Each point on the L1000FWD interactive map is linked to a signature landing page, which provides multifaceted knowledge from various sources about the signature and the drug. Notably such information includes most frequent diagnoses, co-prescribed drugs and age distribution of prescriptions as extracted from the Mount Sinai Health System electronic medical records. Overall, L1000FWD serves as a platform for identifying functions for novel small molecules using unsupervised clustering, as well as for exploring drug MOA."      
+    },
+    {
       "name": "Predicting age by mining electronic medical records with deep learning characterizes differences between chronological and physiological age",
       "publisher": "Journal of Biomedical Informatics",
       "releaseDate": "2017-11-04",
@@ -153,13 +165,6 @@
       "releaseDate": "2015-06-06",
       "website": "http://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-015-0173-z",
       "summary": "We analyzed the longitudinal discovery process of literature-based mammalian and yeast PPINs to observe that these networks are discovered non-uniformly. The pattern of discovery is related to a theoretical concept proposed by Kauffman called “expanding the adjacent possible”. We introduce a network discovery model which explicitly includes the space of possibilities in the form of a true underlying PPIN."
-    },
-    {
-      "name": "Lean Big Data integration in systems biology and systems pharmacology",
-      "publisher": "Trends in pharmacological sciences",
-      "releaseDate": "2014-09-30",
-      "website": "http://www.sciencedirect.com/science/article/pii/S0165614714001126",
-      "summary": "Many relevant resources from systems biology and pharmacology can be combined into a general map. Data from the resources can be converted into networks, gene-set libraries, and bipartite graphs. Indirect relationships (e.g., matching drugs to patients) can be identified by data integration. Combining independent sources can be used to validate computational and experimental methods. Predictions can be improved when two independent networks are used to predict a third network."
     }
   ],
   "skills": [
@@ -173,15 +178,17 @@
         "Regression",
         "Interactive data visualization",
         "Natural Language Processing",
-        "Deep Learning"
+        "Deep Learning",
+        "Reinforcement Learning"
       ]
     },
     {
-      "name": "Bioinformatics and Systems Biology",
+      "name": "Biomedical Informatics and Systems Biology",
       "level": "Master",
       "keywords": [
         "Next-gen sequencing data analysis",
         "Transcritomics",
+        "Electronic medical records",
         "Network analysis",
         "Cheminformatics"
       ]

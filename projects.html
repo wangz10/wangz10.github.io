@@ -1,6 +1,49 @@
-<div class="row">
-	<div class="col">
-		<h2>Projects</h2>
-		<p>To be added...</p>
-	</div>
+<style>
+    img {
+        width: 100%;
+    }
+</style>
+<div class="container" id="projects-container">
+    <h2>Projects</h2>
 </div>
+
+<script id="projTemplate" type="text/template">
+    <div class="card mb-3 shadow-sm h-md-250">
+        <img class="card-img-top" src="<%= img %>" alt="Card image cap">
+        <div class="card-body d-flex flex-column align-items-start">
+            <h5 class="card-title mb-0">
+                <%= title %>
+            </h5>
+            <div>
+                <% _.each(tags, function(tag, i) { %>
+                    <span class="badge badge-secondary"><%= tag %></span>
+                    <% }); %>
+            </div>
+            <p class="card-text mb-auto">
+                <%= desc %>
+            </p>
+
+            <dl class="row mt-2 mb-0">
+                <% if (publication) {%>
+                    <dt class="col-3">paper</dt>
+                    <dd class="col-9">
+                        <a target="_blank" href="<%= publication.url %>">
+                            <%= publication.authors %>(
+                                <%=publication.year%>) <i><%= publication.journal %></i></a>
+                    </dd>
+                    <% } %>
+
+                        <% if (typeof(links) !== "undefined") {
+                             _.each(links, function(link, i) { %>
+                            <dt class="col-3"><%= link.type %></dt>
+                            <dd class="col-9">
+                                <a target="_blank" href="<%= link.url %>">
+                                    <%= link.url %>
+                                </a>
+                            </dd>
+                            <% }); } %>
+            </dl>
+        </div>
+    </div>
+</script>
+<script src="js/projects.js"></script>

@@ -1,0 +1,122 @@
+[{
+        "title": "CREEDS",
+        "desc": "A crowdsourcing project to annotate and reanalyse a large number of gene expression profiles from Gene Expression Omnibus (GEO). Through a massive open online course on Coursera, over 70 participants from over 25 countries identify and annotate 2,460 single-gene perturbation signatures, 839 disease versus normal signatures, and 906 drug perturbation signatures. All these signatures are unique and are manually validated for quality. Global analysis of these signatures confirms known associations and identifies novel associations between genes, diseases and drugs. The manually curated signatures are used as a training set to develop classifiers for extracting similar signatures from the entire GEO repository.",
+        "tags": ["data visualization", "crowdsourcing", "gene expression"],
+        "img": "assets/projects/creeds-bubble-chart.png",
+        "publication": {
+            "journal": "Nature Communications",
+            "year": 2016,
+            "authors": "Wang Z et al.",
+            "url": "http://dx.doi.org/10.1038/ncomms12846"
+        },
+        "links": [
+            { "url": "https://github.com/MaayanLab/creeds", "type": "github" },
+            { "url": "http://amp.pharm.mssm.edu/CREEDS/", "type": "website" }
+        ]
+    },
+    {
+        "title": "L1000FWD",
+        "desc": "L1000 fireworks display (L1000FWD) is a web application that provides interactive visualization of over 16 000 drug and small-molecule induced gene expression signatures. L1000FWD enables coloring of signatures by different attributes such as cell type, time point, concentration, as well as drug attributes such as MOA and clinical phase. Each point on the L1000FWD interactive map is linked to a signature landing page, which provides multifaceted knowledge from various sources about the signature and the drug. Notably such information includes most frequent diagnoses, co-prescribed drugs and age distribution of prescriptions as extracted from the Mount Sinai Health System electronic medical records. Overall, L1000FWD serves as a platform for identifying functions for novel small molecules using unsupervised clustering, as well as for exploring drug MOA.",
+        "tags": ["data visualization", "drug discovery", "gene expression"],
+        "img": "assets/projects/L1000FWD.png",
+        "publication": {
+            "journal": "Bioinformatics",
+            "year": 2018,
+            "authors": "Wang Z et al.",
+            "url": "http://dx.doi.org/10.1093/bioinformatics/bty060"
+        },
+        "links": [
+            { "url": "https://github.com/MaayanLab/L1000FWD", "type": "github" },
+            { "url": "http://amp.pharm.mssm.edu/L1000FWD", "type": "website" }
+        ]
+    },
+    {
+        "title": "EMR-aging",
+        "desc": "Electronic medical records (EMR) provide rich information about the patient physiological state. We present a deep learning model that uses vital signs and lab tests contained within the EMR of Mount Sinai Health System (MSHS) to predict chronological age. The model is trained on 377,686 EMR from patients of ages 18–85 years old. The discrepancy between the predicted and real chronological age is then used as a proxy to estimate physiological age. Overall, the model can predict the chronological age of patients with a standard deviation error of ∼7 years. The patients predicted to be significantly older than their chronological age have higher systolic blood pressure, higher cholesterol, damaged liver, and anemia. In contrast, patients predicted to be younger than their chronological age have lower blood pressure and shorter stature among other indicators.",
+        "tags": ["machine learning", "EMR"],
+        "img": "assets/projects/EMR-aging.png",
+        "publication": {
+            "journal": "Journal of Biomedical Informatics",
+            "year": 2018,
+            "authors": "Wang Z et al.",
+            "url": "http://dx.doi.org/10.1016/j.jbi.2017.11.003"
+        }
+    },
+    {
+        "title": "SEP-L1000",
+        "desc": "We developed a machine learning classifier to prioritize Adverse Drug Reactions (ADRs) for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. Using various benchmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all >20,000 small molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections.",
+        "tags": ["machine learning", "drug discovery"],
+        "img": "assets/projects/SEP-L1000.png",
+        "publication": {
+            "journal": "Bioinformatics",
+            "year": 2016,
+            "authors": "Wang Z et al.",
+            "url": "http://dx.doi.org/10.1093/bioinformatics/btw168"
+        },
+        "links": [
+            { "url": "http://maayanlab.net/SEP-L1000", "type": "website" }
+        ]
+    },
+    {
+        "title": "RNA-seq pipeline",
+        "desc": "We introduce a reproducible open source RNA-seq pipeline delivered as an Jupyter notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression.",
+        "tags": ["jupyter notebook", "ngs", "reproducible computational pipeline"],
+        "img": "assets/projects/RNA-seq-pipeline.gif",
+        "publication": {
+            "journal": "F1000Research",
+            "year": 2016,
+            "authors": "Wang Z & Ma'ayan A",
+            "url": "http://dx.doi.org/10.12688/f1000research.9110.1"
+        },
+        "links": [
+            { "url": "https://github.com/MaayanLab/Zika-RNAseq-Pipeline", "type": "github" },
+            { "url": "https://hub.docker.com/r/maayanlab/zika", "type": "dockerhub" }
+        ]
+    },
+    {
+        "title": "Hair-GEL",
+        "desc": "Hair-GEL is a single page web application serving as a query interface for small-scale RNA-seq datasets. Users can query for gene symbols to examine their expression levels across cell types or experimental conditions.",
+        "tags": ["data visualization", "web development"],
+        "img": "assets/projects/hair-gel-net.png",
+        "publication": {
+            "journal": "Developmental Cell",
+            "year": 2015,
+            "authors": "Sennett R et al.",
+            "url": "http://dx.doi.org/10.1016/j.devcel.2015.06.023"
+        },
+        "links": [
+            { "url": "https://github.com/MaayanLab/HairGEL", "type": "github" },
+            { "url": "http://hair-gel.net/", "type": "website" }
+        ]
+    },
+    {
+        "title": "Deep Learning",
+        "desc": "A few Deep Learning (DL) related didactic projects using Tensorflow and Keras. I am primarily interested in DL architectures including autoencoders and generative adversarial networks (GANs).",
+        "tags": ["machine learning", "autoencoders", "GANs"],
+        "img": "assets/projects/deep-learning.png",
+        "links": [
+            { "url": "https://github.com/wangz10/tensorflow-playground", "type": "github" },
+            { "url": "https://github.com/wangz10/Generative-Models", "type": "github" }
+        ]
+    },
+    {
+        "title": "Natural Language Processing",
+        "desc": "A few NLP related projects, including experimenting with text classification models and named-entitiy recognition (NER).",
+        "tags": ["NLP", "word2vec", "NER"],
+        "img": "assets/projects/NLP.png",
+        "links": [
+            { "url": "https://github.com/wangz10/text-classification", "type": "github" },
+            { "url": "https://github.com/wangz10/NER-playground", "type": "github" }
+        ]
+    },
+    {
+        "title": "Reinforcement Learning",
+        "desc": "(Deep) Reinforcement Learning (RL) related projects with Tensorflow and OpenAI Gym.",
+        "tags": ["RL", "machine learning"],
+        "img": "assets/projects/RL.png",
+        "links": [
+            { "url": "https://github.com/wangz10/Reinformcement-Learning", "type": "github" },
+            { "url": "https://github.com/wangz10/CS294-DeepRL-homework", "type": "github" }
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+{
+    "eslint.enable": false,
+    "python.pythonPath": "/usr/bin/python",
+    "python.linting.pylintEnabled": false
+}

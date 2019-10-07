@@ -1,0 +1,107 @@
+{
+    "education": [
+        {
+            "name": "Icahn School of Medicine at Mount Sinai",
+            "degree": "PhD",
+            "date": "AUG 2012 - DEC 2016",
+            "area": "Biomedical Science (Bioinformatics and Genomics)",
+            "summary": "Developed computational and mathematical methods to study the complexity of regulatory networks in mammalian systems."
+        },
+        {
+            "name": "China Agricultural University",
+            "degree": "BS",
+            "date": "SEP 2008 - JUN 2012",
+            "area": "Biochemistry and Molecular Biology"
+        }
+    ],
+    "work": [
+        {
+            "name": "Sema4",
+            "position": "Principal Scientist",
+            "date": "SEP 2019 - PRESENT",
+            "summary": "Research and development using longitudinal EMR data to understand human diseases with DL."
+        },
+        {
+            "name": "Icahn School of Medicine at Mount Sinai",
+            "position": "Assistant Professor",
+            "date": "JUN 2017 - SEP 2019",
+            "summary": "Conducted research in Bioinformatics and Computational Systems Biology using high-dimensional molecular and clinical big data."
+        },
+        {
+            "name": "Icahn School of Medicine at Mount Sinai",
+            "position": "Postdoctoral Fellow",
+            "date": "JAN 2017 - JUN 2017",
+            "summary": "Developed a DL model leveraging clinical variables from the EMR to study physiological aging."
+        }
+    ],
+    "skills": [
+        {
+            "category": "ML/Data Science",
+            "items": [
+                "Deep Neural Network",
+                "NLP",
+                "RL",
+                "Univariate and Multivariate Statistics",
+                "Ensemble Models",
+                "Network Analysis"
+            ]
+        },
+        {
+            "category": "Biomedical Informatics",
+            "items": [
+                "Electronic Medical Records",
+                "Next-gen Sequencing Data",
+                "Transcriptomics",
+                "Cheminformatics"
+            ]
+        },
+        {
+            "category": "Software Development",
+            "items": {
+                "Web frameworks": [
+                    "Flask",
+                    "Shiny"
+                ],
+                "Databases": [
+                    "MongoDB",
+                    "MySQL",
+                    "PostgreSQL"
+                ],
+                "DevOps": [
+                    "Docker",
+                    "Apache Mesos"
+                ],
+                "UI": [
+                    "Bootstrap",
+                    "React.js",
+                    "Backbone.js",
+                    "d3.js",
+                    "THREE.js"
+                ]
+            }
+        }
+    ],
+    "languages": [
+        {
+            "category": "Programming",
+            "items": [
+                "Python",
+                "R",
+                "Javascript",
+                "SQL",
+                "Bash",
+                "php",
+                "MATLAB",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "category": "Natural",
+            "items": [
+                "English",
+                "Mandarin"
+            ]
+        }
+    ]
+}

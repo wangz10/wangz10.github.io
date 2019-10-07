@@ -1,0 +1,66 @@
+.resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+ }
+ 
+.resume-heading{
+    border-bottom: 3px solid #0089A7;
+    padding-bottom: 6px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.resume-right-row {
+    padding-bottom: 30px;
+}
+
+
+.strike-through {
+    border-top: 1px solid #f4f6f6;
+    height: 20px;
+    margin-top: 12px;
+    margin-bottom: -2px;
+    position: relative;
+}
+.strike-through span:first-child {
+    padding-right: 20px;
+    margin-top: -12px;
+}
+.strike-through span, .strike-through a {
+    background: #fff;
+    position: absolute;
+}
+.strike-through span + span {
+    font-size: 14px;
+    margin-top: -10px;
+    padding-left: 20px;
+    right: 0;
+}
+
+h4 span:first-child {
+    color: #000;
+    font-weight: bold;
+}
+.area {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+.studyType {
+    margin-left: 25px;
+}
+
+.position {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.skill-category {
+    font-weight: 700;
+}
+.skill-subcategory {
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 5px;
+}

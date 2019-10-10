@@ -1,0 +1,998 @@
+[
+    {
+        "abstract": "As part of the NIH Library of Integrated Network-based Cellular Signatures program, hundreds of thousands of transcriptomic signatures were generated with the L1000 technology, profiling the response of human cell lines to over 20\u00a0000 small molecule compounds. This effort is a promising approach toward revealing the mechanisms-of-action (MOA) for marketed drugs and other less studied potential therapeutic compounds. L1000 fireworks display (L1000FWD) is a web application that provides interactive visualization of over 16\u00a0000 drug and small-molecule induced gene expression signatures. L1000FWD enables coloring of signatures by different attributes such as cell type, time point, concentration, as well as drug attributes such as MOA and clinical phase. Signature similarity search is implemented to enable the search for mimicking or opposing signatures given as input of up and down gene sets. Each point on the L1000FWD interactive map is linked to a signature landing page, which provides multifaceted knowledge from various sources about the signature and the drug. Notably such information includes most frequent diagnoses, co-prescribed drugs and age distribution of prescriptions as extracted from the Mount Sinai Health System electronic medical records. Overall, L1000FWD serves as a platform for identifying functions for novel small molecules using unsupervised clustering, as well as for exploring drug MOA. L1000FWD is freely accessible at: http://amp.pharm.mssm.edu/L1000FWD", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Lachmann, Alexander", 
+            "Keenan, Alexandra B.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": "2018", 
+        "doi": "10.1093/bioinformatics/bty060", 
+        "electronic-resource-num": "10.1093/bioinformatics/bty060", 
+        "isbn": "1367-4803", 
+        "notes": "10.1093/bioinformatics/bty060", 
+        "pages": "bty060-bty060", 
+        "periodical": "Bioinformatics", 
+        "titles": {
+            "secondary-title": "Bioinformatics", 
+            "title": "L1000FWD: fireworks visualization of drug-induced transcriptomic signatures"
+        }, 
+        "urls": "http://dx.doi.org/10.1093/bioinformatics/bty060"
+    }, 
+    {
+        "contributors": [
+            "Torre, Denis", 
+            "Krawczuk, Patrycja", 
+            "Jagodnik, Kathleen M.", 
+            "Lachmann, Alexander", 
+            "Wang, Zichen", 
+            "Wang, Lily", 
+            "Kuleshov, Maxim V.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "02/27/online", 
+            "year": "2018"
+        }, 
+        "doi": "10.1038/sdata.2018.23", 
+        "electronic-resource-num": "10.1038/sdata.2018.23", 
+        "pages": "180023", 
+        "periodical": "Scientific Data", 
+        "publisher": "The Author(s)", 
+        "titles": {
+            "secondary-title": "Scientific Data", 
+            "title": "Datasets2Tools, repository and search engine for bioinformatics datasets, tools and canned analyses"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/sdata.2018.23", 
+        "volume": "5", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "A recent clinical study showed that combination therapy consisting of mycophenolate mofetil, tacrolimus and steroids was shown to be more effective in achieving complete remission in patients with severe forms of lupus nephritis than conventional therapy consisting of intravenous cyclophosphamide and steroids. To explore the underlying molecular and cellular mechanisms of increased efficacy of the combination therapy regimen, we employed a mouse model of lupus nephritis, MRL/lpr mice, and treated them with monotherapies of prednisone, mycophenolate mofetil, or tacrolimus, or with their combination. Consistent with previous clinical findings, combination therapy markedly improved renal outcome compared to the monotherapies in mice with lupus nephritis. Transcriptomic analysis of their kidneys revealed distinct molecular pathways that were differentially regulated in combination therapy versus monotherapies. Combination therapy not only provided additive immunosuppressive effects, but also induced gene expression and molecular pathways to confer enhanced renoprotection. Specifically, combination therapy inhibited TLR7 expression in the kidneys of mice with lupus nephritis; combination of tacrolimus and mycophenolate mofetil led to better stabilization of the podocyte actin cytoskeleton through the reciprocal regulation of RhoA and Rac1 activities. Combination therapy strongly suppressed the IL-6/Stat3 pathway. These findings were further validated in renal biopsy samples from patients with lupus nephritis before and after treatments with mycophenolate mofetil, tacrolimus or combination therapy. Thus, our study further supports the earlier clinical finding and further provides insights into the molecular basis for increased efficacy of combination therapy.", 
+        "access-date": "2018/03/11", 
+        "contributors": [
+            "Fu, Jia", 
+            "Wang, Zichen", 
+            "Lee, Kyung", 
+            "Wei, Chengguo", 
+            "Liu, Zhengzhao", 
+            "Zhang, Mingchao", 
+            "Zhou, Minlin", 
+            "Cai, Minchao", 
+            "Zhang, Weijia", 
+            "Chuang, Peter Y.", 
+            "Ma\u2019ayan, Avi", 
+            "He, John Cijiang", 
+            "Liu, Zhihong"
+        ], 
+        "dates": "2018", 
+        "doi": "10.1016/j.kint.2017.08.031", 
+        "electronic-resource-num": "10.1016/j.kint.2017.08.031", 
+        "isbn": "0085-2538", 
+        "number": "2", 
+        "pages": "416-429", 
+        "periodical": "Kidney International", 
+        "publisher": "Elsevier", 
+        "titles": {
+            "secondary-title": "Kidney International", 
+            "title": "Transcriptomic analysis uncovers novel synergistic mechanisms in combination therapy for lupus nephritis"
+        }, 
+        "urls": "http://dx.doi.org/10.1016/j.kint.2017.08.031", 
+        "volume": "93"
+    }, 
+    {
+        "abstract": "Determining the discrepancy between chronological and physiological age of patients is central to preventative and personalized care. Electronic medical records (EMR) provide rich information about the patient physiological state, but it is unclear whether such information can be predictive of chronological age. Here we present a deep learning model that uses vital signs and lab tests contained within the EMR of Mount Sinai Health System (MSHS) to predict chronological age. The model is trained on 377,686 EMR from patients of ages 18\u201385\u202fyears old. The discrepancy between the predicted and real chronological age is then used as a proxy to estimate physiological age. Overall, the model can predict the chronological age of patients with a standard deviation error of \u223c7\u202fyears. The ages of the youngest and oldest patients were more accurately predicted, while patients of ages ranging between 40 and 60\u202fyears were the least accurately predicted. Patients with the largest discrepancy between their physiological and chronological age were further inspected. The patients predicted to be significantly older than their chronological age have higher systolic blood pressure, higher cholesterol, damaged liver, and anemia. In contrast, patients predicted to be younger than their chronological age have lower blood pressure and shorter stature among other indicators; both groups display lower weight than the population average. Using information from \u223c10,000 patients from the entire cohort who have been also profiled with SNP arrays, genome-wide association study (GWAS) uncovers several novel genetic variants associated with aging. In particular, significant variants were mapped to genes known to be associated with inflammation, hypertension, lipid metabolism, height, and increased lifespan in mice. Several genes with missense mutations were identified as novel candidate aging genes. In conclusion, we demonstrate how EMR data can be used to assess overall health via a scale that is based on deviation from the patient\u2019s predicted chronological age.", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Li, Li", 
+            "Glicksberg, Benjamin S.", 
+            "Israel, Ariel", 
+            "Dudley, Joel T.", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "12//", 
+            "year": "2017"
+        }, 
+        "doi": "https://doi.org/10.1016/j.jbi.2017.11.003", 
+        "electronic-resource-num": "https://doi.org/10.1016/j.jbi.2017.11.003", 
+        "isbn": "1532-0464", 
+        "keywords": [
+            "Deep learning", 
+            "Aging", 
+            "Medical records", 
+            "Age prediction", 
+            "Machine learning"
+        ], 
+        "pages": "59-68", 
+        "periodical": "Journal of Biomedical Informatics", 
+        "titles": {
+            "secondary-title": "Journal of Biomedical Informatics", 
+            "title": "Predicting age by mining electronic medical records with deep learning characterizes differences between chronological and physiological age"
+        }, 
+        "urls": "https://www.sciencedirect.com/science/article/pii/S153204641730240X", 
+        "volume": "76"
+    }, 
+    {
+        "abstract": "More effective use of targeted anti-cancer drugs depends on elucidating the connection between the molecular states induced by drug treatment and the cellular phenotypes controlled by these states, such as cytostasis and death. This is particularly true when mutation of a single gene is inadequate as a predictor of drug response. The current paper describes a data set of ~600 drug cell line pairs collected as part of the NIH LINCS Program ( http://www.lincsproject.org/ ) in which molecular data (reduced dimensionality transcript L1000 profiles) were recorded across dose and time in parallel with phenotypic data on cellular cytostasis and cytotoxicity. We report that transcriptional and phenotypic responses correlate with each other in general, but whereas inhibitors of chaperones and cell cycle kinases induce similar transcriptional changes across cell lines, changes induced by drugs that inhibit intra-cellular signaling kinases are cell-type specific. In some drug/cell line pairs significant changes in transcription are observed without a change in cell growth or survival; analysis of such pairs identifies drug equivalence classes and, in one case, synergistic drug interactions. In this case, synergy involves cell-type specific suppression of an adaptive drug response.", 
+        "contributors": [
+            "Niepel, Mario", 
+            "Hafner, Marc", 
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Paull, Evan O.", 
+            "Chung, Mirra", 
+            "Lu, Xiaodong", 
+            "Stuart, Joshua M.", 
+            "Golub, Todd R.", 
+            "Subramanian, Aravind", 
+            "Ma\u2019ayan, Avi", 
+            "Sorger, Peter K."
+        ], 
+        "dates": {
+            "pub-dates": "2017/10/30", 
+            "year": "2017"
+        }, 
+        "doi": "10.1038/s41467-017-01383-w", 
+        "electronic-resource-num": "10.1038/s41467-017-01383-w", 
+        "isbn": "2041-1723", 
+        "number": "1", 
+        "pages": "1186", 
+        "periodical": "Nature Communications", 
+        "titles": {
+            "secondary-title": "Nature Communications", 
+            "title": "Common and cell-type specific responses to anti-cancer drugs revealed by high throughput transcript profiling"
+        }, 
+        "urls": "https://doi.org/10.1038/s41467-017-01383-w", 
+        "volume": "8"
+    }, 
+    {
+        "abstract": "The Library of Integrated Network-Based Cellular Signatures (LINCS) is an NIH Common Fund program that catalogs how human cells globally respond to chemical, genetic, and disease perturbations. Resources generated by LINCS include experimental and computational methods, visualization tools, molecular and imaging data, and signatures. By assembling an integrated picture of the range of responses of human cells exposed to many perturbations, the LINCS program aims to better understand human disease and to advance the development of new therapies. Perturbations under study include drugs, genetic perturbations, tissue micro-environments, antibodies, and disease-causing mutations. Responses to perturbations are measured by transcript profiling, mass spectrometry, cell imaging, and biochemical methods, among other assays. The LINCS program focuses on cellular physiology shared among tissues and cell types relevant to an array of diseases, including cancer, heart disease, and neurodegenerative disorders. This Perspective describes LINCS technologies, datasets, tools, and approaches to data accessibility and reusability.", 
+        "access-date": "2018/03/11", 
+        "contributors": [
+            "Keenan, Alexandra B.", 
+            "Jenkins, Sherry L.", 
+            "Jagodnik, Kathleen M.", 
+            "Koplev, Simon", 
+            "He, Edward", 
+            "Torre, Denis", 
+            "Wang, Zichen", 
+            "Dohlman, Anders B.", 
+            "Silverstein, Moshe C.", 
+            "Lachmann, Alexander", 
+            "Kuleshov, Maxim V.", 
+            "Ma'ayan, Avi", 
+            "Stathias, Vasileios", 
+            "Terryn, Raymond", 
+            "Cooper, Daniel", 
+            "Forlin, Michele", 
+            "Koleti, Amar", 
+            "Vidovic, Dusica", 
+            "Chung, Caty", 
+            "Sch\u00fcrer, Stephan C.", 
+            "Vasiliauskas, Jouzas", 
+            "Pilarczyk, Marcin", 
+            "Shamsaei, Behrouz", 
+            "Fazel, Mehdi", 
+            "Ren, Yan", 
+            "Niu, Wen", 
+            "Clark, Nicholas A.", 
+            "White, Shana", 
+            "Mahi, Naim", 
+            "Zhang, Lixia", 
+            "Kouril, Michal", 
+            "Reichard, John F.", 
+            "Sivaganesan, Siva", 
+            "Medvedovic, Mario", 
+            "Meller, Jaroslaw", 
+            "Koch, Rick J.", 
+            "Birtwistle, Marc R.", 
+            "Iyengar, Ravi", 
+            "Sobie, Eric A.", 
+            "Azeloglu, Evren U.", 
+            "Kaye, Julia", 
+            "Osterloh, Jeannette", 
+            "Haston, Kelly", 
+            "Kalra, Jaslin", 
+            "Finkbiener, Steve", 
+            "Li, Jonathan", 
+            "Milani, Pamela", 
+            "Adam, Miriam", 
+            "Escalante-Chong, Renan", 
+            "Sachs, Karen", 
+            "Lenail, Alex", 
+            "Ramamoorthy, Divya", 
+            "Fraenkel, Ernest", 
+            "Daigle, Gavin", 
+            "Hussain, Uzma", 
+            "Coye, Alyssa", 
+            "Rothstein, Jeffrey", 
+            "Sareen, Dhruv", 
+            "Ornelas, Loren", 
+            "Banuelos, Maria", 
+            "Mandefro, Berhan", 
+            "Ho, Ritchie", 
+            "Svendsen, Clive N.", 
+            "Lim, Ryan G.", 
+            "Stocksdale, Jennifer", 
+            "Casale, Malcolm S.", 
+            "Thompson, Terri G.", 
+            "Wu, Jie", 
+            "Thompson, Leslie M.", 
+            "Dardov, Victoria", 
+            "Venkatraman, Vidya", 
+            "Matlock, Andrea", 
+            "Van Eyk, Jennifer E.", 
+            "Jaffe, Jacob D.", 
+            "Papanastasiou, Malvina", 
+            "Subramanian, Aravind", 
+            "Golub, Todd R.", 
+            "Erickson, Sean D.", 
+            "Fallahi-Sichani, Mohammad", 
+            "Hafner, Marc", 
+            "Gray, Nathanael S.", 
+            "Lin, Jia-Ren", 
+            "Mills, Caitlin E.", 
+            "Muhlich, Jeremy L.", 
+            "Niepel, Mario", 
+            "Shamu, Caroline E.", 
+            "Williams, Elizabeth H.", 
+            "Wrobel, David", 
+            "Sorger, Peter K.", 
+            "Heiser, Laura M.", 
+            "Gray, Joe W.", 
+            "Korkola, James E.", 
+            "Mills, Gordon B.", 
+            "LaBarge, Mark", 
+            "Feiler, Heidi S.", 
+            "Dane, Mark A.", 
+            "Bucher, Elmar", 
+            "Nederlof, Michel", 
+            "Sudar, Damir", 
+            "Gross, Sean", 
+            "Kilburn, David F.", 
+            "Smith, Rebecca", 
+            "Devlin, Kaylyn", 
+            "Margolis, Ron", 
+            "Derr, Leslie", 
+            "Lee, Albert", 
+            "Pillai, Ajay"
+        ], 
+        "dates": "2017", 
+        "doi": "10.1016/j.cels.2017.11.001", 
+        "electronic-resource-num": "10.1016/j.cels.2017.11.001", 
+        "isbn": "2405-4712", 
+        "number": "1", 
+        "pages": "13-24", 
+        "periodical": "Cell Systems", 
+        "publisher": "Elsevier", 
+        "titles": {
+            "secondary-title": "Cell Systems", 
+            "title": "The Library of Integrated Network-Based Cellular Signatures NIH Program: System-Level Cataloging of Human Cells Response to Perturbations"
+        }, 
+        "urls": "http://dx.doi.org/10.1016/j.cels.2017.11.001", 
+        "volume": "6"
+    }, 
+    {
+        "abstract": "Gene expression profiling of in vitro drug perturbations is useful for many biomedical discovery applications including drug repurposing and elucidation of drug mechanisms. However, limited data availability across cell types has hindered our capacity to leverage or explore the cell-specificity of these perturbations. While recent efforts have generated a large number of drug perturbation profiles across a variety of human cell types, many gaps remain in this combinatorial drug-cell space. Hence, we asked whether it is possible to fill these gaps by predicting cell-specific drug perturbation profiles using available expression data from related conditions--i.e. from other drugs and cell types. We developed a computational framework that first arranges existing profiles into a three-dimensional array (or tensor) indexed by drugs, genes, and cell types, and then uses either local (nearest-neighbors) or global (tensor completion) information to predict unmeasured profiles. We evaluate prediction accuracy using a variety of metrics, and find that the two methods have complementary performance, each superior in different regions in the drug-cell space. Predictions achieve correlations of 0.68 with true values, and maintain accurate differentially expressed genes (AUC 0.81). Finally, we demonstrate that the predicted profiles add value for making downstream associations with drug targets and therapeutic classes.", 
+        "access-date": "2018/03/11", 
+        "contributors": [
+            "Hodos, Rachel", 
+            "Zhang, Ping", 
+            "Lee, Hao-Chih", 
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Clark, Neil R.", 
+            "Ma?ayan, Avi", 
+            "Wang, Fei", 
+            "Kidd, Brian", 
+            "Hu, Jianying", 
+            "Sontag, David", 
+            "Dudley, Joel"
+        ], 
+        "dates": "2017", 
+        "doi": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004", 
+        "electronic-resource-num": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004", 
+        "isbn": "978-981-323-552-6", 
+        "notes": "doi:10.1142/9789813235533_0004", 
+        "num-vols": "0", 
+        "pages": "32-43", 
+        "publisher": "WORLD SCIENTIFIC", 
+        "titles": {
+            "secondary-title": "Biocomputing 2018", 
+            "title": "Cell-specific prediction and application of drug-induced gene expression profiles"
+        }, 
+        "urls": "https://doi.org/10.1142/9789813235533_0004"
+    }, 
+    {
+        "abstract": "Gene expression data are accumulating exponentially in public repositories. Reanalysis and integration of themed collections from these studies may provide new insights, but requires further human curation. Here we report a crowdsourcing project to annotate and reanalyse a large number of gene expression profiles from Gene Expression Omnibus (GEO). Through a massive open online course on Coursera, over 70 participants from over 25 countries identify and annotate 2,460 single-gene perturbation signatures, 839 disease versus normal signatures, and 906 drug perturbation signatures. All these signatures are unique and are manually validated for quality. Global analysis of these signatures confirms known associations and identifies novel associations between genes, diseases and drugs. The manually curated signatures are used as a training set to develop classifiers for extracting similar signatures from the entire GEO repository. We develop a web portal to serve these signatures for query, download and visualization.", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "Jagodnik, Kathleen M.", 
+            "Fernandez, Nicolas F.", 
+            "Gundersen, Gregory W.", 
+            "Rouillard, Andrew D.", 
+            "Jenkins, Sherry L.", 
+            "Feldmann, Axel S.", 
+            "Hu, Kevin S.", 
+            "McDermott, Michael G.", 
+            "Duan, Qiaonan", 
+            "Clark, Neil R.", 
+            "Jones, Matthew R.", 
+            "Kou, Yan", 
+            "Goff, Troy", 
+            "Woodland, Holly", 
+            "Amaral, Fabio M. R.", 
+            "Szeto, Gregory L.", 
+            "Fuchs, Oliver", 
+            "Sch\u00fcssler-Fiorenza Rose, Sophia M.", 
+            "Sharma, Shvetank", 
+            "Schwartz, Uwe", 
+            "Bausela, Xabier Bengoetxea", 
+            "Szymkiewicz, Maciej", 
+            "Maroulis, Vasileios", 
+            "Salykin, Anton", 
+            "Barra, Carolina M.", 
+            "Kruth, Candice D.", 
+            "Bongio, Nicholas J.", 
+            "Mathur, Vaibhav", 
+            "Todoric, Radmila D.", 
+            "Rubin, Udi E.", 
+            "Malatras, Apostolos", 
+            "Fulp, Carl T.", 
+            "Galindo, John A.", 
+            "Motiejunaite, Ruta", 
+            "J\u00fcschke, Christoph", 
+            "Dishuck, Philip C.", 
+            "Lahl, Katharina", 
+            "Jafari, Mohieddin", 
+            "Aibar, Sara", 
+            "Zaravinos, Apostolos", 
+            "Steenhuizen, Linda H.", 
+            "Allison, Lindsey R.", 
+            "Gamallo, Pablo", 
+            "de Andres Segura, Fernando", 
+            "Dae Devlin, Tyler", 
+            "P\u00e9rez-Garc\u00eda, Vicente", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "09/26/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information", 
+        "electronic-resource-num": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information", 
+        "pages": "12846", 
+        "periodical": "Nature Communications", 
+        "publisher": "The Author(s)", 
+        "titles": {
+            "secondary-title": "Nature Communications", 
+            "title": "Extraction and analysis of signatures from the Gene Expression Omnibus by the crowd"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/ncomms12846", 
+        "volume": "7", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "RNA-seq analysis is becoming a standard method for global gene expression profiling. However, open and standard pipelines to perform RNA-seq analysis by non-experts remain challenging due to the large size of the raw data files and the hardware requirements for running the alignment step. Here we introduce a reproducible open source RNA-seq pipeline delivered as an IPython notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression. We apply the pipeline to a recently published RNA-seq dataset collected from human neuronal progenitors infected with the Zika virus (ZIKV). In addition to confirming the presence of cell cycle genes among the genes that are downregulated by ZIKV, our analysis uncovers significant overlap with upregulated genes that when knocked out in mice induce defects in brain morphology. This result potentially points to the molecular processes associated with the microcephaly phenotype observed in newborns from pregnant mothers infected with the virus. In addition, our analysis predicts small molecules that can either mimic or reverse the expression changes induced by ZIKV. The IPython notebook and Docker image are freely available at: http://nbviewer.jupyter.org/github/maayanlab/Zika-RNAseq-Pipeline/blob/master/Zika.ipynb and https://hub.docker.com/r/maayanlab/zika/.", 
+        "accession-num": "10.12688/f1000research.9110.1", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2016", 
+        "doi": "10.12688/f1000research.9110.1", 
+        "electronic-resource-num": "10.12688/f1000research.9110.1", 
+        "number": "1574", 
+        "periodical": "F1000Research", 
+        "titles": {
+            "secondary-title": "F1000Research", 
+            "title": "An open RNA-Seq data analysis pipeline tutorial with an example of reprocessing data from a recent Zika virus study [version 1; referees: 3 approved]"
+        }, 
+        "urls": "http://f1000r.es/7kc", 
+        "volume": "5"
+    }, 
+    {
+        "abstract": "Motivation: Adverse drug reactions (ADRs) are a central consideration during drug development. Here we present a machine learning classifier to prioritize ADRs for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. The GE data is from the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset that measured changes in GE before and after treatment of human cells with over 20 000 small-molecule compounds including most of the FDA-approved drugs. Using various benchmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. Moreover, transforming GE features to enrichment vectors of biological terms further improves the predictive capability of the classifiers. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all \u2009>20 000 small-molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections.Availability and Implementation: The interface for the adverse event predictions for the \u2009>20 000 LINCS compounds is available at http://maayanlab.net/SEP-L1000/.Contact: avi.maayan@mssm.eduSupplementary information: Supplementary data are available at Bioinformatics online.", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Clark, Neil R.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "August 1, 2016", 
+            "year": "2016"
+        }, 
+        "doi": "10.1093/bioinformatics/btw168", 
+        "electronic-resource-num": "10.1093/bioinformatics/btw168", 
+        "number": "15", 
+        "pages": "2338-2345", 
+        "periodical": "Bioinformatics", 
+        "titles": {
+            "secondary-title": "Bioinformatics", 
+            "title": "Drug-induced adverse events prediction with the LINCS L1000 data"
+        }, 
+        "urls": "http://bioinformatics.oxfordjournals.org/content/32/15/2338.abstract", 
+        "volume": "32"
+    }, 
+    {
+        "abstract": "Normal brain function depends on the interaction between highly specialized neurons that operate within anatomically and functionally distinct brain regions. Neuronal specification is driven by transcriptional programs that are established during early neuronal development and remain in place in the adult brain. The fidelity of neuronal specification depends on the robustness of the transcriptional program that supports the neuron type-specific gene expression patterns. Here we show that polycomb repressive complex 2 (PRC2), which supports neuron specification during differentiation, contributes to the suppression of a transcriptional program that is detrimental to adult neuron function and survival. We show that PRC2 deficiency in striatal neurons leads to the de-repression of selected, predominantly bivalent PRC2 target genes that are dominated by self-regulating transcription factors normally suppressed in these neurons. The transcriptional changes in PRC2-deficient neurons lead to progressive and fatal neurodegeneration in mice. Our results point to a key role of PRC2 in protecting neurons against degeneration.", 
+        "contributors": [
+            "von Schimmelmann, Melanie", 
+            "Feinberg, Philip A.", 
+            "Sullivan, Josefa M.", 
+            "Ku, Stacy M.", 
+            "Badimon, Ana", 
+            "Duff, Mary Kaye", 
+            "Wang, Zichen", 
+            "Lachmann, Alexander", 
+            "Dewell, Scott", 
+            "Ma'ayan, Avi", 
+            "Han, Ming-Hu", 
+            "Tarakhovsky, Alexander", 
+            "Schaefer, Anne"
+        ], 
+        "dates": {
+            "pub-dates": "08/15/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information", 
+        "electronic-resource-num": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information", 
+        "isbn": "1546-1726", 
+        "periodical": "Nat Neurosci", 
+        "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.", 
+        "titles": {
+            "secondary-title": "Nat Neurosci", 
+            "title": "Polycomb repressive complex 2 (PRC2) silences genes responsible for neurodegeneration"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/nn.4360", 
+        "volume": "advance online publication", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "Genomics, epigenomics, transcriptomics, proteomics and metabolomics efforts rapidly generate a plethora of data on the activity and levels of biomolecules within mammalian cells. At the same time, curation projects that organize knowledge from the biomedical literature into online databases are expanding. Hence, there is a wealth of information about genes, proteins and their associations, with an urgent need for data integration to achieve better knowledge extraction and data reuse. For this purpose, we developed the Harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins from over 70 major online resources. We extracted, abstracted and organized data into \u223c72 million functional associations between genes/proteins and their attributes. Such attributes could be physical relationships with other biomolecules, expression in cell lines and tissues, genetic associations with knockout mouse or human phenotypes, or changes in expression after drug treatment. We stored these associations in a relational database along with rich metadata for the genes/proteins, their attributes and the original resources. The freely available Harmonizome web portal provides a graphical user interface, a web service and a mobile app for querying, browsing and downloading all of the collected data. To demonstrate the utility of the Harmonizome, we computed and visualized gene\u2013gene and attribute\u2013attribute similarity networks, and through unsupervised clustering, identified many unexpected relationships by combining pairs of datasets such as the association between kinase perturbations and disease signatures. We also applied supervised machine learning methods to predict novel substrates for kinases, endogenous ligands for G-protein coupled receptors, mouse phenotypes for knockout genes, and classified unannotated transmembrane proteins for likelihood of being ion channels. The Harmonizome is a comprehensive resource of knowledge about genes and proteins, and as such, it enables researchers to discover novel relationships between biological entities, as well as form novel data-driven hypotheses for experimental validation.Database URL: http://amp.pharm.mssm.edu/Harmonizome.", 
+        "contributors": [
+            "Rouillard, Andrew D.", 
+            "Gundersen, Gregory W.", 
+            "Fernandez, Nicolas F.", 
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "McDermott, Michael G.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "January 1, 2016", 
+            "year": "2016"
+        }, 
+        "doi": "10.1093/database/baw100", 
+        "electronic-resource-num": "10.1093/database/baw100", 
+        "periodical": "Database", 
+        "titles": {
+            "secondary-title": "Database", 
+            "title": "The harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins"
+        }, 
+        "urls": "http://database.oxfordjournals.org/content/2016/baw100.abstract", 
+        "volume": "2016"
+    }, 
+    {
+        "abstract": "The hair follicle (HF) is a complex miniorgan that serves as an ideal model system to study stem cell (SC) interactions with the niche during growth and regeneration. Dermal papilla (DP) cells are required for SC activation during the adult hair cycle, but signal exchange between niche and SC precursors/transit-amplifying cell (TAC) progenitors that regulates HF morphogenetic growth is largely unknown. Here we use six transgenic reporters to isolate 14 major skin and HF cell populations. With next-generation RNA sequencing, we characterize their transcriptomes and define unique molecular signatures. SC precursors, TACs, and the DP niche express a\u00a0plethora of ligands and receptors. Signaling interaction network analysis reveals a bird?s-eye view of\u00a0pathways implicated in epithelial-mesenchymal\u00a0interactions. Using a systematic tissue-wide approach, this work provides a comprehensive platform, linked to an interactive online database, to identify and further explore the SC/TAC/niche crosstalk regulating HF growth.", 
+        "access-date": "2016/04/01", 
+        "contributors": [
+            "Rezza, Am\u00e9lie", 
+            "Wang, Zichen", 
+            "Sennett, Rachel", 
+            "Qiao, Wenlian", 
+            "Wang, Dongmei", 
+            "Heitman, Nicholas", 
+            "Mok, Ka\u00a0Wai", 
+            "Clavel, Carlos", 
+            "Yi, Rui", 
+            "Zandstra, Peter", 
+            "Ma\u2019ayan, Avi", 
+            "Rendl, Michael"
+        ], 
+        "dates": "2016", 
+        "doi": "10.1016/j.celrep.2016.02.078", 
+        "electronic-resource-num": "10.1016/j.celrep.2016.02.078", 
+        "isbn": "2211-1247", 
+        "number": "12", 
+        "pages": "3001-3018", 
+        "periodical": "Cell Reports", 
+        "publisher": "Elsevier", 
+        "titles": {
+            "secondary-title": "Cell Reports", 
+            "title": "Signaling Networks among Stem Cell Precursors, Transit-Amplifying Progenitors, and their Niche in Developing Hair Follicles"
+        }, 
+        "urls": "http://dx.doi.org/10.1016/j.celrep.2016.02.078", 
+        "volume": "14"
+    }, 
+    {
+        "abstract": "Adult women are twice as likely as men to suffer from affective and anxiety disorders, although the mechanisms underlying heightened female stress susceptibility are incompletely understood. Recent findings in mouse Nucleus Accumbens (NAc) suggest a role for DNA methylation-driven sex differences in genome-wide transcriptional profiles. However, the role of another epigenetic process\u2014microRNA (miR) regulation\u2014has yet to be explored. We exposed male and female mice to Subchronic Variable Stress (SCVS), a stress paradigm that produces depression-like behavior in female, but not male, mice, and performed next generation mRNA and miR sequencing on NAc tissue. We applied a combination of differential expression, miR-mRNA network and functional enrichment analyses to characterize the transcriptional and post-transcriptional landscape of sex differences in NAc stress response. We find that male and female mice exhibit largely non-overlapping miR and mRNA profiles following SCVS. The two sexes also show enrichment of different molecular pathways and functions. Collectively, our results suggest that males and females mount fundamentally different transcriptional and post-transcriptional responses to SCVS and engage sex-specific molecular processes following stress. These findings have implications for the pathophysiology and treatment of stress-related disorders in women.", 
+        "auth-address": "Scott J. Russo,Fishberg Department of Neuroscience and Friedman Brain Institute, Icahn School of Medicine at Mount Sinai,New York, NY, USA,scott.russo@mssm.edu", 
+        "contributors": [
+            "Pfau, Madeline L.", 
+            "Purushothaman, Immanuel", 
+            "Feng, Jian", 
+            "Golden, Sam A.", 
+            "Aleyasin, Hossein", 
+            "Lorsch, Zachary S.", 
+            "Cates, Hannah M.", 
+            "Flanigan, Meghan E.", 
+            "Menard, Caroline", 
+            "Heshmati, Mitra", 
+            "Wang, Zichen", 
+            "Ma'ayan, Avi", 
+            "Shen, Li", 
+            "Hodes, Georgia E.", 
+            "Russo, Scott J."
+        ], 
+        "dates": {
+            "pub-dates": "2016-December-23", 
+            "year": "2016"
+        }, 
+        "doi": "10.3389/fnmol.2016.00144", 
+        "electronic-resource-num": "10.3389/fnmol.2016.00144", 
+        "isbn": "1662-5099", 
+        "keywords": "Depression,Stress, Psychological,sex differences,RNA-Seq,microRNA,Nucleus Accumbens", 
+        "language": "English", 
+        "number": "144", 
+        "periodical": "Frontiers in Molecular Neuroscience", 
+        "titles": {
+            "secondary-title": "Frontiers in Molecular Neuroscience", 
+            "short-title": "Sex differences in stress-induced microRNA networks", 
+            "title": "Integrative Analysis of Sex-Specific microRNA Networks Following Stress in Mouse Nucleus Accumbens"
+        }, 
+        "urls": "http://journal.frontiersin.org/article/10.3389/fnmol.2016.00144", 
+        "volume": "9", 
+        "work-type": "Original Research"
+    }, 
+    {
+        "abstract": "The glucocorticoid receptor (GR), a nuclear receptor and major drug target, has a highly conserved minor splice variant, GR\u03b3, which differs by a single arginine within the DNA binding domain. GR\u03b3, which comprises 10% of all GR transcripts, is constitutively expressed and tightly conserved through mammalian evolution, suggesting an important non-redundant role. However, to date no specific role for GR\u03b3 has been reported. We discovered significant differences in subcellular localisation, and nuclear-cytoplasmic shuttling in response to ligand. In addition the GR\u03b3 transcriptome and protein interactome was distinct, and with a gene ontology signal for mitochondrial regulation which was confirmed using Seahorse technology. We propose that evolutionary conservation of the single additional arginine in GR\u03b3 is driven by a distinct, non-redundant functional profile, including regulation of mitochondrial function.", 
+        "contributors": [
+            "Morgan, David J.", 
+            "Poolman, Toryn M.", 
+            "Williamson, Andrew J. K.", 
+            "Wang, Zichen", 
+            "Clark, Neil R.", 
+            "Ma\u2019ayan, Avi", 
+            "Whetton, Anthony D.", 
+            "Brass, Andrew", 
+            "Matthews, Laura C.", 
+            "Ray, David W."
+        ], 
+        "dates": {
+            "pub-dates": "05/26/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/srep26419", 
+        "electronic-resource-num": "10.1038/srep26419", 
+        "pages": "26419", 
+        "periodical": "Scientific Reports", 
+        "publisher": "The Author(s)", 
+        "titles": {
+            "secondary-title": "Scientific Reports", 
+            "title": "Glucocorticoid receptor isoforms direct distinct mitochondrial programs to regulate ATP production"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/srep26419", 
+        "volume": "6", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "Enrichment analysis is a popular method for analyzing gene sets generated by genome-wide experiments. Here we present a significant update to one of the tools in this domain called Enrichr. Enrichr currently contains a large collection of diverse gene set libraries available for analysis and download. In total, Enrichr currently contains 180 184 annotated gene sets from 102 gene set libraries. New features have been added to Enrichr including the ability to submit fuzzy sets, upload BED files, improved application programming interface and visualization of the results as clustergrams. Overall, Enrichr is a comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries. Enrichr is freely available at: http://amp.pharm.mssm.edu/Enrichr.", 
+        "contributors": [
+            "Kuleshov, Maxim V.", 
+            "Jones, Matthew R.", 
+            "Rouillard, Andrew D.", 
+            "Fernandez, Nicolas F.", 
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Koplev, Simon", 
+            "Jenkins, Sherry L.", 
+            "Jagodnik, Kathleen M.", 
+            "Lachmann, Alexander", 
+            "McDermott, Michael G.", 
+            "Monteiro, Caroline D.", 
+            "Gundersen, Gregory W.", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "May 3, 2016", 
+            "year": "2016"
+        }, 
+        "doi": "10.1093/nar/gkw377", 
+        "electronic-resource-num": "10.1093/nar/gkw377", 
+        "periodical": "Nucleic Acids Research", 
+        "titles": {
+            "secondary-title": "Nucleic Acids Research", 
+            "title": "Enrichr: a comprehensive gene set enrichment analysis web server 2016 update"
+        }, 
+        "urls": "http://nar.oxfordjournals.org/content/early/2016/05/03/nar.gkw377.abstract"
+    }, 
+    {
+        "accession-num": "26863628", 
+        "alt-periodical": {
+            "abbr-1": "Oncotarget", 
+            "full-title": "Oncotarget"
+        }, 
+        "auth-address": "Samsung Biomedical Research Institute, Samsung Medical Center, Seoul, Korea; Institute for Refractory Cancer Research, Samsung Medical Center, Seoul, Korea, Samsung Advanced Institute of Technology, Samsung Electronics Co., Ltd., Seoul, Korea.", 
+        "contributors": [
+            "Kong, Doo-Sik", 
+            "Kim, Jinkuk", 
+            "Lee, In-Hee", 
+            "Kim, Sung Tae", 
+            "Seol, Ho Jun", 
+            "Lee, Jung-Il", 
+            "Park, Woong-Yang", 
+            "Ryu, Gyuha", 
+            "Wang, Zichen", 
+            "Ma'ayan, Avi", 
+            "Nam, Do-Hyun"
+        ], 
+        "dates": {
+            "pub-dates": "2016/02//", 
+            "year": "2016"
+        }, 
+        "doi": "10.18632/oncotarget.7115", 
+        "electronic-resource-num": "10.18632/oncotarget.7115", 
+        "isbn": "1949-2553", 
+        "language": "eng", 
+        "periodical": {
+            "abbr-1": "Oncotarget", 
+            "full-title": "Oncotarget"
+        }, 
+        "remote-database-name": "PubMed", 
+        "titles": {
+            "alt-title": "Oncotarget", 
+            "secondary-title": "Oncotarget", 
+            "title": "Integrative radiogenomic analysis for multicentric radiophenotype in glioblastoma"
+        }, 
+        "urls": [
+            "http://europepmc.org/abstract/MED/26863628", 
+            "http://dx.doi.org/10.18632/oncotarget.7115"
+        ]
+    }, 
+    {
+        "abstract": "The library of integrated network-based cellular signatures (LINCS) L1000 data set currently comprises of over a million gene expression profiles of chemically perturbed human cell lines. Through unique several intrinsic and extrinsic benchmarking schemes, we demonstrate that processing the L1000 data with the characteristic direction (CD) method significantly improves signal to noise compared with the MODZ method currently used to compute L1000 signatures. The CD processed L1000 signatures are served through a state-of-the-art web-based search engine application called L1000CDS2. The L1000CDS2 search engine provides prioritization of thousands of small-molecule signatures, and their pairwise combinations, predicted to either mimic or reverse an input gene expression signature using two methods. The L1000CDS2 search engine also predicts drug targets for all the small molecules profiled by the L1000 assay that we processed. Targets are predicted by computing the cosine similarity between the L1000 small-molecule signatures and a large collection of signatures extracted from the gene expression omnibus (GEO) for single-gene perturbations in mammalian cells. We applied L1000CDS2 to prioritize small molecules that are predicted to reverse expression in 670 disease signatures also extracted from GEO, and prioritized small molecules that can mimic expression of 22 endogenous ligand signatures profiled by the L1000 assay. As a case study, to further demonstrate the utility of L1000CDS2, we collected expression signatures from human cells infected with Ebola virus at 30, 60 and 120\u2009min. Querying these signatures with L1000CDS2 we identified kenpaullone, a GSK3B/CDK2 inhibitor that we show, in subsequent experiments, has a dose-dependent efficacy in inhibiting Ebola infection in vitro without causing cellular toxicity in human cell lines. In summary, the L1000CDS2 tool can be applied in many biological and biomedical settings, while improving the extraction of knowledge from the LINCS L1000 resource.", 
+        "contributors": [
+            "Duan, Qiaonan", 
+            "Reid, St Patrick", 
+            "Clark, Neil R.", 
+            "Wang, Zichen", 
+            "Fernandez, Nicolas F.", 
+            "Rouillard, Andrew D.", 
+            "Readhead, Ben", 
+            "Tritsch, Sarah R.", 
+            "Hodos, Rachel", 
+            "Hafner, Marc", 
+            "Niepel, Mario", 
+            "Sorger, Peter K.", 
+            "Dudley, Joel T.", 
+            "Bavari, Sina", 
+            "Panchal, Rekha G.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "08/04/online", 
+            "year": "2016"
+        }, 
+        "doi": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information", 
+        "electronic-resource-num": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information", 
+        "pages": "16015", 
+        "periodical": "npj Systems Biology and Applications", 
+        "publisher": "Published in partnership with the Systems Biology Institute", 
+        "titles": {
+            "secondary-title": "Npj Systems Biology And Applications", 
+            "title": "L1000CDS2: LINCS L1000 characteristic direction signatures search engine"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/npjsba.2016.15", 
+        "volume": "2", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "Summary The H3 histone variant CENP-A is an epigenetic marker critical for the centromere identity and function. However, the precise regulation of the spatiotemporal deposition and propagation of CENP-A at centromeres during the cell cycle is still poorly understood. Here, we show that CENP-A is phosphorylated at Ser68 during early mitosis by Cdk1. Our results demonstrate that phosphorylation of Ser68 eliminates the binding of CENP-A to the assembly factor HJURP, thus preventing the premature loading of CENP-A to the centromere prior to mitotic exit. Because Cdk1 activity is at its minimum at the mitotic exit, the ratio of Cdk1/PP1\u03b1 activity changes in favor of Ser68 dephosphorylation, thus making CENP-A available for centromeric deposition by HJURP. Thus, we reveal that dynamic phosphorylation of CENP-A Ser68 orchestrates the spatiotemporal assembly of newly synthesized CENP-A at active centromeres during the cell cycle.", 
+        "contributors": [
+            "Yu, Zhouliang", 
+            "Zhou, Xiang", 
+            "Wang, Wenjing", 
+            "Deng, Wenqiang", 
+            "Fang, Junnan", 
+            "Hu, Hao", 
+            "Wang, Zichen", 
+            "Li, Shangze", 
+            "Cui, Lei", 
+            "Shen, Jing", 
+            "Zhai, Linhui", 
+            "Peng, Shengyi", 
+            "Wong, Jiemin", 
+            "Dong, Shuo", 
+            "Yuan, Zengqiang", 
+            "Ou, Guangshuo", 
+            "Zhang, Xiaodong", 
+            "Xu, Ping", 
+            "Lou, Jizhong", 
+            "Yang, Na", 
+            "Chen, Ping", 
+            "Xu, Rui-Ming", 
+            "Li, Guohong"
+        ], 
+        "dates": {
+            "pub-dates": "1/12/", 
+            "year": "2015"
+        }, 
+        "doi": "10.1016/j.devcel.2014.11.030", 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2014.11.030", 
+        "isbn": "1534-5807", 
+        "number": "1", 
+        "pages": "68-81", 
+        "periodical": "Developmental Cell", 
+        "titles": {
+            "secondary-title": "Developmental Cell", 
+            "title": "Dynamic Phosphorylation of CENP-A at Ser68 Orchestrates Its Cell-Cycle-Dependent Deposition at Centromeres"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S1534580714007692", 
+        "volume": "32"
+    }, 
+    {
+        "abstract": "BACKGROUND:Thousands of biological and biomedical investigators study of the functional role of single genes and their protein products in normal physiology and in disease. The findings from these studies are reported in research articles that stimulate new research. It is now established that a complex regulatory networks's is controlling human cellular fate, and this community of researchers are continually unraveling this network topology. Attempts to integrate results from such accumulated knowledge resulted in literature-based protein-protein interaction networks (PPINs) and pathway databases. These databases are widely used by the community to analyze new data collected from emerging genome-wide studies with the assumption that the data within these literature-based databases is the ground truth and contain no biases. While suspicion for research focus biases is growing, a concrete proof for it is still missing. It is difficult to prove because the real PPINs are mostly unknown.RESULTS:Here we analyzed the longitudinal discovery process of literature-based mammalian and yeast PPINs to observe that these networks are discovered non-uniformly. The pattern of discovery is related to a theoretical concept proposed by Kauffman called \"expanding the adjacent possible\". We introduce a network discovery model which explicitly includes the space of possibilities in the form of a true underlying PPIN.CONCLUSIONS:Our model strongly suggests that research focus biases exist in the observed discovery dynamics of these networks. In summary, more care should be placed when using PPIN databases for analysis of newly acquired data, and when considering prior knowledge when designing new experiments.", 
+        "accession-num": "doi:10.1186/s12918-015-0173-z", 
+        "contributors": [
+            "Wang, Zichen", 
+            "Clark, Neil", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2015", 
+        "doi": "10.1186/s12918-015-0173-z", 
+        "isbn": "1752-0509", 
+        "notes": "Zichen Wang and Neil R. Clark contributed equally to this work.", 
+        "number": "1", 
+        "pages": "26", 
+        "periodical": "BMC Systems Biology", 
+        "titles": {
+            "secondary-title": "BMC Systems Biology", 
+            "title": "Dynamics of the discovery process of protein-protein interactions from low content studies"
+        }, 
+        "urls": "http://www.biomedcentral.com/1752-0509/9/26", 
+        "volume": "9"
+    }, 
+    {
+        "abstract": "Summary Defining the unique molecular features of progenitors and their niche requires a genome-wide, whole-tissue approach with cellular resolution. Here, we co-isolate embryonic hair follicle (HF) placode and dermal condensate cells, precursors of adult HF stem cells and the dermal papilla/sheath niche, along with lineage-related keratinocytes and fibroblasts, Schwann cells, melanocytes, and a population inclusive of all\u00a0remaining skin cells. With next-generation RNA sequencing, we define gene expression patterns in the context of the entire embryonic skin, and through transcriptome cross-comparisons, we uncover hundreds of enriched genes in cell-type-specific signatures. Axon guidance signaling and many other pathway genes are enriched in multiple signatures, implicating these factors in driving the large-scale cellular rearrangements necessary for HF formation. Finally, we share all data in an interactive, searchable companion website. Our study provides an overarching view of signaling within the entire embryonic skin and captures a molecular snapshot of HF progenitors and their niche.", 
+        "contributors": [
+            "Sennett, Rachel", 
+            "Wang, Zichen", 
+            "Rezza, Am\u00e9lie", 
+            "Grisanti, Laura", 
+            "Roitershtein, Nataly", 
+            "Sicchio, Cristina", 
+            "Mok, Ka\u00a0Wai", 
+            "Heitman, Nicholas\u00a0J", 
+            "Clavel, Carlos", 
+            "Ma\u2019ayan, Avi", 
+            "Rendl, Michael"
+        ], 
+        "dates": {
+            "pub-dates": "9/14/", 
+            "year": "2015"
+        }, 
+        "doi": "10.1016/j.devcel.2015.06.023", 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.devcel.2015.06.023", 
+        "isbn": "1534-5807", 
+        "number": "5", 
+        "pages": "577-591", 
+        "periodical": "Developmental Cell", 
+        "titles": {
+            "secondary-title": "Developmental Cell", 
+            "title": "An Integrated Transcriptome Atlas of Embryonic Hair Follicle Progenitors, Their Niche, and the Developing Skin"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S153458071500430X", 
+        "volume": "34"
+    }, 
+    {
+        "abstract": "With advances in genomics, transcriptomics, metabolomics and proteomics, and more expansive electronic clinical record monitoring, as well as advances in computation, we have entered the Big Data era in biomedical research. Data gathering is growing rapidly while only a small fraction of this data is converted to useful knowledge or reused in future studies. To improve this, an important concept that is often overlooked is data abstraction. To fuse and reuse biomedical datasets from diverse resources, data abstraction is frequently required. Here we summarize some of the major Big Data biomedical research resources for genomics, proteomics and phenotype data, collected from mammalian cells, tissues and organisms. We then suggest simple data abstraction methods for fusing this diverse but related data. Finally, we demonstrate examples of the potential utility of such data integration efforts, while warning about the inherit biases that exist within such data.", 
+        "contributors": [
+            "Rouillard, Andrew D.", 
+            "Wang, Zichen", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "12//", 
+            "year": "2015"
+        }, 
+        "doi": "10.1016/j.compbiolchem.2015.08.005", 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.compbiolchem.2015.08.005", 
+        "isbn": "1476-9271", 
+        "keywords": [
+            "Data integration", 
+            "Bioinformatics", 
+            "Systems biology", 
+            "Systems pharmacology", 
+            "Network biology"
+        ], 
+        "pages": "123-138", 
+        "periodical": "Computational Biology and Chemistry", 
+        "titles": {
+            "secondary-title": "Computational Biology and Chemistry", 
+            "title": "Reprint of \u201cAbstraction for data integration: Fusing mammalian molecular, cellular and phenotype big datasets for better knowledge extraction\u201d"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S1476927115000833", 
+        "volume": "59, Part B"
+    }, 
+    {
+        "abstract": "Gene set analysis of differential expression, which identifies collectively differentially expressed gene sets, has become an important tool for biology. The power of this approach lies in its reduction of the dimensionality of the statistical problem and its incorporation of biological interpretation by construction. Many approaches to gene set analysis have been proposed, but benchmarking their performance in the setting of real biological data is difficult due to the lack of a gold standard. In a previously published work we proposed a geometrical approach to differential expression which performed highly in benchmarking tests and compared well to the most popular methods of differential gene expression. As reported, this approach has a natural extension to gene set analysis which we call Principal Angle Enrichment Analysis (PAEA). PAEA employs dimensionality reduction and a multivariate approach for gene set enrichment analysis. However, the performance of this method has not been assessed nor its implementation as a web-based tool. Here we describe new benchmarking protocols for gene set analysis methods and find that PAEA performs highly. The PAEA method is implemented as a user-friendly web-based tool, which contains 70 gene set libraries and is freely available to the community.", 
+        "accession-num": "PMC4737646", 
+        "contributors": [
+            "Clark, Neil R.", 
+            "Szymkiewicz, Maciej", 
+            "Wang, Zichen", 
+            "Monteiro, Caroline D.", 
+            "Jones, Matthew R.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": "2015", 
+        "doi": "10.1109/BIBM.2015.7359689", 
+        "electronic-resource-num": "10.1109/BIBM.2015.7359689", 
+        "isbn": "2156-1125", 
+        "notes": "Proceedings (IEEE Int Conf Bioinformatics Biomed)", 
+        "pages": "256-262", 
+        "periodical": "Proceedings. IEEE International Conference on Bioinformatics and Biomedicine", 
+        "remote-database-name": "PMC", 
+        "titles": {
+            "secondary-title": "Proceedings. IEEE International Conference on Bioinformatics and Biomedicine", 
+            "title": "Principal Angle Enrichment Analysis (PAEA): Dimensionally Reduced Multivariate Gene Set Enrichment Analysis Tool"
+        }, 
+        "urls": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4737646/", 
+        "volume": "2015"
+    }, 
+    {
+        "abstract": "Data sets from recent large-scale projects can be integrated into one unified puzzle that can provide new insights into how drugs and genetic perturbations applied to human cells are linked to whole-organism phenotypes. Data that report how drugs affect the phenotype of human cell lines and how drugs induce changes in gene and protein expression in human cell lines can be combined with knowledge about human disease, side effects induced by drugs, and mouse phenotypes. Such data integration efforts can be achieved through the conversion of data from the various resources into single-node-type networks, gene-set libraries, or multipartite graphs. This approach can lead us to the identification of more relationships between genes, drugs, and phenotypes as well as benchmark computational and experimental methods. Overall, this lean \u2018Big Data\u2019 integration strategy will bring us closer toward the goal of realizing personalized medicine.", 
+        "contributors": [
+            "Ma\u2019ayan, Avi", 
+            "Rouillard, Andrew D.", 
+            "Clark, Neil R.", 
+            "Wang, Zichen", 
+            "Duan, Qiaonan", 
+            "Kou, Yan"
+        ], 
+        "dates": {
+            "pub-dates": "9//", 
+            "year": "2014"
+        }, 
+        "doi": "10.1016/j.tips.2014.07.001", 
+        "electronic-resource-num": "http://dx.doi.org/10.1016/j.tips.2014.07.001", 
+        "isbn": "0165-6147", 
+        "keywords": [
+            "systems pharmacology", 
+            "data integration", 
+            "network analysis", 
+            "network pharmacology", 
+            "side-effect prediction", 
+            "target prediction"
+        ], 
+        "number": "9", 
+        "pages": "450-460", 
+        "periodical": "Trends in Pharmacological Sciences", 
+        "titles": {
+            "secondary-title": "Trends in Pharmacological Sciences", 
+            "title": "Lean Big Data integration in systems biology and systems pharmacology"
+        }, 
+        "urls": "http://www.sciencedirect.com/science/article/pii/S0165614714001126", 
+        "volume": "35"
+    }, 
+    {
+        "abstract": "The process of cellular senescence generates a repressive chromatin environment, however, the role of histone variants and histone proteolytic cleavage in senescence remains unclear. Here, using models of oncogene-induced and replicative senescence, we report novel histone H3 tail cleavage events mediated by the protease Cathepsin L. We find that cleaved forms of H3 are nucleosomal and the histone variant H3.3 is the preferred cleaved form of H3. Ectopic expression of H3.3 and its cleavage product (H3.3cs1), which lacks the first 21 amino acids of the H3 tail, is sufficient to induce senescence. Further, H3.3cs1 chromatin incorporation is mediated by the HUCA histone chaperone complex. Genome-wide transcriptional profiling revealed that H3.3cs1 facilitates transcriptional silencing of cell cycle regulators including RB/E2F target genes, likely via the permanent removal of H3K4me3. Collectively, our study identifies histone H3.3 and its proteolytically processed forms as key regulators of cellular senescence.", 
+        "contributors": [
+            "Duarte, Luis F.", 
+            "Young, Andrew R. J.", 
+            "Wang, Zichen", 
+            "Wu, Hsan-Au", 
+            "Panda, Taniya", 
+            "Kou, Yan", 
+            "Kapoor, Avnish", 
+            "Hasson, Dan", 
+            "Mills, Nicholas R.", 
+            "Ma\u2019ayan, Avi", 
+            "Narita, Masashi", 
+            "Bernstein, Emily"
+        ], 
+        "dates": {
+            "pub-dates": "11/14/online", 
+            "year": "2014"
+        }, 
+        "doi": "10.1038/ncomms6210", 
+        "electronic-resource-num": "10.1038/ncomms6210", 
+        "notes": "Supplementary information available for this article at http://www.nature.com/ncomms/2014/141114/ncomms6210/suppinfo/ncomms6210_S1.html", 
+        "periodical": "Nat Commun", 
+        "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.", 
+        "titles": {
+            "secondary-title": "Nat Commun", 
+            "title": "Histone H3.3 and its proteolytically processed form drive a cellular senescence programme"
+        }, 
+        "urls": "http://dx.doi.org/10.1038/ncomms6210", 
+        "volume": "5", 
+        "work-type": "Article"
+    }, 
+    {
+        "abstract": "Summary: Recently, several high profile studies collected cell viability data from panels of cancer cell lines treated with many drugs applied at different concentrations. Such drug sensitivity data for cancer cell lines provide suggestive treatments for different types and subtypes of cancer. Visualization of these datasets can reveal patterns that may not be obvious by examining the data without such efforts. Here we introduce Drug/Cell-line Browser (DCB), an online interactive HTML5 data visualization tool for interacting with three of the recently published datasets of cancer cell lines/drug-viability studies. DCB uses clustering and canvas visualization of the drugs and the cell lines, as well as a bar graph that summarizes drug effectiveness for the tissue of origin or the cancer subtypes for single or multiple drugs. DCB can help in understanding drug response patterns and prioritizing drug/cancer cell line interactions by tissue of origin or cancer subtype.Availability and implementation: DCB is an open source Web-based tool that is freely available at: http://www.maayanlab.net/LINCS/DCBContact: avi.maayan@mssm.eduSupplementary information: Supplementary data are available at Bioinformatics online.", 
+        "contributors": [
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Fernandez, Nicolas F.", 
+            "Rouillard, Andrew D.", 
+            "Tan, Christopher M.", 
+            "Benes, Cyril H.", 
+            "Ma\u2019ayan, Avi"
+        ], 
+        "dates": {
+            "pub-dates": "November 15, 2014", 
+            "year": "2014"
+        }, 
+        "doi": "10.1093/bioinformatics/btu526", 
+        "electronic-resource-num": "10.1093/bioinformatics/btu526", 
+        "number": "22", 
+        "pages": "3289-3290", 
+        "periodical": "Bioinformatics", 
+        "titles": {
+            "secondary-title": "Bioinformatics", 
+            "title": "Drug/Cell-line Browser: interactive canvas visualization of cancer drug/cell-line viability assay datasets"
+        }, 
+        "urls": "http://bioinformatics.oxfordjournals.org/content/30/22/3289.abstract", 
+        "volume": "30"
+    }, 
+    {
+        "abstract": "BACKGROUND:System-wide profiling of genes and proteins in mammalian cells produce lists of differentially expressed genes/proteins that need to be further analyzed for their collective functions in order to extract new knowledge. Once unbiased lists of genes or proteins are generated from such experiments, these lists are used as input for computing enrichment with existing lists created from prior knowledge organized into gene-set libraries. While many enrichment analysis tools and gene-set libraries databases have been developed, there is still room for improvement.RESULTS:Here, we present Enrichr, an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis. We applied Enrichr to analyze nine cancer cell lines by comparing their enrichment signatures to the enrichment signatures of matched normal tissues. We observed a common pattern of up regulation of the polycomb group PRC2 and enrichment for the histone mark H3K27me3 in many cancer cell lines, as well as alterations in Toll-like receptor and interlukin signaling in K562 cells when compared with normal myeloid CD33+ cells. Such analyses provide global visualization of critical differences between normal tissues and cancer cell lines but can be applied to many other scenarios.CONCLUSIONS:Enrichr is an easy to use intuitive enrichment analysis web-based tool providing various types of visualization summaries of collective functions of gene lists. Enrichr is open source and freely available online at: http://amp.pharm.mssm.edu/Enrichr.", 
+        "accession-num": "doi:10.1186/1471-2105-14-128", 
+        "contributors": [
+            "Chen, Edward", 
+            "Tan, Christopher", 
+            "Kou, Yan", 
+            "Duan, Qiaonan", 
+            "Wang, Zichen", 
+            "Meirelles, Gabriela", 
+            "Clark, Neil", 
+            "Ma'ayan, Avi"
+        ], 
+        "dates": "2013", 
+        "doi": "10.1186/1471-2105-14-128", 
+        "isbn": "1471-2105", 
+        "number": "1", 
+        "pages": "128", 
+        "periodical": "BMC Bioinformatics", 
+        "titles": {
+            "secondary-title": "BMC Bioinformatics", 
+            "title": "Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool"
+        }, 
+        "urls": "http://www.biomedcentral.com/1471-2105/14/128", 
+        "volume": "14"
+    }, 
+    {
+        "abstract": "The cell wall is important for pollen tube growth, but little is known about the molecular mechanism that controls cell wall deposition in pollen tubes. Here, the functional characterization of the pollen-expressed Arabidopsis cellulose synthase-like D genes CSLD1 and CSLD4 that are required for pollen tube growth is reported. Both CSLD1 and CSLD4 are highly expressed in mature pollen grains and pollen tubes. The CSLD1 and CSLD4 proteins are located in the Golgi apparatus and transported to the plasma membrane of the tip region of growing pollen tubes, where cellulose is actively synthesized. Mutations in CSLD1 and CSLD4 caused a significant reduction in cellulose deposition in the pollen tube wall and a remarkable disorganization of the pollen tube wall layers, which disrupted the genetic transmission of the male gametophyte. In csld1 and csld4 single mutants and in the csld1 csld4 double mutant, all the mutant pollen tubes exhibited similar phenotypes: the pollen tubes grew extremely abnormally both in vitro and in vivo, which indicates that CSLD1 and CSLD4 are not functionally redundant. Taken together, these results suggest that CSLD1 and CSLD4 play important roles in pollen tube growth, probably through participation in cellulose synthesis of the pollen tube wall.", 
+        "contributors": [
+            "Wang, Wei", 
+            "Wang, Li", 
+            "Chen, Chen", 
+            "Xiong, Guangyan", 
+            "Tan, Xiao-Yun", 
+            "Yang, Ke-Zhen", 
+            "Wang, Zi-Chen", 
+            "Zhou, Yihua", 
+            "Ye, De", 
+            "Chen, Li-Qun"
+        ], 
+        "dates": {
+            "pub-dates": "October 1, 2011", 
+            "year": "2011"
+        }, 
+        "doi": "10.1093/jxb/err221", 
+        "electronic-resource-num": "10.1093/jxb/err221", 
+        "number": "14", 
+        "pages": "5161-5177", 
+        "periodical": "Journal of Experimental Botany", 
+        "titles": {
+            "secondary-title": "Journal of Experimental Botany", 
+            "title": "Arabidopsis CSLD1 and CSLD4 are required for cellulose deposition and normal growth of pollen tubes"
+        }, 
+        "urls": "http://jxb.oxfordjournals.org/content/62/14/5161.abstract", 
+        "volume": "62"
+    }
+]

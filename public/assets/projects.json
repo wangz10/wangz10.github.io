@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Deep Learning",
+        "desc": "A few Deep Learning (DL) related didactic projects using Tensorflow and Keras. I am primarily interested in DL architectures including autoencoders and generative adversarial networks (GANs).",
+        "tags": [
+            "machine learning",
+            "autoencoders",
+            "GANs"
+        ],
+        "img": "assets/projects/deep-learning.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/tensorflow-playground",
+                "type": "github"
+            },
+            {
+                "url": "https://github.com/wangz10/Generative-Models",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "title": "Natural Language Processing",
+        "desc": "A few NLP related projects, including experimenting with text classification models and named-entitiy recognition (NER).",
+        "tags": [
+            "NLP",
+            "word2vec",
+            "NER"
+        ],
+        "img": "assets/projects/NLP.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/text-classification",
+                "type": "github"
+            },
+            {
+                "url": "https://github.com/wangz10/NER-playground",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "title": "Reinforcement Learning",
+        "desc": "(Deep) Reinforcement Learning (RL) related projects with Tensorflow and OpenAI Gym.",
+        "tags": [
+            "RL",
+            "machine learning"
+        ],
+        "img": "assets/projects/RL.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/Reinformcement-Learning",
+                "type": "github"
+            },
+            {
+                "url": "https://github.com/wangz10/CS294-DeepRL-homework",
+                "type": "github"
+            }
+        ]
+    }
+]

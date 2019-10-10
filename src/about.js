@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 
 function About() {
   return (
     <Jumbotron fluid id='about'>
       <Container fluid>
         <Row className='justify-content-md-center'>
-          <Col md={10}>
+          <Col md={10} sm={12} className='mt-3'>
             <h1>About</h1>
             <p className='lead'>
               Currently a principal data scientist at{' '}

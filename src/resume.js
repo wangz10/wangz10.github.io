@@ -43,10 +43,9 @@ class ResumeEducation extends Component {
 class ResumeWork extends Component {
   render() {
     const { data } = this.props
-    const itemDOMs = []
-    for (const item of data) {
-      itemDOMs.push(
-        <Row key={item.name} className='resume-right-row'>
+    const itemDOMs = data.map((item, i) => {
+      return (
+        <Row key={i} className='resume-right-row'>
           <Col xs={12}>
             <h4 className='strike-through'>
               <span>{item.name}</span> <span className='date'>{item.date}</span>
@@ -54,8 +53,9 @@ class ResumeWork extends Component {
             <div className='position'>{item.position}</div>
             <div className='summary'>{item.summary}</div>
           </Col>
-        </Row>)
-    }
+        </Row>
+      )
+    })
     return (
       <Row>
         <Col xs={3}>

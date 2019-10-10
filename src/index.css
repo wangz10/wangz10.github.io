@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+footer {
+  background-color: #0089A7;
+}
+
+.social-links {
+  list-style: none outside;
+  padding: 0;
+  font-size: 30px;  
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0;
+}
+
+.social-links > li > a {
+  color: #ccc;
+}
+
+.social-links > li > a:hover {
+  color: #fff;
+}

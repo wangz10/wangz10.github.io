@@ -111,7 +111,7 @@
             "Wang, Zichen",
             "Jagodnik, Kathleen M.",
             "Jenkins, Sherry L.",
-            "Lachmann, Alexander ",
+            "Lachmann, Alexander",
             "Ma'ayan, Avi"
         ],
         "dates": "2019",
@@ -204,6 +204,31 @@
         },
         "urls": "http://dx.doi.org/10.1093/bioinformatics/bty060",
         "volume": "34"
+    },
+    {
+        "abstract": "Mechanistic molecular studies in biomedical research often discover important genes that are aberrantly over- or under-expressed in disease. However, manipulating these genes in an attempt to improve the disease state is challenging. Herein, we reveal Drug Gene Budger (DGB), a web-based and mobile application developed to assist investigators in order to prioritize small molecules that are predicted to maximally influence the expression of their target gene of interest. With DGB, users can enter a gene symbol along with the wish to up-regulate or down-regulate its expression. The output of the application is a ranked list of small molecules that have been experimentally determined to produce the desired expression effect. The table includes log-transformed fold change, P-value and q-value for each small molecule, reporting the significance of differential expression as determined by the limma method. Relevant links are provided to further explore knowledge about the target gene, the small molecule and the source of evidence from which the relationship between the small molecule and the target gene was derived. The experimental data contained within DGB is compiled from signatures extracted from the LINCS L1000 dataset, the original Connectivity Map (CMap) dataset and the Gene Expression Omnibus (GEO). DGB also presents a specificity measure for a drug\u2013gene connection based on the number of genes a drug modulates. DGB provides a useful preliminary technique for identifying small molecules that can target the expression of a single gene in human cells and tissues.The application is freely available on the web at http://DGB.cloud and as a mobile phone application on iTunes https://itunes.apple.com/us/app/drug-gene-budger/id1243580241? mt=8 and Google Play https://play.google.com/store/apps/details? id=com.drgenebudger.Supplementary data are available at Bioinformatics online.",
+        "access-date": "10/10/2019",
+        "contributors": [
+            "Wang, Zichen",
+            "He, Edward",
+            "Sani, Kevin",
+            "Jagodnik, Kathleen M",
+            "Silverstein, Moshe C",
+            "Ma\u2019ayan, Avi"
+        ],
+        "dates": "2018",
+        "doi": "10.1093/bioinformatics/bty763",
+        "electronic-resource-num": "10.1093/bioinformatics/bty763",
+        "isbn": "1367-4803",
+        "number": "7",
+        "pages": "1247-1248",
+        "periodical": "Bioinformatics",
+        "titles": {
+            "secondary-title": "Bioinformatics",
+            "title": "Drug Gene Budger (DGB): an application for ranking drugs to modulate a specific gene based on transcriptomic signatures"
+        },
+        "urls": "https://doi.org/10.1093/bioinformatics/bty763",
+        "volume": "35"
     },
     {
         "contributors": [

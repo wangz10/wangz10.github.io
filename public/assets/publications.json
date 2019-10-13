@@ -158,6 +158,52 @@
         "volume": "47"
     },
     {
+        "abstract": "Atherosclerosis is driven by multifaceted contributions of the immune system within the circulation and at vascular focal sites. However, specific characteristics of dysregulated immune cells within atherosclerotic lesions that lead to clinical events such as ischemic stroke or myocardial infarction are poorly understood. Here, using single-cell proteomic and transcriptomic analyses, we uncovered distinct features of both T cells and macrophages in carotid artery plaques of patients with clinically symptomatic disease (recent stroke or transient ischemic attack) compared to asymptomatic disease (no recent stroke). Plaques from symptomatic patients were characterized by a distinct subset of CD4+ T cells and by T cells that were activated and differentiated. Moreover, some T cell subsets in these plaques presented markers of T cell exhaustion. Additionally, macrophages from these plaques contained alternatively activated phenotypes, including subsets associated with plaque vulnerability. In plaques from asymptomatic patients, T cells and macrophages were activated and displayed evidence of interleukin-1\u03b2 signaling. The identification of specific features of innate and adaptive immune cells in plaques that are associated with cerebrovascular events may enable the design of more precisely tailored cardiovascular immunotherapies.",
+        "contributors": [
+            "Fernandez, Dawn M.",
+            "Rahman, Adeeb H.",
+            "Fernandez, Nicolas F.",
+            "Chudnovskiy, Aleksey",
+            "Amir, El-ad David",
+            "Amadori, Letizia",
+            "Khan, Nayaab S.",
+            "Wong, Christine K.",
+            "Shamailova, Roza",
+            "Hill, Christopher A.",
+            "Wang, Zichen",
+            "Remark, Romain",
+            "Li, Jennifer R.",
+            "Pina, Christian",
+            "Faries, Christopher",
+            "Awad, Ahmed J.",
+            "Moss, Noah",
+            "Bjorkegren, Johan L. M.",
+            "Kim-Schulze, Seunghee",
+            "Gnjatic, Sacha",
+            "Ma\u2019ayan, Avi",
+            "Mocco, J.",
+            "Faries, Peter",
+            "Merad, Miriam",
+            "Giannarelli, Chiara"
+        ],
+        "dates": {
+            "pub-dates": "2019/10/01",
+            "year": "2019"
+        },
+        "doi": "10.1038/s41591-019-0590-4",
+        "electronic-resource-num": "10.1038/s41591-019-0590-4",
+        "isbn": "1546-170X",
+        "number": "10",
+        "pages": "1576-1588",
+        "periodical": "Nature Medicine",
+        "titles": {
+            "secondary-title": "Nature Medicine",
+            "title": "Single-cell immune landscape of human atherosclerotic plaques"
+        },
+        "urls": "https://doi.org/10.1038/s41591-019-0590-4",
+        "volume": "25"
+    },
+    {
         "abstract": "The opioid epidemic in the United States is averaging over 100 deaths per day due to overdose. The effectiveness of opioids as pain treatments, and the drug-seeking behavior of opioid addicts, leads physicians in the United States to issue over 200 million opioid prescriptions every year. To better understand the biomedical profile of opioid-dependent patients, we analyzed information from electronic health records (EHR) including lab tests, vital signs, medical procedures, prescriptions, and other data from millions of patients to predict opioid substance dependence.",
         "contributors": [
             "Ellis, Randall J.",
@@ -322,6 +368,37 @@
         },
         "urls": "http://jnnp.bmj.com/content/89/9/977.abstract",
         "volume": "89"
+    },
+    {
+        "abstract": "Background Podocyte injury is the hallmark of proteinuric kidney diseases, such as FSGS and minimal change disease, and destabilization of the podocyte\u2019s actin cytoskeleton contributes to podocyte dysfunction in many of these conditions. Although agents, such as glucocorticoids and cyclosporin, stabilize the actin cytoskeleton, systemic toxicity hinders chronic use. We previously showed that loss of the kidney-enriched zinc finger transcription factor Kr\u00fcppel-like factor 15 (KLF15) increases susceptibility to proteinuric kidney disease and attenuates the salutary effects of retinoic acid and glucocorticoids in the podocyte.Methods We induced podocyte-specific KLF15 in two proteinuric murine models, HIV-1 transgenic (Tg26) mice and adriamycin (ADR)-induced nephropathy, and used RNA sequencing of isolated glomeruli and subsequent enrichment analysis to investigate pathways mediated by podocyte-specific KLF15 in Tg26 mice. We also explored in cultured human podocytes the potential mediating role of Wilms Tumor 1 (WT1), a transcription factor critical for podocyte differentiation.Results In Tg26 mice, inducing podocyte-specific KLF15 attenuated podocyte injury, glomerulosclerosis, tubulointerstitial fibrosis, and inflammation, while improving renal function and overall survival; it also attenuated podocyte injury in ADR-treated mice. Enrichment analysis of RNA sequencing from the Tg26 mouse model shows that KLF15 induction activates pathways involved in stabilization of actin cytoskeleton, focal adhesion, and podocyte differentiation. Transcription factor enrichment analysis, with further experimental validation, suggests that KLF15 activity is in part mediated by WT1.Conclusions Inducing podocyte-specific KLF15 attenuates kidney injury by directly and indirectly upregulating genes critical for podocyte differentiation, suggesting that KLF15 induction might be a potential strategy for treating proteinuric kidney disease.",
+        "contributors": [
+            "Guo, Yiqing",
+            "Pace, Jesse",
+            "Li, Zhengzhe",
+            "Ma\u2019ayan, Avi",
+            "Wang, Zichen",
+            "Revelo, Monica P.",
+            "Chen, Edward",
+            "Gu, Xiangchen",
+            "Attalah, Ahmed",
+            "Yang, Yaqi",
+            "Estrada, Chelsea",
+            "Yang, Vincent W.",
+            "He, John C.",
+            "Mallipattu, Sandeep K."
+        ],
+        "dates": "2018",
+        "doi": "10.1681/ASN.2018030324",
+        "electronic-resource-num": "10.1681/ASN.2018030324",
+        "number": "10",
+        "pages": "2529",
+        "periodical": "Journal of the American Society of Nephrology",
+        "titles": {
+            "secondary-title": "Journal of the American Society of Nephrology",
+            "title": "Podocyte-Specific Induction of Kr\u00fcppel-Like Factor 15 Restores Differentiation Markers and Attenuates Kidney Injury in Proteinuric Kidney Disease"
+        },
+        "urls": "http://jasn.asnjournals.org/content/29/10/2529.abstract",
+        "volume": "29"
     },
     {
         "abstract": "Summary During development, hematopoietic stem and progenitor cells (HSPCs) arise from specialized endothelial cells by a process termed endothelial-to-hematopoietic transition (EHT). The genetic program driving human HSPC emergence remains largely unknown. We previously reported that the generation of hemogenic precursor cells from mouse fibroblasts recapitulates developmental hematopoiesis. Here, we demonstrate that human fibroblasts can be reprogrammed into hemogenic cells by the same transcription factors. Induced cells display dynamic EHT transcriptional programs, generate hematopoietic progeny, possess HSPC cell surface phenotype, and repopulate immunodeficient mice for 3\u00a0months. Mechanistically, GATA2 and GFI1B interact and co-occupy a cohort of targets. This cooperative binding is reflected by engagement of open enhancers and promoters, initiating silencing of fibroblast genes and activating the hemogenic program. However, GATA2 displays dominant and independent targeting activity during the early phases of reprogramming. These findings shed light on the processes controlling human HSC specification and support generation of reprogrammed HSCs for clinical applications.",
@@ -690,6 +767,34 @@
             "title": "Cell-specific prediction and application of drug-induced gene expression profiles"
         },
         "urls": "https://doi.org/10.1142/9789813235533_0004"
+    },
+    {
+        "contributors": [
+            "Asada, Noboru",
+            "Kunisaki, Yuya",
+            "Pierce, Halley",
+            "Wang, Zichen",
+            "Fernandez, Nicolas\u00a0F",
+            "Birbrair, Alexander",
+            "Ma\u2019ayan, Avi",
+            "Frenette, Paul\u00a0S"
+        ],
+        "dates": {
+            "pub-dates": "02/20/online",
+            "year": "2017"
+        },
+        "doi": "10.1038/ncb3475\rhttps://www.nature.com/articles/ncb3475#supplementary-information",
+        "electronic-resource-num": "10.1038/ncb3475\rhttps://www.nature.com/articles/ncb3475#supplementary-information",
+        "pages": "214",
+        "periodical": "Nature Cell Biology",
+        "publisher": "Nature Publishing Group",
+        "titles": {
+            "secondary-title": "Nature Cell Biology",
+            "title": "Differential cytokine contributions of perivascular haematopoietic stem cell niches"
+        },
+        "urls": "https://doi.org/10.1038/ncb3475",
+        "volume": "19",
+        "work-type": "Article"
     },
     {
         "abstract": "Gene expression data are accumulating exponentially in public repositories. Reanalysis and integration of themed collections from these studies may provide new insights, but requires further human curation. Here we report a crowdsourcing project to annotate and reanalyse a large number of gene expression profiles from Gene Expression Omnibus (GEO). Through a massive open online course on Coursera, over 70 participants from over 25 countries identify and annotate 2,460 single-gene perturbation signatures, 839 disease versus normal signatures, and 906 drug perturbation signatures. All these signatures are unique and are manually validated for quality. Global analysis of these signatures confirms known associations and identifies novel associations between genes, diseases and drugs. The manually curated signatures are used as a training set to develop classifiers for extracting similar signatures from the entire GEO repository. We develop a web portal to serve these signatures for query, download and visualization.",

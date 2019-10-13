@@ -4,6 +4,7 @@ import {
   Row,
   Col,
   Navbar,
+  Nav,
   Button
 } from 'react-bootstrap'
 import Scrollspy from 'react-scrollspy'
@@ -31,35 +32,30 @@ import Projects from './projects'
 
 // navbar with scrollspy
 const navbar = (
-  <Navbar fixed='top' variant='dark' style={{ backgroundColor: '#0089A7' }}>
+  <Navbar fixed='top' variant='dark' style={{ backgroundColor: '#0089A7' }} expand='sm'>
     <Navbar.Brand href='#'>Zichen Wang, PhD</Navbar.Brand>
-    <Scrollspy
-      items={['about', 'resume', 'projects', 'publications']}
-      offset={-56}
-      currentClassName='nav-item active'
-      className='navbar-nav'
-    >
-      <li className='nav-item active'>
-        <a className='nav-link' href='#about'>
-          About
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a className='nav-link' href='#resume'>
-          Resume
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a className='nav-link' href='#projects'>
-          Projects
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a className='nav-link' href='#publications'>
-          Publications
-        </a>
-      </li>
-    </Scrollspy>
+    <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+    <Navbar.Collapse id='responsive-navbar-nav'>
+      <Scrollspy
+        items={['about', 'resume', 'projects', 'publications']}
+        offset={-56}
+        currentClassName='nav-item active'
+        className='navbar-nav mr-auto'
+      >
+        <Nav.Item as='li'>
+          <Nav.Link href='#about'>About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as='li'>
+          <Nav.Link href='#resume'>Resume</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as='li'>
+          <Nav.Link href='#projects'>Projects</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as='li'>
+          <Nav.Link href='#publications'>Publications</Nav.Link>
+        </Nav.Item>
+      </Scrollspy>
+    </Navbar.Collapse>
   </Navbar>
 )
 

@@ -32,30 +32,65 @@ function parsePublication(obj) {
 }
 
 class Publication extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      showAbstract: false
+    }
+    this.toggleAbstract = this.toggleAbstract.bind(this)
+  }
+
+  toggleAbstract() {
+    this.setState({ showAbstract: !this.state.showAbstract })
+  }
+
   render() {
     const { data } = this.props
     const nAuthors = data.authors.length
-    return (
-      <li>
-        <a className='title' href={'http://dx.doi.org/' + data.doi} target='_blank' rel='noopener noreferrer'>
-          {data.title}
-        </a>
-        <p className='authors'>
-          {data.authors.map((a, i) => {
-            let className = ''
-            if (a === 'Zichen Wang' || a === 'Zi-Chen Wang') {
-              className = 'author-self'
-            }
-            if (i !== nAuthors - 1) {
-              return (<span key={i}><span className={className}>{a}</span><span>, </span></span>)
-            } else {
-              return (<span key={i} className={className}>{a}</span>)
-            }
-          })}
-        </p>
-        <p><span className='journal'>{data.journal}</span>, <span className='year'>{data.year}</span></p>
-      </li>
-    )
+
+    // DOMs
+    const titleP = (<a className='title' href={'http://dx.doi.org/' + data.doi} target='_blank' rel='noopener noreferrer'>
+      {data.title}
+                    </a>)
+
+    const authorsP = (<p className='authors'>
+      {data.authors.map((a, i) => {
+        let className = ''
+        if (a === 'Zichen Wang' || a === 'Zi-Chen Wang') {
+          className = 'author-self'
+        }
+        if (i !== nAuthors - 1) {
+          return (<span key={i}><span className={className}>{a}</span><span>, </span></span>)
+        } else {
+          return (<span key={i} className={className}>{a}</span>)
+        }
+      })}
+                      </p>)
+
+    const journalP = <p className='p-journal'><span className='journal'>{data.journal}</span>, <span className='year'>{data.year}</span></p>
+    const abstractP = <p>{data.abstract}</p>
+    const abstractBtn = <p>[<span className='abs-btn' onClick={this.toggleAbstract}>abstract</span>]</p>
+
+    if (this.state.showAbstract) {
+      return (
+        <li>
+          {titleP}
+          {authorsP}
+          {journalP}
+          {abstractBtn}
+          {abstractP}
+        </li>
+      )
+    } else {
+      return (
+        <li>
+          {titleP}
+          {authorsP}
+          {journalP}
+          {abstractBtn}
+        </li>
+      )
+    }
   }
 }
 

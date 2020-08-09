@@ -133,7 +133,7 @@ class App extends Component {
           </Row>
           <Row id='projects' className='justify-content-md-center'>
             <Col md={10} sm={12}>
-              <h1>Projects</h1>
+              <h1>Selected Projects</h1>
               <Projects data={this.state.projData} />
             </Col>
           </Row>

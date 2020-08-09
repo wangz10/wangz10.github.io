@@ -10,3 +10,18 @@
 .journal {
     font-style: italic;
 }
+.p-journal{
+    margin-bottom: 0;
+}
+
+.abs-btn {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.abs-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

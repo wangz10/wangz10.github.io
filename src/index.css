@@ -7,6 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.portrait {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+p {
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+nav.navbar {
+  font-weight: bold;
+}
+
+a.nav-link {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2.5;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -24,14 +47,14 @@ footer {
 
 .social-links li {
   display: inline-block;
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 0;
 }
 
 .social-links > li > a {
-  color: #ccc;
+  color: #0089A7;
 }
 
 .social-links > li > a:hover {
-  color: #fff;
+  color: #aaa;
 }

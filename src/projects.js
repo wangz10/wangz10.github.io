@@ -11,24 +11,30 @@ function DlItem(props) {
     </div>)
 }
 
+function LiAnchorItem(props) {
+  return (
+    <li className='list-inline-item'>[<a href={props.link.url} target='_blank'>{props.link.type}</a>]</li>
+  )
+}
+
 class Project extends Component {
   render() {
     const { data } = this.props
     return (
       <Col md={6} className='d-flex flex-row align-items-stretch'>
         <Card className='mb-3 shadow-sm h-md-250'>
+          <Card.Header>{data.title}</Card.Header>
           <Card.Img variant='top' src={data.img} />
           <Card.Body className='d-flex flex-column align-items-start'>
-            <Card.Title className='mb-0'>{data.title}</Card.Title>
             <div>
               {data.tags.map((tag, i) => { return (<Badge key={i} variant='secondary' className='mr-1'>{tag}</Badge>) })}
             </div>
             <Card.Text className='mb-auto'>{data.desc}</Card.Text>
-            <dl>
+            <ul className='list-unstyled list-inline'>
               {
-                data.links.map((link, i) => <DlItem key={i} objectKey={link.type} value={link.url} />)
+                data.links.map((link, i) => <LiAnchorItem link={link} />)
               }
-            </dl>
+            </ul>
           </Card.Body>
         </Card>
       </Col>

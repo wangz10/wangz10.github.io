@@ -10,15 +10,6 @@ import {
 import Scrollspy from 'react-scrollspy'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import {
-  faLinkedinIn,
-  faTwitter,
-  faGithub,
-  faMediumM,
-  faGoogle,
-  faResearchgate,
-  faOrcid
-} from '@fortawesome/free-brands-svg-icons'
 
 import './App.css'
 
@@ -155,15 +146,6 @@ class App extends Component {
         </Container>
         <footer className='py-5'>
           <Container>
-            <ul className='social-links text-center'>
-              <li><a href='https://twitter.com/ZichenWangPhD'><FontAwesomeIcon icon={faTwitter} /></a></li>
-              <li><a href='https://github.com/wangz10'><FontAwesomeIcon icon={faGithub} /></a></li>
-              <li><a href='https://www.linkedin.com/in/zichenwang/'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-              <li><a href='https://medium.com/@wangzc921'><FontAwesomeIcon icon={faMediumM} /></a></li>
-              <li><a href='https://scholar.google.com/citations?user=bwLMCp4AAAAJ&hl=en'><FontAwesomeIcon icon={faGoogle} /></a></li>
-              <li><a href='https://www.researchgate.net/profile/Zichen_Wang'><FontAwesomeIcon icon={faResearchgate} /></a></li>
-              <li><a href='http://orcid.org/0000-0002-1415-1286'><FontAwesomeIcon icon={faOrcid} /></a></li>
-            </ul>
             <p className='m-0 text-center text-white'>All rights reserved.</p>
           </Container>
         </footer>

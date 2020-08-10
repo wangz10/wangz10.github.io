@@ -1,0 +1,201 @@
+[
+    {
+        "title": "Contrastive representation learning",
+        "desc": "In this work, I compared various contrastive loss functions used for contrastive representation learning (aka metric learning). Through experiments on MNIST and Fashion MNIST datasets, I found supervised contrastive loss improves the learned representation by providing informative projections for classification task. The figure shows the t-SNE embeddings of the representations learned by neural networks equipped with different contrastive objectives.",
+        "tags": [
+            "contrastive learning",
+            "representation learning"
+        ],
+        "img": "assets/projects/contrastive-loss.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/contrastive_loss",
+                "type": "code"
+            },
+            {
+                "url": "https://towardsdatascience.com/contrasting-contrastive-loss-functions-3c13ca5f055e?source=friends_link&sk=e39379f0e1ac469d6ebb455e65c46eea",
+                "type": "blog post"
+            }
+        ]
+    },
+    {
+        "title": "Deep generative models",
+        "desc": "A few didactic projects using Tensorflow and Keras to illustrate the advantage of generative models over discriminative models. I am primarily interested in DL architectures including variational autoencoder (VAE) and generative adversarial networks (GANs). The figure shows VAE reconstructed data by gradually interpolating between class centers in the latent space.",
+        "tags": [
+            "VAE",
+            "GANs"
+        ],
+        "img": "assets/projects/deep-learning.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/tensorflow-playground",
+                "type": "code1"
+            },
+            {
+                "url": "https://github.com/wangz10/Generative-Models",
+                "type": "code2"
+            },
+            {
+                "url": "https://towardsdatascience.com/interpolation-with-generative-models-eb7d288294c?source=friends_link&sk=864996d83da125e503dfd0cd90fe4410",
+                "type": "blog post"
+            }
+        ]
+    },
+    {
+        "title": "Natural language processing in biomedical texts",
+        "desc": "A few NLP-related projects: text classification and named-entitiy recognition (NER) applied to biomedical corpora. I reviewed and evaluated traditional NLP approaches and recent neural architectures on corpora of biomedical literatures.",
+        "tags": [
+            "NLP",
+            "word2vec",
+            "NER",
+            "text classification"
+        ],
+        "img": "assets/projects/NLP.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/text-classification",
+                "type": "code1"
+            },
+            {
+                "url": "https://github.com/wangz10/NER-playground",
+                "type": "code2"
+            }
+        ]
+    },
+    {
+        "title": "Reinforcement learning",
+        "desc": "(Deep) RL related projects using Tensorflow and OpenAI Gym from David Silver's and Sergey Levine's courses.",
+        "tags": [
+            "RL",
+            "policy gradient",
+            "actor-critic"
+        ],
+        "img": "assets/projects/RL.png",
+        "links": [
+            {
+                "url": "https://github.com/wangz10/Reinformcement-Learning",
+                "type": "code1"
+            },
+            {
+                "url": "https://github.com/wangz10/CS294-DeepRL-homework",
+                "type": "code2"
+            }
+        ]
+    },
+    {
+        "title": "Semi-automated curation and reanalysis of public gene expression datasets",
+        "desc": "A crowdsourcing project to annotate and reanalyze a large number of gene expression profiles from Gene Expression Omnibus (GEO). Through a massive open online course on Coursera, over 70 participants from over 25 countries identify and annotate 2,460 single-gene perturbation signatures, 839 disease versus normal signatures, and 906 drug perturbation signatures. Global analysis of these signatures confirms known associations and identifies novel associations between genes, diseases and drugs. The manually curated signatures are used as a training set to develop classifiers for extracting similar signatures from the entire GEO repository.",
+        "tags": [
+            "data visualization",
+            "crowdsourcing",
+            "gene expression",
+            "text classification"
+        ],
+        "img": "assets/projects/creeds-bubble-chart.png",
+        "links": [
+            {
+                "url": "https://github.com/MaayanLab/creeds",
+                "type": "code"
+            },
+            {
+                "url": "http://amp.pharm.mssm.edu/CREEDS/",
+                "type": "website"
+            },
+            {
+                "url": "http://dx.doi.org/10.1038/ncomms12846",
+                "type": "paper"
+            },
+            {
+                "url": "http://dx.doi.org/10.1007/s12551-018-0490-8",
+                "type": "review paper"
+            }
+        ]
+    },
+    {
+        "title": "L1000FWD: embedding of drug-induced gene signatures",
+        "desc": "L1000 fireworks display (L1000FWD) is a web application that provides interactive visualization of over 16 000 drug and small-molecule induced gene expression signatures. L1000FWD enables coloring of signatures by different attributes such as cell type, time point, concentration, as well as drug attributes such as MOA and clinical phase. Each point on the L1000FWD interactive map is linked to a signature landing page, which provides multifaceted knowledge from various sources about the signature and the drug. Notably such information includes most frequent diagnoses, co-prescribed drugs and age distribution of prescriptions as extracted from the Mount Sinai Health System electronic medical records. Overall, L1000FWD serves as a platform for identifying functions for novel small molecules using unsupervised clustering, as well as for exploring drug MOA.",
+        "tags": [
+            "data visualization",
+            "drug discovery",
+            "gene expression",
+            "representation learning"
+        ],
+        "img": "assets/projects/L1000FWD.png",
+        "links": [
+            {
+                "url": "https://github.com/MaayanLab/L1000FWD",
+                "type": "code"
+            },
+            {
+                "url": "http://amp.pharm.mssm.edu/L1000FWD",
+                "type": "website"
+            },
+            {
+                "url": "https://doi.org/10.1093/bioinformatics/bty060",
+                "type": "paper"
+            }
+        ]
+    },
+    {
+        "title": "Deep learning model to predict physiological aging using EMR data",
+        "desc": "In this work, we present a deep learning model that uses vital signs and lab tests contained within the EMR of Mount Sinai Health System (MSHS) to predict chronological age. The model is trained on 377,686 EMR from patients of ages 18–85 years old. The discrepancy between the predicted and real chronological age is then used as a proxy to estimate physiological age. Overall, the model can predict the chronological age of patients with a standard deviation error of ∼7 years. The patients predicted to be significantly older than their chronological age have higher systolic blood pressure, higher cholesterol, damaged liver, and anemia. In contrast, patients predicted to be younger than their chronological age have lower blood pressure and shorter stature among other indicators. Later, this DL model was implemented to a web application by David Szanto I helped supervised.",
+        "tags": [
+            "deep learning",
+            "EMR"
+        ],
+        "img": "assets/projects/EMR-aging.png",
+        "links": [
+            {
+                "url": "https://www.sciencedirect.com/science/article/pii/S153204641730240X",
+                "type": "paper"
+            },
+            {
+                "url": "http://amp.pharm.mssm.edu/palm2a/",
+                "type": "web app"
+            }
+        ]
+    },
+    {
+        "title": "Predicting drug side effects with gene expression signatures and chemical structures",
+        "desc": "In this study, we developed a machine learning classifier to prioritize Adverse Drug Reactions (ADRs) for approved drugs and pre-clinical small-molecule compounds by combining chemical structure (CS) and gene expression (GE) features. Using various benchmarking methods, we show that the integration of GE data with the CS of the drugs can significantly improve the predictability of ADRs. The most predictive biological-term features can assist in understanding the drug mechanisms of action. Finally, we applied the classifier to all >20,000 small molecules profiled, and developed a web portal for browsing and searching predictive small-molecule/ADR connections.",
+        "tags": [
+            "machine learning",
+            "drug discovery"
+        ],
+        "img": "assets/projects/SEP-L1000.png",
+        "links": [
+            {
+                "url": "http://maayanlab.net/SEP-L1000",
+                "type": "website"
+            },
+            {
+                "url": "http://dx.doi.org/10.1093/bioinformatics/btw168",
+                "type": "paper"
+            }
+        ]
+    },
+    {
+        "title": "Reproducible RNA-seq analysis pipeline",
+        "desc": "We introduce a reproducible open source RNA-seq pipeline delivered as an Jupyter notebook and a Docker image. The pipeline uses state-of-the-art tools and can run on various platforms with minimal configuration overhead. The pipeline enables the extraction of knowledge from typical RNA-seq studies by generating interactive principal component analysis (PCA) and hierarchical clustering (HC) plots, performing enrichment analyses against over 90 gene set libraries, and obtaining lists of small molecules that are predicted to either mimic or reverse the observed changes in mRNA expression.",
+        "tags": [
+            "jupyter notebook",
+            "ngs",
+            "reproducible computational pipeline"
+        ],
+        "img": "assets/projects/RNA-seq-pipeline.gif",
+        "links": [
+            {
+                "url": "https://github.com/MaayanLab/Zika-RNAseq-Pipeline",
+                "type": "code"
+            },
+            {
+                "url": "https://hub.docker.com/r/maayanlab/zika",
+                "type": "Docker image"
+            },
+            {
+                "url": "http://dx.doi.org/10.12688/f1000research.9110.1",
+                "type": "paper"
+            }
+        ]
+    }
+]

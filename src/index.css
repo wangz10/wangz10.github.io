@@ -58,3 +58,11 @@ footer {
 .social-links > li > a:hover {
   color: #aaa;
 }
+
+footer > div > ul > li > a {
+  color: #ccc!important;
+}
+
+footer > div > ul > li > a:hover {
+  color: #fff!important;
+}

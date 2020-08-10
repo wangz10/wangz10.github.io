@@ -10,7 +10,15 @@ import {
 import Scrollspy from 'react-scrollspy'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-
+import {
+  faLinkedinIn,
+  faTwitter,
+  faGithub,
+  faMediumM,
+  faGoogle,
+  faResearchgate,
+  faOrcid
+} from '@fortawesome/free-brands-svg-icons'
 import './App.css'
 
 // individual sections
@@ -21,6 +29,33 @@ import { Publications, parsePublication } from './publications'
 import './publications.css'
 import Projects from './projects'
 
+class NavLink extends Component {
+  constructor(props) {
+    super(props)
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick(event) {
+    // smoothly scroll to target with offset
+    event.preventDefault()
+    // remove the leading "#"
+    const targetId = this.props.href.slice(1)
+    const el = document.getElementById(targetId)
+    const bodyRect = document.body.getBoundingClientRect().top
+    const elementRect = el.getBoundingClientRect().top
+    const elementPosition = elementRect - bodyRect
+    const offsetPosition = elementPosition - 72
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    })
+  }
+
+  render() {
+    return <a className='nav-link' href={this.props.href} onClick={(e) => this.handleClick(e)}>{this.props.name}</a>
+  }
+}
 // navbar with scrollspy
 const navbar = (
   <Navbar fixed='top' variant='dark' style={{ backgroundColor: '#0089A7' }} expand='sm'>
@@ -29,21 +64,21 @@ const navbar = (
     <Navbar.Collapse id='responsive-navbar-nav'>
       <Scrollspy
         items={['about', 'resume', 'projects', 'publications']}
-        offset={-56}
+        offset={-72}
         currentClassName='nav-item active'
         className='navbar-nav mr-auto'
       >
         <Nav.Item as='li'>
-          <Nav.Link href='#about'>About</Nav.Link>
+          <NavLink href='#about' name='About' />
         </Nav.Item>
         <Nav.Item as='li'>
-          <Nav.Link href='#resume'>Resume</Nav.Link>
+          <NavLink href='#resume' name='Resume' />
         </Nav.Item>
         <Nav.Item as='li'>
-          <Nav.Link href='#projects'>Projects</Nav.Link>
+          <NavLink href='#projects' name='Projects' />
         </Nav.Item>
         <Nav.Item as='li'>
-          <Nav.Link href='#publications'>Publications</Nav.Link>
+          <NavLink href='#publications' name='Publications' />
         </Nav.Item>
       </Scrollspy>
     </Navbar.Collapse>
@@ -146,6 +181,15 @@ class App extends Component {
         </Container>
         <footer className='py-5'>
           <Container>
+            <ul className='social-links text-center'>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://twitter.com/ZichenWangPhD' title='Twitter'><FontAwesomeIcon icon={faTwitter} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://github.com/wangz10' title='GitHub'><FontAwesomeIcon icon={faGithub} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/zichenwang/' title='LinkedIn'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://medium.com/@wangzc921' title='Medium'><FontAwesomeIcon icon={faMediumM} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://scholar.google.com/citations?user=bwLMCp4AAAAJ&hl=en' title='Google Scholar'><FontAwesomeIcon icon={faGoogle} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='https://www.researchgate.net/profile/Zichen_Wang' title='ResearchGate'><FontAwesomeIcon icon={faResearchgate} /></a></li>
+              <li><a target='_blank' rel='noopener noreferrer' href='http://orcid.org/0000-0002-1415-1286' title='ORCID'><FontAwesomeIcon icon={faOrcid} /></a></li>
+            </ul>
             <p className='m-0 text-center text-white'>All rights reserved.</p>
           </Container>
         </footer>

@@ -117,8 +117,11 @@ class Publications extends Component {
       const { data } = this.props
       return (
         <section>
+          <div>
+            <a href='https://scholar.google.com/citations?user=bwLMCp4AAAAJ&hl=en' target='_blank' rel='noopener noreferrer'>Google Scholar</a>
+          </div>
           <Button variant='outline-primary' onClick={this.handleBtnClick} className='my-2'>Sort by {this.state.nextSortKey}</Button>
-          <ol style={{ overflowY: 'auto', maxHeight: this.props.maxHeight || 800 }}>
+          <ol>
             {data.map((pub, i) => {
               return <Publication data={pub} key={i} />
             })}

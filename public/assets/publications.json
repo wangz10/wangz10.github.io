@@ -755,7 +755,7 @@
             "Dudley, Joel"
         ],
         "dates": "2017",
-        "doi": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004",
+        "doi": "doi:10.1142/9789813235533_0004",
         "electronic-resource-num": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004",
         "isbn": "978-981-323-552-6",
         "notes": "doi:10.1142/9789813235533_0004",
@@ -783,7 +783,7 @@
             "pub-dates": "02/20/online",
             "year": "2017"
         },
-        "doi": "10.1038/ncb3475\rhttps://www.nature.com/articles/ncb3475#supplementary-information",
+        "doi": "10.1038/ncb3475",
         "electronic-resource-num": "10.1038/ncb3475\rhttps://www.nature.com/articles/ncb3475#supplementary-information",
         "pages": "214",
         "periodical": "Nature Cell Biology",
@@ -853,7 +853,7 @@
             "pub-dates": "09/26/online",
             "year": "2016"
         },
-        "doi": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information",
+        "doi": "10.1038/ncomms12846",
         "electronic-resource-num": "10.1038/ncomms12846\rhttp://www.nature.com/articles/ncomms12846#supplementary-information",
         "pages": "12846",
         "periodical": "Nature Communications",
@@ -929,7 +929,7 @@
             "pub-dates": "08/15/online",
             "year": "2016"
         },
-        "doi": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information",
+        "doi": "10.1038/nn.4360",
         "electronic-resource-num": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information",
         "isbn": "1546-1726",
         "periodical": "Nat Neurosci",
@@ -1170,7 +1170,7 @@
             "pub-dates": "08/04/online",
             "year": "2016"
         },
-        "doi": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information",
+        "doi": "10.1038/npjsba.2016.15",
         "electronic-resource-num": "10.1038/npjsba.2016.15\rhttp://www.nature.com/articles/npjsba201615#supplementary-information",
         "pages": "16015",
         "periodical": "npj Systems Biology and Applications",

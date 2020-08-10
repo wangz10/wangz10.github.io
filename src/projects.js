@@ -1,19 +1,9 @@
 import React, { Component } from 'react'
 import { Row, Col, Card, Badge } from 'react-bootstrap'
 
-function DlItem(props) {
-  return (
-    <div className='row mt-2 mb-0'>
-      <dt className='col-3'>{props.objectKey}:</dt>
-      <dd className='col-9'>
-        <a href={props.value} target='_blank' rel='noopener noreferrer'>{props.value}</a>
-      </dd>
-    </div>)
-}
-
 function LiAnchorItem(props) {
   return (
-    <li className='list-inline-item'>[<a href={props.link.url} target='_blank'>{props.link.type}</a>]</li>
+    <li className='list-inline-item'>[<a href={props.link.url} target='_blank' rel='noopener noreferrer'>{props.link.type}</a>]</li>
   )
 }
 
@@ -32,7 +22,7 @@ class Project extends Component {
             <Card.Text className='mb-auto'>{data.desc}</Card.Text>
             <ul className='list-unstyled list-inline'>
               {
-                data.links.map((link, i) => <LiAnchorItem link={link} />)
+                data.links.map((link, i) => <LiAnchorItem key={i} link={link} />)
               }
             </ul>
           </Card.Body>

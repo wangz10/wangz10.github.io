@@ -5,14 +5,16 @@
             "degree": "PhD",
             "date": "AUG 2012 - DEC 2016",
             "area": "Biomedical Science (Computational Biology)",
-            "summary": "Developed computational and mathematical methods to study the complexity of regulatory networks in mammalian systems."
+            "summary": "Developed computational and mathematical methods to study the complexity of regulatory networks in mammalian systems.",
+            "location": "New York, NY"
         },
         {
             "name": "China Agricultural University",
             "degree": "BS",
             "date": "SEP 2008 - JUN 2012",
             "area": "Biochemistry and Molecular Biology",
-            "summary": "Used forward genetics to study the development biology of model plant Arabidopsis thaliana"
+            "summary": "Used forward genetics to study the development biology of model plant Arabidopsis thaliana",
+            "location": "Beijing, China"
         }
     ],
     "work": [
@@ -20,19 +22,22 @@
             "name": "Sema4",
             "position": "Principal Scientist",
             "date": "SEP 2019 - PRESENT",
-            "summary": "Developing personalized phenotyping and prediction algorithms to understand pregnancy complications and neonatal disorders using longitudinal EMR."
+            "summary": "Developing personalized phenotyping and prediction algorithms to understand pregnancy complications and neonatal disorders using longitudinal EMR.",
+            "location": "Stamford, CT"
         },
         {
             "name": "Icahn School of Medicine at Mount Sinai",
             "position": "Assistant Professor",
             "date": "JUN 2017 - SEP 2019",
-            "summary": "Conducted various research projects in Computational Systems Biology using high-dimensional molecular and clinical data. Primarily focused on using ML methods to understand mechanisms of actions (MoAs) of small molecule compounds."
+            "summary": "Conducted various research projects in Computational Systems Biology using high-dimensional molecular and clinical data. Primarily focused on using ML methods to understand mechanisms of actions (MoAs) of small molecule compounds.",
+            "location": "New York, NY"
         },
         {
             "name": "Icahn School of Medicine at Mount Sinai",
             "position": "Postdoctoral Fellow",
             "date": "JAN 2017 - JUN 2017",
-            "summary": "Developed a DL model leveraging clinical variables from the EMR to study physiological aging."
+            "summary": "Developed a DL model leveraging clinical variables from the EMR to study physiological aging.",
+            "location": "New York, NY"
         }
     ],
     "skills": [

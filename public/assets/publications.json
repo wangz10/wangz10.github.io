@@ -1,5 +1,184 @@
 [
     {
+        "abstract": "COVID-19 is a novel threat to human health worldwide. There is an urgent need to understand patient characteristics of having COVID-19 disease and evaluate markers of critical illness and mortality. Objective: To assess association of clinical features on patient outcomes. Design, Setting, and Participants: In this observational case series, patient-level data were extracted from electronic medical records for 28,336 patients tested for SARS-CoV-2 at the Mount Sinai Health System from 2/24/ to 4/15/2020, including 6,158 laboratory-confirmed cases. Exposures: Confirmed COVID-19 diagnosis by RT-PCR assay from nasal swabs. Main Outcomes and Measures: Effects of race on positive test rates and mortality were assessed. Among positive cases admitted to the hospital (N = 3,273), effects of patient demographics, hospital site and unit, social behavior, vital signs, lab results, and disease comorbidities on discharge and death were estimated. Results: Hispanics (29%) and African Americans (25%) had disproportionately high positive case rates relative to population base rates (p<2e-16); however, no differences in mortality rates were observed in the hospital. Outcome differed significantly between hospitals (Gray's T=248.9; p<2e-16), reflecting differences in average baseline age and underlying comorbidities. Significant risk factors for mortality included age (HR=1.05 [95% CI, 1.04-1.06]; p=1.15e-32), oxygen saturation (HR=0.985 [95% CI, 0.982-0.988]; p=1.57e-17), care in ICU areas (HR=1.58 [95% CI, 1.29-1.92]; p=7.81e-6), and elevated creatinine (HR=1.75 [95% CI, 1.47-2.10]; p=7.48e-10), alanine aminotransferase (ALT) (HR=1.002, [95% CI 1.001-1.003]; p=8.86e-5) and body-mass index (BMI) (HR=1.02, [95% CI 1.00-1.03]; p=1.09e-2). Asthma (HR=0.78 [95% CI, 0.62-0.98]; p=0.031) was significantly associated with increased length of hospital stay, but not mortality. Deceased patients were more likely to have elevated markers of inflammation. Baseline age, BMI, oxygen saturation, respiratory rate, white blood cell (WBC) count, creatinine, and ALT were significant prognostic indicators of mortality. Conclusions and Relevance: While race was associated with higher risk of infection, we did not find a racial disparity in inpatient mortality suggesting that outcomes in a single tertiary care health system are comparable across races. We identified clinical features associated with reduced mortality and discharge. These findings could help to identify which COVID-19 patients are at greatest risk and evaluate the impact on survival.",
+        "contributors": [
+            "Wang, Zichen",
+            "Zheutlin, Amanda B.",
+            "Kao, Yu-Han",
+            "Ayers, Kristin L.",
+            "Gross, Susan J.",
+            "Kovatch, Patricia",
+            "Nirenberg, Sharon",
+            "Charney, Alexander W.",
+            "Nadkarni, Girish N.",
+            "Reilly, Paul F.",
+            "Just, Allan C.",
+            "Horowitz, Carol R.",
+            "Martin, Glenn",
+            "Branch, Andrea D.",
+            "Glicksberg, Benjamin S.",
+            "Charney, Dennis S.",
+            "Reich, David L.",
+            "Oh, William K.",
+            "Schadt, Eric E.",
+            "Chen, Rong",
+            "Li, Li"
+        ],
+        "dates": {
+            "pub-dates": "May 04",
+            "year": "2020"
+        },
+        "doi": "10.1101/2020.04.28.20075788",
+        "periodical": "medRxiv",
+        "titles": {
+            "secondary-title": "medRxiv",
+            "title": "Analysis of hospitalized COVID-19 patients in the Mount Sinai Health System using electronic medical records (EMR) reveals important prognostic factors for improved clinical outcomes"
+        }
+    },    
+    {
+        "abstract": "Genetic variants are the primary driver of congenital heart disease (CHD) pathogenesis. However, our ability to identify causative variants is limited. To identify causal CHD genes that are associated with specific molecular functions, the study used prior knowledge to filter de novo variants from 2,881 probands with sporadic severe CHD. This approach enabled the authors to identify an association between left ventricular outflow tract obstruction lesions and genes associated with the WAVE2 complex and regulation of small GTPase-mediated signal transduction. Using CRISPR zebrafish knockdowns, the study confirmed that WAVE2 complex proteins brk1, nckap1, and wasf2 and the regulators of small GTPase signaling cul3a and racgap1 are critical to cardiac development.",
+        "contributors": [
+            "Edwards, Jonathan J.",
+            "Rouillard, Andrew D.",
+            "Fernandez, Nicolas F.",
+            "Wang, Zichen",
+            "Lachmann, Alexander",
+            "Shankaran, Sunita S.",
+            "Bisgrove, Brent W.",
+            "Demarest, Bradley",
+            "Turan, Nahid",
+            "Srivastava, Deepak",
+            "Bernstein, Daniel",
+            "Deanfield, John",
+            "Giardini, Alessandro",
+            "Porter, George",
+            "Kim, Richard",
+            "Roberts, Amy E.",
+            "Newburger, Jane W.",
+            "Goldmuntz, Elizabeth",
+            "Brueckner, Martina",
+            "Lifton, Richard P.",
+            "Seidman, Christine E.",
+            "Chung, Wendy K.",
+            "Tristani-Firouzi, Martin",
+            "Yost, H. Joseph",
+            "Ma’ayan, Avi",
+            "Gelb, Bruce D."
+        ],
+        "dates": {
+            "pub-dates": "April 4",
+            "year": "2020"
+        },
+        "doi": "10.1016/j.jacbts.2020.01.012",
+        "periodical": "JACC: Basic to Translational Science",
+        "titles": {
+            "secondary-title": "JACC: Basic to Translational Science",
+            "title": "Systems Analysis Implicates WAVE2 Complex in the Pathogenesis of Developmental Left-Sided Obstructive Heart Defects"
+        }
+    },
+    {
+        "abstract": "Tissue homeostasis requires the balance of growth by cell production and regression through cell loss. In the hair cycle, during follicle regression, the niche traverses the skin through an unknown mechanism to reach the stem cell reservoir and trigger new growth. Here, we identify the dermal sheath that lines the follicle as the key driver of tissue regression and niche relocation through the smooth muscle contractile machinery that generates centripetal constriction force. We reveal that the calcium-calmodulin–myosin light chain kinase pathway controls sheath contraction. When this pathway is blocked, sheath contraction is inhibited, impeding follicle regression and niche relocation. Thus, our study identifies the dermal sheath as smooth muscle that drives follicle regression for reuniting niche and stem cells in order to regenerate tissue structure during homeostasis.",
+        "contributors": [
+            "Heitman, Nicholas",
+            "Sennett, Rachel",
+            "Mok, Ka-Wai",
+            "Saxena, Nivedita",
+            "Srivastava, Devika",
+            "Martino, Pieter",
+            "Grisanti, Laura",
+            "Wang, Zichen",
+            "Ma’ayan, Avi",
+            "Rompolas, Panteleimon",
+            "Rendl, Michael"
+        ],
+        "dates": {
+            "pub-dates": "January 10",
+            "year": "2020"
+        },
+        "doi": "10.1126/science.aax9131",
+        "periodical": "Science",
+        "titles": {
+            "secondary-title": "Science",
+            "title": "Dermal sheath contraction powers stem cell niche relocation during hair cycle regression"
+        }
+    },
+    {
+        "abstract": "Mining of integrated public transcriptomic and ChIP-Seq (cistromic) datasets can illuminate functions of mammalian cellular signaling pathways not yet explored in the research literature. Here, we designed a web knowledgebase, the Signaling Pathways Project (SPP), which incorporates community classifications of signaling pathway nodes (receptors, enzymes, transcription factors and co-nodes) and their cognate bioactive small molecules. We then mapped over 10,000 public transcriptomic or cistromic experiments to their pathway node or biosample of study. To enable prediction of pathway node-gene target transcriptional regulatory relationships through SPP, we generated consensus ‘omics signatures, or consensomes, which ranked genes based on measures of their significant differential expression or promoter occupancy across transcriptomic or cistromic experiments mapped to a specific node family. Consensomes were validated using alignment with canonical literature knowledge, gene target-level integration of transcriptomic and cistromic data points, and in bench experiments confirming previously uncharacterized node-gene target regulatory relationships. To expose the SPP knowledgebase to researchers, a web browser interface was designed that accommodates numerous routine data mining strategies. SPP is freely accessible at https://www.signalingpathways.org.",
+        "contributors": [
+            "Ochsner, Scott A.",
+            "Abraham, David",
+            "Martin, Kirt",
+            "Ding, Wei",
+            "McOwiti, Apollo",
+            "Kankanamge, Wasula",
+            "Wang, Zichen",
+            "Andreano, Kaitlyn",
+            "Hamilton, Ross A.",
+            "Chen, Yue",
+            "Hamilton, Angelica",
+            "Gantner, Marin L.",
+            "Dehart, Michael",
+            "Qu, Shijing",
+            "Hilsenbeck, Susan G.",
+            "Becnel, Lauren B.",
+            "Bridges, Dave",
+            "Ma’ayan, Avi",
+            "Huss, Janice M.",
+            "Stossi, Fabio",
+            "Foulds, Charles E.",
+            "Kralli, Anastasia",
+            "McDonnell, Donald P.",
+            "McKenna, Neil J."
+        ],
+        "dates": {
+            "pub-dates": "October 31",
+            "year": "2019"
+        },
+        "doi": "10.1038/s41597-019-0193-4",
+        "periodical": "Scientific Data",
+        "titles": {
+            "secondary-title": "Scientific Data",
+            "title": "The Signaling Pathways Project, an integrated ‘omics knowledgebase for mammalian cellular signaling pathways"
+        }
+    },
+    {
+        "abstract": "Diabetes is far more prevalent in smokers than non-smokers, but the underlying mechanisms of vulnerability are unknown. Here we show that the diabetes-associated gene Tcf7l2 is densely expressed in the medial habenula (mHb) region of the rodent brain, where it regulates the function of nicotinic acetylcholine receptors. Inhibition of TCF7L2 signalling in the mHb increases nicotine intake in mice and rats. Nicotine increases levels of blood glucose by TCF7L2-dependent stimulation of the mHb. Virus-tracing experiments identify a polysynaptic connection from the mHb to the pancreas, and wild-type rats with a history of nicotine consumption show increased circulating levels of glucagon and insulin, and diabetes-like dysregulation of blood glucose homeostasis. By contrast, mutant Tcf7l2 rats are resistant to these actions of nicotine. Our findings suggest that TCF7L2 regulates the stimulatory actions of nicotine on a habenula–pancreas axis that links the addictive properties of nicotine to its diabetes-promoting actions.",
+        "contributors": [
+            "Duncan, Alexander",
+            "Heyer, Mary P.",
+            "Ishikawa, Masago",
+            "Caligiuri, Stephanie P. B.",
+            "Liu, Xin-an",
+            "Chen, Zuxin",
+            "Micioni Di Bonaventura, Maria Vittoria",
+            "Elayouby, Karim S.",
+            "Ables, Jessica L.",
+            "Howe, William M.",
+            "Bali, Purva",
+            "Fillinger, Clementine",
+            "Williams, Maya",
+            "O’Connor, Richard  M.",
+            "Wang, Zichen",
+            "Lu, Qun",
+            "Kamenecka, Theodore M.",
+            "Ma’ayan, Avi",
+            "O’Neill, Heidi C.",
+            "Ibanez-Tallon, Ines",
+            "Geurts, Aron M.",
+            "Kenny, Paul J."        
+        ],
+        "dates": {
+            "pub-dates": "October 16",
+            "year": "2019"
+        },
+        "doi": "10.1038/s41586-019-1653-x",
+        "periodical": "Nature",
+        "titles": {
+            "secondary-title": "Nature",
+            "title": "Habenular TCF7L2 links nicotine addiction to diabetes"
+        }
+    },
+    {
         "abstract": "Publicly available gene expression datasets deposited in the Gene Expression Omnibus (GEO) are growing at an accelerating rate. Such datasets hold great value for knowledge discovery, particularly when integrated. Although numerous software platforms and tools have been developed to enable reanalysis and integration of individual, or groups, of GEO datasets, large-scale reuse of those datasets is impeded by minimal requirements for standardized metadata both at the study and sample levels as well as uniform processing of the data across studies. Here, we review methodologies developed to facilitate the systematic curation and processing of publicly available gene expression datasets from GEO. We identify trends for advanced metadata curation and summarize approaches for reprocessing the data within the entire GEO repository.",
         "contributors": [
             "Wang, Zichen",
@@ -513,6 +692,37 @@
         "volume": "46"
     },
     {
+        "abstract": "Gene expression profiling of in vitro drug perturbations is useful for many biomedical discovery applications including drug repurposing and elucidation of drug mechanisms. However, limited data availability across cell types has hindered our capacity to leverage or explore the cell-specificity of these perturbations. While recent efforts have generated a large number of drug perturbation profiles across a variety of human cell types, many gaps remain in this combinatorial drug-cell space. Hence, we asked whether it is possible to fill these gaps by predicting cell-specific drug perturbation profiles using available expression data from related conditions--i.e. from other drugs and cell types. We developed a computational framework that first arranges existing profiles into a three-dimensional array (or tensor) indexed by drugs, genes, and cell types, and then uses either local (nearest-neighbors) or global (tensor completion) information to predict unmeasured profiles. We evaluate prediction accuracy using a variety of metrics, and find that the two methods have complementary performance, each superior in different regions in the drug-cell space. Predictions achieve correlations of 0.68 with true values, and maintain accurate differentially expressed genes (AUC 0.81). Finally, we demonstrate that the predicted profiles add value for making downstream associations with drug targets and therapeutic classes.",
+        "access-date": "2018/03/11",
+        "contributors": [
+            "Hodos, Rachel",
+            "Zhang, Ping",
+            "Lee, Hao-Chih",
+            "Duan, Qiaonan",
+            "Wang, Zichen",
+            "Clark, Neil R.",
+            "Ma?ayan, Avi",
+            "Wang, Fei",
+            "Kidd, Brian",
+            "Hu, Jianying",
+            "Sontag, David",
+            "Dudley, Joel"
+        ],
+        "dates": "2018",
+        "doi": "doi:10.1142/9789813235533_0004",
+        "electronic-resource-num": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004",
+        "isbn": "978-981-323-552-6",
+        "notes": "doi:10.1142/9789813235533_0004",
+        "num-vols": "0",
+        "pages": "32-43",
+        "publisher": "WORLD SCIENTIFIC",
+        "titles": {
+            "secondary-title": "Biocomputing",
+            "title": "Cell-specific prediction and application of drug-induced gene expression profiles"
+        },
+        "urls": "https://doi.org/10.1142/9789813235533_0004"
+    },    
+    {
         "abstract": "Healthy cortical development depends on precise regulation of transcription and translation. However, the dynamics of how proteins are expressed, function and interact across postnatal human cortical development remain poorly understood. We surveyed the proteomic landscape of 69 dorsolateral prefrontal cortex samples across seven stages of postnatal life and integrated these data with paired transcriptome data. We detected 911 proteins by liquid chromatography-mass spectrometry, and 83 were significantly associated with postnatal age (FDR <\u20095%). Network analysis identified three modules of co-regulated proteins correlated with age, including two modules with increasing expression involved in gliogenesis and NADH metabolism and one neurogenesis-related module with decreasing expression throughout development. Integration with paired transcriptome data revealed that these age-related protein modules overlapped with RNA modules and displayed collinear developmental trajectories. Importantly, RNA expression profiles that are dynamically regulated throughout cortical development display tighter correlations with their respective translated protein expression compared to those RNA profiles that are not. Moreover, the correspondence between RNA and protein expression significantly decreases as a function of cortical aging, especially for genes involved in myelination and cytoskeleton organization. Finally, we used this data resource to elucidate the functional impact of genetic risk loci for intellectual disability, converging on gliogenesis, myelination and ATP-metabolism modules in the proteome and transcriptome. We share all data in an interactive, searchable companion website. Collectively, our findings reveal dynamic aspects of protein regulation and provide new insights into brain development, maturation, and disease.",
         "contributors": [
             "Breen, Michael S.",
@@ -738,37 +948,6 @@
         "volume": "6"
     },
     {
-        "abstract": "Gene expression profiling of in vitro drug perturbations is useful for many biomedical discovery applications including drug repurposing and elucidation of drug mechanisms. However, limited data availability across cell types has hindered our capacity to leverage or explore the cell-specificity of these perturbations. While recent efforts have generated a large number of drug perturbation profiles across a variety of human cell types, many gaps remain in this combinatorial drug-cell space. Hence, we asked whether it is possible to fill these gaps by predicting cell-specific drug perturbation profiles using available expression data from related conditions--i.e. from other drugs and cell types. We developed a computational framework that first arranges existing profiles into a three-dimensional array (or tensor) indexed by drugs, genes, and cell types, and then uses either local (nearest-neighbors) or global (tensor completion) information to predict unmeasured profiles. We evaluate prediction accuracy using a variety of metrics, and find that the two methods have complementary performance, each superior in different regions in the drug-cell space. Predictions achieve correlations of 0.68 with true values, and maintain accurate differentially expressed genes (AUC 0.81). Finally, we demonstrate that the predicted profiles add value for making downstream associations with drug targets and therapeutic classes.",
-        "access-date": "2018/03/11",
-        "contributors": [
-            "Hodos, Rachel",
-            "Zhang, Ping",
-            "Lee, Hao-Chih",
-            "Duan, Qiaonan",
-            "Wang, Zichen",
-            "Clark, Neil R.",
-            "Ma?ayan, Avi",
-            "Wang, Fei",
-            "Kidd, Brian",
-            "Hu, Jianying",
-            "Sontag, David",
-            "Dudley, Joel"
-        ],
-        "dates": "2017",
-        "doi": "doi:10.1142/9789813235533_0004",
-        "electronic-resource-num": "doi:10.1142/9789813235533_0004\r10.1142/9789813235533_0004",
-        "isbn": "978-981-323-552-6",
-        "notes": "doi:10.1142/9789813235533_0004",
-        "num-vols": "0",
-        "pages": "32-43",
-        "publisher": "WORLD SCIENTIFIC",
-        "titles": {
-            "secondary-title": "Biocomputing 2018",
-            "title": "Cell-specific prediction and application of drug-induced gene expression profiles"
-        },
-        "urls": "https://doi.org/10.1142/9789813235533_0004"
-    },
-    {
         "contributors": [
             "Asada, Noboru",
             "Kunisaki, Yuya",
@@ -932,10 +1111,10 @@
         "doi": "10.1038/nn.4360",
         "electronic-resource-num": "10.1038/nn.4360\rhttp://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.4360.html#supplementary-information",
         "isbn": "1546-1726",
-        "periodical": "Nat Neurosci",
+        "periodical": "Nature Neuroscience",
         "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.",
         "titles": {
-            "secondary-title": "Nat Neurosci",
+            "secondary-title": "Nature Neuroscience",
             "title": "Polycomb repressive complex 2 (PRC2) silences genes responsible for neurodegeneration"
         },
         "urls": "http://dx.doi.org/10.1038/nn.4360",
@@ -1395,10 +1574,10 @@
         "doi": "10.1038/ncomms6210",
         "electronic-resource-num": "10.1038/ncomms6210",
         "notes": "Supplementary information available for this article at http://www.nature.com/ncomms/2014/141114/ncomms6210/suppinfo/ncomms6210_S1.html",
-        "periodical": "Nat Commun",
+        "periodical": "Nature Communications",
         "publisher": "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.",
         "titles": {
-            "secondary-title": "Nat Commun",
+            "secondary-title": "Nature Communications",
             "title": "Histone H3.3 and its proteolytically processed form drive a cellular senescence programme"
         },
         "urls": "http://dx.doi.org/10.1038/ncomms6210",

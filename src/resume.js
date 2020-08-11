@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
 
-function ListItem(props) {
-  return <li className='list-inline-item'>{props.value}</li>
-}
 function DlItem(props) {
   return (
     <Row>
@@ -23,6 +20,7 @@ class ResumeEducation extends Component {
             <h4 className='strike-through'>
               <span>{item.name}</span> <span className='date'>{item.date}</span>
             </h4>
+            <div className='location'>{item.location}</div>
             <div className='area'>{item.degree} in {item.area}</div>
             <div className='summary'>{item.summary}</div>
           </Col>
@@ -30,10 +28,10 @@ class ResumeEducation extends Component {
     }
     return (
       <Row>
-        <Col xs={3}>
+        <Col md={3} xs={12}>
           <span className='resume-heading'>Education</span>
         </Col>
-        <Col xs={9}>
+        <Col md={9} xs={12}>
           {itemDOMs}
         </Col>
       </Row>)
@@ -50,6 +48,7 @@ class ResumeWork extends Component {
             <h4 className='strike-through'>
               <span>{item.name}</span> <span className='date'>{item.date}</span>
             </h4>
+            <div className='location'>{item.location}</div>
             <div className='position'>{item.position}</div>
             <div className='summary'>{item.summary}</div>
           </Col>
@@ -58,10 +57,10 @@ class ResumeWork extends Component {
     })
     return (
       <Row>
-        <Col xs={3}>
+        <Col md={3} xs={12}>
           <span className='resume-heading'>Work</span>
         </Col>
-        <Col xs={9}>
+        <Col md={9} xs={12}>
           {itemDOMs}
         </Col>
       </Row>)
@@ -83,9 +82,7 @@ class ResumeSkills extends Component {
           lists.push(<DlItem key={key} objectKey={key} value={values.join(', ')} />)
         }
       } else {
-        for (const item of skill.items) {
-          lists.push(<ListItem key={item} value={item} />)
-        }
+        lists.push(<span>{skill.items.join(', ')}</span>)
       }
 
       if (hasSubLevel) {
@@ -109,10 +106,10 @@ class ResumeSkills extends Component {
 
     return (
       <Row>
-        <Col xs={3}>
+        <Col md={3} xs={12}>
           <span className='resume-heading'>Skills</span>
         </Col>
-        <Col xs={9}>
+        <Col md={9} xs={12}>
           {itemDOMs}
         </Col>
       </Row>)

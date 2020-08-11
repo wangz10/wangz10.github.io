@@ -6,7 +6,6 @@
  
 .resume-heading{
     border-bottom: 3px solid #0089A7;
-    padding-bottom: 6px;
     font-size: 26px;
     text-transform: uppercase;
 }
@@ -51,8 +50,12 @@ h4 span:first-child {
     margin-left: 25px;
 }
 
+.location {
+    font-weight: bold;
+}
 .position {
     font-weight: bold;
+    font-style: italic;
     margin-bottom: 8px;
 }
 

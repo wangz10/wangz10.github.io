@@ -1,5 +1,67 @@
 [
     {
+        "abstract": "Diabetic kidney disease (DKD) remains the most common cause of kidney failure and the treatment options are insufficient. Here, we used a connectivity mapping approach to first collect 15 gene expression signatures from 11 DKD related published independent studies. Then, by querying the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset, we identified drugs and other bioactive small molecules that are predicted to reverse these gene signatures in the diabetic kidney. Among the top consensus candidates, we selected a PLK1 inhibitor (BI-2536) for further experimental validation. We found that PLK1 expression was increased in the glomeruli of both human and mouse diabetic kidneys and localized largely in mesangial cells. We also found that BI-2536 inhibited mesangial cell proliferation and extracellular matrix in-vitro and ameliorated proteinuria and kidney injury in DKD mice. Further pathway analysis of the genes predicted to be reversed by the PLK1 inhibitor were of members of the TNF-α/NF-κB, JAK/STAT, and TGF-β/Smad3 pathways. In vitro, either BI-2536 treatment or knockdown of PLK1 dampened the NF-κB and Smad3 signal transduction and transcriptional activation. Together, these results suggest that the PLK1 inhibitor BI-2536 should be further investigated as a novel therapy for DKD.",
+        "contributors": [
+            "Zhang, Lu",
+            "Wang, Zichen",
+            "Liu, Ruijie",
+            "Li, Zhengzhe",
+            "Lin, Jennifer",
+            "Wojciechowicz, Megan L.",
+            "Huang, Jiyi",
+            "Lee, Kyung",
+            "Ma’ayan, Avi",
+            "He, John Cijiang"
+        ],
+        "dates": {
+            "pub-dates": "October 4",
+            "year": "2020"
+        },
+        "doi": "10.2337/db20-0580",
+        "periodical": "Diabetes",
+        "titles": {
+            "secondary-title": "Diabetes",
+            "title": "Connectivity Mapping Identifies BI-2536 as a Potential Drug to Treat Diabetic Kidney Disease"
+        }
+    },
+    {
+        "abstract": "Objective: To assess association of clinical features on COVID-19 patient outcomes. Design: Retrospective observational study using electronic medical record data. Setting: Five member hospitals from the Mount Sinai Health System in New York City (NYC). Participants: 28 336 patients tested for SARS-CoV-2 from 24 February 2020 to 15 April 2020, including 6158 laboratory-confirmed COVID-19 cases. Main outcomes and measures: Positive test rates and in-hospital mortality were assessed for different racial groups. Among positive cases admitted to the hospital (N=3273), we estimated HR for both discharge and death across various explanatory variables, including patient demographics, hospital site and unit, smoking status, vital signs, lab results and comorbidities. Results: Hispanics (29%) and African Americans (25%) had disproportionately high positive case rates relative to their representation in the overall NYC population (p<0.05); however, no differences in mortality rates were observed in hospitalised patients based on race. Outcomes differed significantly between hospitals (Gray’s T=248.9; p<0.05), reflecting differences in average baseline age and underlying comorbidities. Significant risk factors for mortality included age (HR 1.05, 95% CI 1.04 to 1.06; p=1.15e-32), oxygen saturation (HR 0.985, 95% CI 0.982 to 0.988; p=1.57e-17), care in intensive care unit areas (HR 1.58, 95% CI 1.29 to 1.92; p=7.81e-6) and elevated creatinine (HR 1.75, 95% CI 1.47 to 2.10; p=7.48e-10), white cell count (HR 1.02, 95% CI 1.01 to 1.04; p=8.4e-3) and body mass index (BMI) (HR 1.02, 95% CI 1.00 to 1.03; p=1.09e-2). Deceased patients were more likely to have elevated markers of inflammation. Conclusions: While race was associated with higher risk of infection, we did not find racial disparities in inpatient mortality suggesting that outcomes in a single tertiary care health system are comparable across races. In addition, we identified key clinical features associated with reduced mortality and discharge. These findings could help to identify which COVID-19 patients are at greatest risk of a severe infection response and predict survival.",
+        "contributors": [
+            "Wang, Zichen",
+            "Zheutlin, Amanda B.",
+            "Kao, Yu-Han",
+            "Ayers, Kristin L.",
+            "Gross, Susan J.",
+            "Kovatch, Patricia",
+            "Nirenberg, Sharon",
+            "Charney, Alexander W.",
+            "Nadkarni, Girish N.",
+            "De Freitas, Jessica K.",
+            "Reilly, Paul F.",
+            "Just, Allan C.",
+            "Horowitz, Carol R.",
+            "Martin, Glenn",
+            "Branch, Andrea D.",
+            "Glicksberg, Benjamin S.",
+            "Charney, Dennis S.",
+            "Reich, David L.",
+            "Oh, William K.",
+            "Schadt, Eric E.",
+            "Chen, Rong",
+            "Li, Li"
+        ],
+        "dates": {
+            "pub-dates": "October 10",
+            "year": "2020"
+        },
+        "doi": "10.1136/bmjopen-2020-040441",
+        "periodical": "BMJ Open",
+        "titles": {
+            "secondary-title": "BMJ Open",
+            "title": "Hospitalised COVID-19 patients of the Mount Sinai Health System: a retrospective observational study using the electronic medical records"
+        }
+    },
+    {
         "abstract": "COVID-19 is a novel threat to human health worldwide. There is an urgent need to understand patient characteristics of having COVID-19 disease and evaluate markers of critical illness and mortality. Objective: To assess association of clinical features on patient outcomes. Design, Setting, and Participants: In this observational case series, patient-level data were extracted from electronic medical records for 28,336 patients tested for SARS-CoV-2 at the Mount Sinai Health System from 2/24/ to 4/15/2020, including 6,158 laboratory-confirmed cases. Exposures: Confirmed COVID-19 diagnosis by RT-PCR assay from nasal swabs. Main Outcomes and Measures: Effects of race on positive test rates and mortality were assessed. Among positive cases admitted to the hospital (N = 3,273), effects of patient demographics, hospital site and unit, social behavior, vital signs, lab results, and disease comorbidities on discharge and death were estimated. Results: Hispanics (29%) and African Americans (25%) had disproportionately high positive case rates relative to population base rates (p<2e-16); however, no differences in mortality rates were observed in the hospital. Outcome differed significantly between hospitals (Gray's T=248.9; p<2e-16), reflecting differences in average baseline age and underlying comorbidities. Significant risk factors for mortality included age (HR=1.05 [95% CI, 1.04-1.06]; p=1.15e-32), oxygen saturation (HR=0.985 [95% CI, 0.982-0.988]; p=1.57e-17), care in ICU areas (HR=1.58 [95% CI, 1.29-1.92]; p=7.81e-6), and elevated creatinine (HR=1.75 [95% CI, 1.47-2.10]; p=7.48e-10), alanine aminotransferase (ALT) (HR=1.002, [95% CI 1.001-1.003]; p=8.86e-5) and body-mass index (BMI) (HR=1.02, [95% CI 1.00-1.03]; p=1.09e-2). Asthma (HR=0.78 [95% CI, 0.62-0.98]; p=0.031) was significantly associated with increased length of hospital stay, but not mortality. Deceased patients were more likely to have elevated markers of inflammation. Baseline age, BMI, oxygen saturation, respiratory rate, white blood cell (WBC) count, creatinine, and ALT were significant prognostic indicators of mortality. Conclusions and Relevance: While race was associated with higher risk of infection, we did not find a racial disparity in inpatient mortality suggesting that outcomes in a single tertiary care health system are comparable across races. We identified clinical features associated with reduced mortality and discharge. These findings could help to identify which COVID-19 patients are at greatest risk and evaluate the impact on survival.",
         "contributors": [
             "Wang, Zichen",

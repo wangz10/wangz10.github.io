@@ -1,0 +1,37 @@
+[
+    {
+        "title": "react-scatter-board",
+        "url": "https://maayanlab.github.io/react-scatter-board/",
+        "source": "https://github.com/MaayanLab/react-scatter-board",
+        "desc": "a reusable React library for interactive THREE.js 2d/3d scatter plots."
+    },
+    {
+        "title": "GeoDEpy",
+        "url": "https://github.com/MaayanLab/geode",
+        "desc": "a Python package implementing the Characteristic Direction, a geometrical approach to differential expression and gene-set enrichment."
+    },
+    {
+        "title": "Hair-GEL",
+        "url": "http://hair-gel.net/",
+        "desc": "a searchable gene expression library for hair follicles.",
+        "source": "https://github.com/MaayanLab/HairGEL"
+    },
+    {
+        "title": "Principal Angle Enrichment Analysis (PAEA)",
+        "url": "http://amp.pharm.mssm.edu/PAEA/",
+        "desc": "Dimensionally reduced multivariate gene set enrichment analysis tool. It uses the geometrical concept of the principal angle to quantify gene-set enrichment.",
+        "source": "https://github.com/MaayanLab/PAEA"
+    },
+    {
+        "title": "Drug Gene Budger (DGB)",
+        "url": "https://maayanlab.cloud/DGB/",
+        "desc": "a web-based and mobile application developed to assist investigators in order to prioritize small molecules that are predicted to maximally influence the expression of their target gene of interest.",
+        "source": "https://github.com/MaayanLab/Dr-Gene-Budger"
+    },
+    {
+        "title": "LJP Breast Cancer Network Browser",
+        "url": "https://amp.pharm.mssm.edu/LJP/",
+        "desc": "visualizes thousands of signatures from six breast cancer cell lines treated with ~100 single molecule perturbations, mostly kinase inhibitors.",
+        "source": "https://github.com/MaayanLab/LJP"
+    }
+]

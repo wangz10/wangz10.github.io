@@ -28,7 +28,7 @@ import './resume.css'
 import { Publications, parsePublication } from './publications'
 import './publications.css'
 import Projects from './projects'
-
+import Softwares from './softwares'
 class NavLink extends Component {
   constructor(props) {
     super(props)
@@ -63,7 +63,7 @@ const navbar = (
     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
     <Navbar.Collapse id='responsive-navbar-nav'>
       <Scrollspy
-        items={['about', 'resume', 'projects', 'publications']}
+        items={['about', 'resume', 'projects', 'softwares', 'publications']}
         offset={-72}
         currentClassName='nav-item active'
         className='navbar-nav mr-auto'
@@ -78,6 +78,9 @@ const navbar = (
           <NavLink href='#projects' name='Projects' />
         </Nav.Item>
         <Nav.Item as='li'>
+          <NavLink href='#softwares' name='Softwares' />
+        </Nav.Item>
+        <Nav.Item as='li'>
           <NavLink href='#publications' name='Publications' />
         </Nav.Item>
       </Scrollspy>
@@ -90,7 +93,8 @@ class App extends Component {
     super(props)
     this.state = {
       resumeData: null,
-      pubData: null
+      pubData: null,
+      softwareData: null
     }
     this.handleSortBtnClick = this.handleSortBtnClick.bind(this)
   }
@@ -134,6 +138,18 @@ class App extends Component {
     })
   }
 
+  getSoftwareData() {
+    fetch('./assets/softwares.json').then(response => {
+      if (response.ok) {
+        return response.json()
+      } else {
+        throw new Error('Something went wrong when fetching data ...')
+      }
+    }).then(data => {
+      this.setState({ softwareData: data })
+    })
+  }
+
   handleSortBtnClick(nextSortKey) {
     let sortedPubData = [].concat(this.state.pubData).sort((a, b) => b.year - a.year)
     if (nextSortKey === 'myRank') {
@@ -146,6 +162,7 @@ class App extends Component {
     this.getResumeData()
     this.getPublicationData()
     this.getProjectData()
+    this.getSoftwareData()
   }
 
   render() {
@@ -170,6 +187,12 @@ class App extends Component {
             <Col md={10} sm={12}>
               <h1>Selected Projects</h1>
               <Projects data={this.state.projData} />
+            </Col>
+          </Row>
+          <Row id='softwares' className='justify-content-md-center'>
+            <Col md={10} sm={12}>
+              <h1>Softwares</h1>
+              <Softwares data={this.state.softwareData} />
             </Col>
           </Row>
           <Row id='publications' className='justify-content-md-center'>

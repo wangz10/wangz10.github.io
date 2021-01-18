@@ -37,13 +37,13 @@ function About() {
               <Col md={8} xs={12}>
                 <h1>About</h1>
                 <p className='lead'>
-                  Currently a principal scientist at{' '}
+                  Currently a principal data scientist at{' '}
                   <a href='https://sema4.com/' target='_blank' rel='noopener noreferrer'>
                     Sema4
                   </a>, I am a machine learning expert in biology and medicine, experienced with high-dimensional biomedical data including multi-omics (transcriptomics and proteomics) and longitudinal electronic medical/health records (EMR/EHR). I have been working on understanding human diseases and improving clinical medicine with data. I am passionate about many research areas in ML/DL including graph neural networks, contrastive learning, deep generative models (e.g. VAE and GANs) and reinforcement learning (RL).
                 </p>
                 <p className='lead'>
-                  I received my PhD in 2016 from Icahn School of Medicine at Mount Sinai and was advised by <a href='https://icahn.mssm.edu/profiles/avi-maayan' target='_blank' rel='noopener noreferrer'>Avi Ma'ayan</a>, with whom I continued working on multiple research projects on understanding how drugs work in biological systems using computational biology. I developed solid skills in making interactive data visualizations and web applications.
+                  I received my PhD in 2016 from Icahn School of Medicine at Mount Sinai and was advised by <a href='https://icahn.mssm.edu/profiles/avi-maayan' target='_blank' rel='noopener noreferrer'>Avi Ma'ayan</a>, with whom I continued working on multiple research projects on understanding how drugs work in biological systems using computational biology. I developed solid software engineering skills in making interactive data visualizations and web applications.
                 </p>
               </Col>
             </Row>

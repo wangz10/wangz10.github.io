@@ -6,6 +6,12 @@
         "desc": "a reusable React library for interactive THREE.js 2d/3d scatter plots."
     },
     {
+        "title": "msea",
+        "url": "https://pypi.org/project/msea/",
+        "source": "https://bitbucket.org/wangz10/msea/src/master/",
+        "desc": "a Python package implementing Microbe-Set Enrichment Analysis (MSEA) for functional interpretation of sets of microbial organisms."
+    },
+    {
         "title": "GeoDEpy",
         "url": "https://github.com/MaayanLab/geode",
         "desc": "a Python package implementing the Characteristic Direction, a geometrical approach to differential expression and gene-set enrichment."

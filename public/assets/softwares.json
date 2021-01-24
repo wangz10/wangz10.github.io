@@ -12,6 +12,12 @@
         "desc": "a Python package implementing Microbe-Set Enrichment Analysis (MSEA) for functional interpretation of sets of microbial organisms."
     },
     {
+        "title": "scAVI",
+        "url": "https://amp.pharm.mssm.edu/scavi/",
+        "source": "https://github.com/MaayanLab/scAVI",
+        "desc": "a web-based platform to analyze and visualize single cell RNA-seq data."
+    },
+    {
         "title": "GeoDEpy",
         "url": "https://github.com/MaayanLab/geode",
         "desc": "a Python package implementing the Characteristic Direction, a geometrical approach to differential expression and gene-set enrichment."
@@ -39,5 +45,10 @@
         "url": "https://amp.pharm.mssm.edu/LJP/",
         "desc": "visualizes thousands of signatures from six breast cancer cell lines treated with ~100 single molecule perturbations, mostly kinase inhibitors.",
         "source": "https://github.com/MaayanLab/LJP"
+    },
+    {
+        "title": "DEveLopmental Trajectory Atlas (DELTA)",
+        "url": "https://amp.pharm.mssm.edu/DLPFC",
+        "desc": "a web application visualizing transcriptome and proteome in dorsolateral prefrontal cortex"
     }
 ]

@@ -19,10 +19,17 @@
     ],
     "work": [
         {
+            "name": "Amazon Web Services",
+            "position": "Applied Scientist",
+            "date": "APR 2021 - PRESENT",
+            "summary": "ML research and applications",
+            "location": "New York, NY"
+        },
+        {
             "name": "Sema4",
             "position": "Principal Scientist",
-            "date": "SEP 2019 - PRESENT",
-            "summary": "Developing personalized phenotyping and prediction algorithms to understand pregnancy complications and neonatal disorders using longitudinal EMR.",
+            "date": "SEP 2019 - APR 2021",
+            "summary": "Developed personalized phenotyping and ML applications to understand pregnancy complications and neonatal disorders using longitudinal EHR.",
             "location": "Stamford, CT"
         },
         {

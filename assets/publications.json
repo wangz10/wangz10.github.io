@@ -1,5 +1,145 @@
 [
     {
+        "abstract": "Preeclampsia (PE) is a heterogeneous and complex disease associated with rising morbidity and mortality in pregnant women and newborns in the US. Early recognition of patients at risk is a pressing clinical need to significantly reduce the risk of adverse pregnancy outcomes. We assessed whether information routinely collected and stored on women in their electronic medical records (EMR) could enhance the prediction of PE risk beyond what is achieved in standard of care assessments today. We developed a digital phenotyping algorithm to assemble and curate 108,557 pregnancies from EMRs across the Mount Sinai Health System (MSHS), accurately reconstructing pregnancy journeys and normalizing these journeys across different hospital EMR systems. We then applied machine learning approaches to a training dataset from Mount Sinai Hospital (MSH) (N = 60,879) to construct predictive models of PE across three major pregnancy time periods (ante-, intra-, and postpartum). The resulting models predicted PE with high accuracy across the different pregnancy periods, with areas under the receiver operating characteristic curves (AUC) of 0.92, 0.83 and 0.89 at 37 gestational weeks, intrapartum and postpartum, respectively. We observed comparable performance in two independent patient cohorts with diverse patient populations (MSH validation dataset N = 38,421 and Mount Sinai West dataset N = 9,257). While our machine learning approach identified known risk factors of PE (such as blood pressure, weight and maternal age), it also identified novel PE risk factors, such as complete blood count related characteristics for the antepartum time period and ibuprofen usage for the postpartum time period. Our model not only has utility for earlier identification of patients at risk for PE, but given the prediction accuracy substantially exceeds what is achieved today in clinical practice, our model provides a path for promoting personalized precision therapeutic strategies for patients at risk.",
+        "contributors": [
+            "Li, Shilong",
+            "Wang, Zichen",
+            "Vieira, Luciana A.",
+            "Zheutlin, Amanda B.",
+            "Ru, Boshu",
+            "Schadt, Emilio",
+            "Wang, Pei",
+            "Copperman, Alan B.",
+            "Stone, Joanne",
+            "Gross, Susan J.",
+            "Schadt, Eric E.",
+            "Li, Li"
+        ],
+        "dates": {
+            "pub-dates": "March 24",
+            "year": "2021"
+        },
+        "doi": "10.1101/2021.03.23.21254178",
+        "periodical": "medRxiv",
+        "titles": {
+            "secondary-title": "medRxiv",
+            "title": "Improving Pre-eclampsia Risk Prediction by Modeling Individualized Pregnancy Trajectories Derived from Routinely Collected Electronic Medical Record Data"
+        }
+    },
+    {
+        "abstract": "We aimed to establish a comprehensive digital phenotype for postpartum hemorrhage (PPH). Current guidelines rely primarily on estimates of blood loss, which can be inaccurate and biased, and ignore a suite of complementary information readily available in electronic medical records (EMR). Inaccurate and incomplete phenotyping contribute to ongoing challenges to track PPH outcomes, develop more accurate risk assessments, and identify novel interventions. We constructed a cohort of 71,944 deliveries from the Mount Sinai Health System, 2011-2019. Estimates of postpartum blood loss, shifts in hematocrit intra- and postpartum, administration of uterotonics, surgical treatments, and associated diagnostic codes were combined to identify PPH retrospectively. All clinical features were extracted from structured EMR data and mapped to common data models for maximum interoperability across hospitals. Blinded chart review was done on a randomly selected subset of cases and controls for validation and performance was compared to alternate PPH phenotypes. We identified 6,639 cases (9% prevalence) using our phenotype – more than three times as many as using blood loss alone (N=1,747), supporting the need to incorporate other diagnostic and treatment data. Blinded chart review revealed our phenotype had 96% sensitivity, 89% precision, 77% specificity, and 89% accuracy to detect PPH. Alternate phenotypes were less accurate, including a common blood loss-based definition (67%) and a previously published digital phenotype (74%). We have developed a scalable, accurate, and valid digital phenotype that may be of significant use for tracking outcomes and ongoing clinical research to deliver better preventative interventions for PPH.",
+        "contributors": [
+            "Zheutlin, Amanda B.",
+            "Vieira, Luciana",
+            "Li, Shilong",
+            "Wang, Zichen",
+            "Schadt, Emilio",
+            "Gross, Susan",
+            "Stone, Joanne",
+            "Schadt, Eric",
+            "Li, Li"
+        ],
+        "dates": {
+            "pub-dates": "March 4",
+            "year": "2021"
+        },
+        "doi": "10.1101/2021.03.01.21252691",
+        "periodical": "medRxiv",
+        "titles": {
+            "secondary-title": "medRxiv",
+            "title": "A comprehensive digital phenotype for postpartum hemorrhage"
+        }
+    },
+    {
+        "abstract": "Postpartum hemorrhage (PPH) remains a leading cause of preventable maternal mortality in the US. Our goal was to develop a novel risk assessment tool and compare its accuracy to those used in current practice. We used a PPH digital phenotype we developed and validated previously to identify 6,639 cases from our delivery cohort (N=70,948). Using a vast array of known and potential risk factors extracted from electronic medical records available prior to delivery, we trained a gradient boosting model in a subset of our cohort. In a held-out test sample, we compared performance of our model to three clinical risk tools and one previously published model. Our 24-feature model achieved an area under the curve (AUC) of 0.71 (95% confidence interval [CI], 0.69-0.72), higher than all other tools (research-based AUC: 0.67 [95%CI, 0.66-0.69], clinical AUCs: 0.55 [95%CI, 0.54-0.56] to 0.61 [95%CI, 0.59-0.62]). Five features were novel including red blood cell indices and infection markers measured standardly upon admission. Additionally, we identified inflection points for several vital signs and labs where risk rose substantially. Most notably, patients with median intrapartum systolic blood pressure above 132mmHg had an 11% [interquartile range, 4%] median increase in relative risk for PPH. We developed a novel approach for predicting PPH and identified clinical feature thresholds that can guide intrapartum monitoring for PPH risk. Our results suggest our model is an excellent candidate for prospective evaluation and could ultimately reduce PPH morbidity and mortality through early detection and prevention.",
+        "contributors": [
+            "Zheutlin, Amanda B.",
+            "Vieira, Luciana",
+            "Li, Shilong",
+            "Wang, Zichen",
+            "Schadt, Emilio",
+            "Gross, Susan",
+            "Stone, Joanne",
+            "Schadt, Eric",
+            "Li, Li"
+        ],
+        "dates": {
+            "pub-dates": "March 20",
+            "year": "2021"
+        },
+        "doi": "10.1101/2021.03.16.21253746",
+        "periodical": "medRxiv",
+        "titles": {
+            "secondary-title": "medRxiv",
+            "title": "Improving postpartum hemorrhage risk prediction using longitudinal electronic medical records"
+        }
+    },
+    {
+        "abstract": "Corticosteroids are a potential therapeutic agent for patients with COVID-19 pneumonia. The RECOVERY (Randomised Trials in COVID-19 Therapy) trial provided data on the mortality benefits of corticosteroids. The study aimed to determine the association between corticosteroid use on mortality and infection rates and to define subgroups who may benefit from corticosteroids in a real-world setting. Clinical data were extracted that included demographic, laboratory data and details of the therapy, including the administration of corticosteroids, azithromycin, hydroxychloroquine, tocilizumab and anticoagulation. The primary outcome was in-hospital mortality. Secondary outcomes included intensive care unit (ICU) admission and invasive mechanical ventilation. Outcomes were compared in patients who did and did not receive corticosteroids using the multivariate Cox regression model. 4313 patients were hospitalised with COVID-19 during the study period, of whom 1270 died (29.4%). When administered within the first 7 days after admission, corticosteroids were associated with reduced mortality (OR 0.73, 95% CI 0.55 to 0.97, p=0.03) and decreased transfers to the ICU (OR 0.72, 95% CI 0.47 to 1.11, p=0.02). This mortality benefit was particularly impressive in younger patients (<65 years of age), females and those with elevated inflammatory markers, defined as C reactive protein ≥150 mg/L (p≤0.05), interleukin-6 ≥20 pg/mL (p≤0.05) or D-dimer ≥2.0 µg/L (p≤0.05). Therapy was safe with similar rates of bacteraemia and fungaemia in corticosteroid-treated and non-corticosteroid-treated patients. In patients hospitalised with COVID-19 pneumonia, corticosteroid use within the first 7 days of admission decreased mortality and ICU admissions with no associated increase in bacteraemia or fungaemia.",
+        "contributors": [
+            "Ho, Kam Sing", 
+            "Narasimhan, Bharat", 
+            "Difabrizio, Larry", 
+            "Rogers, Linda", 
+            "Bose, Sonali", 
+            "Li, Li", 
+            "Chen, Roger", 
+            "Sheehan, Jacqueline", 
+            "El-Halabi, Maan Ajwad", 
+            "Sarosky, Kimberly", 
+            "Wang, Zichen", 
+            "Eisenberg, Elliot", 
+            "Powell, Charles", 
+            "Steiger, David"
+        ],
+        "dates": {
+            "pub-dates": "April 1",
+            "year": "2021"
+        },
+        "doi": "10.1136/bmjresp-2020-000766",
+        "periodical": "BMJ Open Respiratory Research",
+        "titles": {
+            "secondary-title": "BMJ Open Respiratory Research",
+            "title": "Impact of corticosteroids in hospitalised COVID-19 patients"
+        }
+    },
+    {
+        "abstract": "Cell fate decisions during development are governed by multi-factorial regulatory mechanisms including chromatin remodelling, DNA methylation, binding of transcription factors to specific loci, RNA transcription and protein synthesis. However, the mechanisms by which such regulatory “dimensions” coordinate cell fate decisions are currently poorly understood. Here we quantified the multi-dimensional molecular changes that occur in mouse embryonic stem cells (mESCs) upon depletion of Estrogen related receptor beta (Esrrb), a key pluripotency regulator. Comparative analyses of expression changes subsequent to depletion of Esrrb or Nanog, indicated that a system of interlocked feed-forward loops involving both factors, plays a central part in regulating the timing of mESC fate decisions. Taken together, our meta-analyses support a hierarchical model in which pluripotency is maintained by an Oct4-Sox2 regulatory module, while the timing of differentiation is regulated by a Nanog-Esrrb.",
+        "contributors": [
+            "Sevilla, Ana", 
+            "Papatsenko, Dimitri", 
+            "Mazloom, Amin R", 
+            "Xu, Huilei", 
+            "Vasileva, Ana", 
+            "Unwin, Richard D", 
+            "LeRoy, Gary", 
+            "Chen, Edward Y", 
+            "Garrett-Bakelman, Francine E", 
+            "Lee, Dung-Fang", 
+            "Trinite, Benjamin ", 
+            "Webb, Ryan L", 
+            "Wang, Zichen", 
+            "Su, Jie", 
+            "Gingold, Julian", 
+            "Melnick, Ari", 
+            "Garcia, Benjamin A", 
+            "Whetton, Anthony D", 
+            "MacArthur, Ben D", 
+            "Ma’ayan, Avi", 
+            "Lemischka, Ihor R"
+        ],
+        "dates": {
+            "pub-dates": "March 19",
+            "year": "2021"
+        },
+        "doi": "10.3389/fcell.2021.630067",
+        "periodical": "Frontiers in Cell and Developmental Biology",
+        "titles": {
+            "secondary-title": "Frontiers in Cell and Developmental Biology",
+            "title": "An Esrrb and Nanog Cell Fate Regulatory Module Controlled by Feed Forward Loop Interactions"
+        }
+    },
+    {
         "abstract": "Diabetic kidney disease (DKD) remains the most common cause of kidney failure and the treatment options are insufficient. Here, we used a connectivity mapping approach to first collect 15 gene expression signatures from 11 DKD related published independent studies. Then, by querying the Library of Integrated Network-based Cellular Signatures (LINCS) L1000 dataset, we identified drugs and other bioactive small molecules that are predicted to reverse these gene signatures in the diabetic kidney. Among the top consensus candidates, we selected a PLK1 inhibitor (BI-2536) for further experimental validation. We found that PLK1 expression was increased in the glomeruli of both human and mouse diabetic kidneys and localized largely in mesangial cells. We also found that BI-2536 inhibited mesangial cell proliferation and extracellular matrix in-vitro and ameliorated proteinuria and kidney injury in DKD mice. Further pathway analysis of the genes predicted to be reversed by the PLK1 inhibitor were of members of the TNF-α/NF-κB, JAK/STAT, and TGF-β/Smad3 pathways. In vitro, either BI-2536 treatment or knockdown of PLK1 dampened the NF-κB and Smad3 signal transduction and transcriptional activation. Together, these results suggest that the PLK1 inhibitor BI-2536 should be further investigated as a novel therapy for DKD.",
         "contributors": [
             "Zhang, Lu",

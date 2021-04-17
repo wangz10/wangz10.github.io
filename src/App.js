@@ -173,10 +173,10 @@ class App extends Component {
         <Container fluid={true}>
           <Row id='resume' className='justify-content-md-center'>
             <Col md={10} sm={12}>
-              <Button variant='outline-info' href='./assets/Zichen_Wang_Resume-08032020.pdf' className='my-2 mr-2' download>
+              <Button variant='outline-info' href='./assets/Zichen_Wang_Resume-04172021.pdf' className='my-2 mr-2' download>
                 Resume <FontAwesomeIcon icon={faDownload} />
               </Button>
-              <Button variant='outline-info' href='./assets/Zichen_Wang_CV-05142020.pdf' className='my-2 ml-2' download>
+              <Button variant='outline-info' href='./assets/Zichen_Wang_CV-04172021.pdf' className='my-2 ml-2' download>
                 CV <FontAwesomeIcon icon={faDownload} />
               </Button>
               <Resume data={this.state.resumeData} />

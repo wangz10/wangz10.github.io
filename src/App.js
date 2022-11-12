@@ -63,7 +63,7 @@ const navbar = (
     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
     <Navbar.Collapse id='responsive-navbar-nav'>
       <Scrollspy
-        items={['about', 'resume', 'projects', 'softwares', 'publications']}
+        items={['about', 'resume', 'softwares', 'publications']}
         offset={-72}
         currentClassName='nav-item active'
         className='navbar-nav mr-auto'
@@ -73,9 +73,6 @@ const navbar = (
         </Nav.Item>
         <Nav.Item as='li'>
           <NavLink href='#resume' name='Resume' />
-        </Nav.Item>
-        <Nav.Item as='li'>
-          <NavLink href='#projects' name='Projects' />
         </Nav.Item>
         <Nav.Item as='li'>
           <NavLink href='#softwares' name='Softwares' />
@@ -161,7 +158,6 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData()
     this.getPublicationData()
-    this.getProjectData()
     this.getSoftwareData()
   }
 
@@ -176,7 +172,7 @@ class App extends Component {
               <Button variant='outline-info' href='./assets/Zichen_Wang_Resume-04172021.pdf' className='my-2 mr-2' download>
                 Resume <FontAwesomeIcon icon={faDownload} />
               </Button>
-              <Button variant='outline-info' href='./assets/Zichen_Wang_CV-04172021.pdf' className='my-2 ml-2' download>
+              <Button variant='outline-info' href='./assets/Zichen_Wang_CV-11062022.pdf' className='my-2 ml-2' download>
                 CV <FontAwesomeIcon icon={faDownload} />
               </Button>
               <Resume data={this.state.resumeData} />

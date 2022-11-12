@@ -1,6 +1,54 @@
 [
     {
-        "abstract": "Preeclampsia (PE) is a heterogeneous and complex disease associated with rising morbidity and mortality in pregnant women and newborns in the US. Early recognition of patients at risk is a pressing clinical need to significantly reduce the risk of adverse pregnancy outcomes. We assessed whether information routinely collected and stored on women in their electronic medical records (EMR) could enhance the prediction of PE risk beyond what is achieved in standard of care assessments today. We developed a digital phenotyping algorithm to assemble and curate 108,557 pregnancies from EMRs across the Mount Sinai Health System (MSHS), accurately reconstructing pregnancy journeys and normalizing these journeys across different hospital EMR systems. We then applied machine learning approaches to a training dataset from Mount Sinai Hospital (MSH) (N = 60,879) to construct predictive models of PE across three major pregnancy time periods (ante-, intra-, and postpartum). The resulting models predicted PE with high accuracy across the different pregnancy periods, with areas under the receiver operating characteristic curves (AUC) of 0.92, 0.83 and 0.89 at 37 gestational weeks, intrapartum and postpartum, respectively. We observed comparable performance in two independent patient cohorts with diverse patient populations (MSH validation dataset N = 38,421 and Mount Sinai West dataset N = 9,257). While our machine learning approach identified known risk factors of PE (such as blood pressure, weight and maternal age), it also identified novel PE risk factors, such as complete blood count related characteristics for the antepartum time period and ibuprofen usage for the postpartum time period. Our model not only has utility for earlier identification of patients at risk for PE, but given the prediction accuracy substantially exceeds what is achieved today in clinical practice, our model provides a path for promoting personalized precision therapeutic strategies for patients at risk.",
+        "abstract": "Graphs (or networks) are ubiquitous representation in life sciences and medicine, from molecular interactions maps, signaling transduction pathways, to graphs of scientific knowledge and patient- disease-intervention relationships derived from population studies and/or real-world data, such as electronic health records and insurance claims. Recent advance in graph machine learning (ML) approaches such as graph neural networks (GNNs) has transformed a diverse set of problems relying on biomedical networks that traditionally depend on descriptive topological data analyses. Small- and macro- molecules that were not modeled as graphs also saw a bloom in GNN-based algorithms improving the state-of-the-art performance for learning their properties. Comparing to graph ML applications from other domains, life sciences offer many unique problems and nuances ranging from graph construction to graph- level, and bi-graph-level supervision tasks.",
+        "contributors": [
+            "Wang, Zichen",
+            "Ioannidis, Vassilis N",
+            "Rangwala, Huzefa",
+            "Arai, Tatsuya",
+            "Brand, Ryan",
+            "Li, Mufei",
+            "Nakayama, Yohei"
+        ],
+        "dates": {
+            "pub-dates": "August 27",
+            "year": "2022"
+        },
+        "doi": "10.1145/3534678.3542628",
+        "periodical": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "titles": {
+            "secondary-title": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+            "title": "Graph Neural Networks in Life Sciences: Opportunities and Solutions"
+        }
+    },
+    {
+        "abstract": "Proteins perform many essential functions in biological systems and can be successfully developed as bio-therapeutics. It is invaluable to be able to predict their properties based on a proposed sequence and structure. In this study, we developed a novel generalizable deep learning framework, LM-GVP, composed of a protein Language Model (LM) and Graph Neural Network (GNN) to leverage information from both 1D amino acid sequences and 3D structures of proteins. Our approach outperformed the state-of-the-art protein LMs on a variety of property prediction tasks including fluorescence, protease stability, and protein functions from Gene Ontology (GO). We also illustrated insights into how a GNN prediction head can inform the fine-tuning of protein LMs to better leverage structural information. We envision that our deep learning framework will be generalizable to many protein property prediction problems to greatly accelerate protein engineering and drug development.",
+        "contributors": [
+            "Wang, Zichen",
+            "Combs, Steven A.",
+            "Brand, Ryan",
+            "Calvo, Miguel Romero",
+            "Xu, Panpan",
+            "Price, George",
+            "Golovach, Natalia",
+            "Salawu, Emmanuel O.",
+            "Wise, Colby W.",
+            "Ponnapalli, Sri Priya",
+            "Clark, Peter M."
+        ],
+        "dates": {
+            "pub-dates": "April 27",
+            "year": "2022"
+        },
+        "doi": "10.1038/s41598-022-10775-y",
+        "periodical": "Scientific Reports",
+        "titles": {
+            "secondary-title": "Scientific Reports",
+            "title": "LM-GVP: an extensible sequence and structure informed deep learning framework for protein property prediction"
+        }
+    },
+    {
+        "abstract": "Preeclampsia is a heterogeneous and complex disease associated with rising morbidity and mortality in pregnant women and newborns in the US. Early recognition of patients at risk is a pressing clinical need to reduce the risk of adverse outcomes. We assessed whether information routinely collected in electronic medical records (EMR) could enhance the prediction of preeclampsia risk beyond what is achieved in standard of care assessments. We developed a digital phenotyping algorithm to curate 108,557 pregnancies from EMRs across the Mount Sinai Health System, accurately reconstructing pregnancy journeys and normalizing these journeys across different hospital EMR systems. We then applied machine learning approaches to a training dataset (N = 60,879) to construct predictive models of preeclampsia across three major pregnancy time periods (ante-, intra-, and postpartum). The resulting models predicted preeclampsia with high accuracy across the different pregnancy periods, with areas under the receiver operating characteristic curves (AUC) of 0.92, 0.82, and 0.89 at 37 gestational weeks, intrapartum and postpartum, respectively. We observed comparable performance in two independent patient cohorts. While our machine learning approach identified known risk factors of preeclampsia (such as blood pressure, weight, and maternal age), it also identified other potential risk factors, such as complete blood count related characteristics for the antepartum period. Our model not only has utility for earlier identification of patients at risk for preeclampsia, but given the prediction accuracy exceeds what is currently achieved in clinical practice, our model provides a path for promoting personalized precision therapeutic strategies for patients at risk.",
         "contributors": [
             "Li, Shilong",
             "Wang, Zichen",
@@ -16,14 +64,14 @@
             "Li, Li"
         ],
         "dates": {
-            "pub-dates": "March 24",
-            "year": "2021"
+            "pub-dates": "June 6",
+            "year": "2022"
         },
-        "doi": "10.1101/2021.03.23.21254178",
-        "periodical": "medRxiv",
+        "doi": "10.1038/s41746-022-00612-x",
+        "periodical": "npj Digital Medicine",
         "titles": {
-            "secondary-title": "medRxiv",
-            "title": "Improving Pre-eclampsia Risk Prediction by Modeling Individualized Pregnancy Trajectories Derived from Routinely Collected Electronic Medical Record Data"
+            "secondary-title": "npj Digital Medicine",
+            "title": "Improving preeclampsia risk prediction by modeling pregnancy trajectories from routinely collected electronic medical record data"
         }
     },
     {
@@ -41,12 +89,12 @@
         ],
         "dates": {
             "pub-dates": "March 4",
-            "year": "2021"
+            "year": "2022"
         },
-        "doi": "10.1101/2021.03.01.21252691",
-        "periodical": "medRxiv",
+        "doi": "10.1093/jamia/ocab181",
+        "periodical": "Journal of the American Medical Informatics Association",
         "titles": {
-            "secondary-title": "medRxiv",
+            "secondary-title": "Journal of the American Medical Informatics Association",
             "title": "A comprehensive digital phenotype for postpartum hemorrhage"
         }
     },
@@ -65,12 +113,12 @@
         ],
         "dates": {
             "pub-dates": "March 20",
-            "year": "2021"
+            "year": "2022"
         },
-        "doi": "10.1101/2021.03.16.21253746",
-        "periodical": "medRxiv",
+        "doi": "10.1093/jamia/ocab161",
+        "periodical": "Journal of the American Medical Informatics Association",
         "titles": {
-            "secondary-title": "medRxiv",
+            "secondary-title": "Journal of the American Medical Informatics Association",
             "title": "Improving postpartum hemorrhage risk prediction using longitudinal electronic medical records"
         }
     },
@@ -201,42 +249,6 @@
             "title": "Hospitalised COVID-19 patients of the Mount Sinai Health System: a retrospective observational study using the electronic medical records"
         }
     },
-    {
-        "abstract": "COVID-19 is a novel threat to human health worldwide. There is an urgent need to understand patient characteristics of having COVID-19 disease and evaluate markers of critical illness and mortality. Objective: To assess association of clinical features on patient outcomes. Design, Setting, and Participants: In this observational case series, patient-level data were extracted from electronic medical records for 28,336 patients tested for SARS-CoV-2 at the Mount Sinai Health System from 2/24/ to 4/15/2020, including 6,158 laboratory-confirmed cases. Exposures: Confirmed COVID-19 diagnosis by RT-PCR assay from nasal swabs. Main Outcomes and Measures: Effects of race on positive test rates and mortality were assessed. Among positive cases admitted to the hospital (N = 3,273), effects of patient demographics, hospital site and unit, social behavior, vital signs, lab results, and disease comorbidities on discharge and death were estimated. Results: Hispanics (29%) and African Americans (25%) had disproportionately high positive case rates relative to population base rates (p<2e-16); however, no differences in mortality rates were observed in the hospital. Outcome differed significantly between hospitals (Gray's T=248.9; p<2e-16), reflecting differences in average baseline age and underlying comorbidities. Significant risk factors for mortality included age (HR=1.05 [95% CI, 1.04-1.06]; p=1.15e-32), oxygen saturation (HR=0.985 [95% CI, 0.982-0.988]; p=1.57e-17), care in ICU areas (HR=1.58 [95% CI, 1.29-1.92]; p=7.81e-6), and elevated creatinine (HR=1.75 [95% CI, 1.47-2.10]; p=7.48e-10), alanine aminotransferase (ALT) (HR=1.002, [95% CI 1.001-1.003]; p=8.86e-5) and body-mass index (BMI) (HR=1.02, [95% CI 1.00-1.03]; p=1.09e-2). Asthma (HR=0.78 [95% CI, 0.62-0.98]; p=0.031) was significantly associated with increased length of hospital stay, but not mortality. Deceased patients were more likely to have elevated markers of inflammation. Baseline age, BMI, oxygen saturation, respiratory rate, white blood cell (WBC) count, creatinine, and ALT were significant prognostic indicators of mortality. Conclusions and Relevance: While race was associated with higher risk of infection, we did not find a racial disparity in inpatient mortality suggesting that outcomes in a single tertiary care health system are comparable across races. We identified clinical features associated with reduced mortality and discharge. These findings could help to identify which COVID-19 patients are at greatest risk and evaluate the impact on survival.",
-        "contributors": [
-            "Wang, Zichen",
-            "Zheutlin, Amanda B.",
-            "Kao, Yu-Han",
-            "Ayers, Kristin L.",
-            "Gross, Susan J.",
-            "Kovatch, Patricia",
-            "Nirenberg, Sharon",
-            "Charney, Alexander W.",
-            "Nadkarni, Girish N.",
-            "Reilly, Paul F.",
-            "Just, Allan C.",
-            "Horowitz, Carol R.",
-            "Martin, Glenn",
-            "Branch, Andrea D.",
-            "Glicksberg, Benjamin S.",
-            "Charney, Dennis S.",
-            "Reich, David L.",
-            "Oh, William K.",
-            "Schadt, Eric E.",
-            "Chen, Rong",
-            "Li, Li"
-        ],
-        "dates": {
-            "pub-dates": "May 04",
-            "year": "2020"
-        },
-        "doi": "10.1101/2020.04.28.20075788",
-        "periodical": "medRxiv",
-        "titles": {
-            "secondary-title": "medRxiv",
-            "title": "Analysis of hospitalized COVID-19 patients in the Mount Sinai Health System using electronic medical records (EMR) reveals important prognostic factors for improved clinical outcomes"
-        }
-    },    
     {
         "abstract": "Genetic variants are the primary driver of congenital heart disease (CHD) pathogenesis. However, our ability to identify causative variants is limited. To identify causal CHD genes that are associated with specific molecular functions, the study used prior knowledge to filter de novo variants from 2,881 probands with sporadic severe CHD. This approach enabled the authors to identify an association between left ventricular outflow tract obstruction lesions and genes associated with the WAVE2 complex and regulation of small GTPase-mediated signal transduction. Using CRISPR zebrafish knockdowns, the study confirmed that WAVE2 complex proteins brk1, nckap1, and wasf2 and the regulators of small GTPase signaling cul3a and racgap1 are critical to cardiac development.",
         "contributors": [

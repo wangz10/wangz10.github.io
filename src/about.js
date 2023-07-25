@@ -38,12 +38,9 @@ function About() {
                 <h1>About</h1>
                 <p className='lead'>
                   I am a senior applied scientist at {' '}
-                  <a href='https://aws.amazon.com/ml-solutions-lab/' target='_blank' rel='noopener noreferrer'>
-                    Amazon Machine Learning (ML) Solutions Lab
-                  </a> within {' '}
                   <a href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer'>
                     AWS
-                  </a>. I am interested in various research areas in ML, including graph neural networks (GNN), natural language processing (NLP), generative models, contrastive learning and reinforcement learning.
+                  </a> AI Research and Education (AIRE). I am interested in various research areas in ML, including graph neural networks (GNN), natural language processing (NLP), generative modeling, and their applications in biology and chemistry.
                   I have over 10 years of experience in life sciences and healthcare. In the past, I worked on developing ML methods leveraging biomedical data including biological sequences, multi-omics, and longitudinal electronic health records (EHR), for drug discovery and modeling of human diseases.
                 </p>
                 <p className='lead'>
